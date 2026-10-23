@@ -3,28 +3,22 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";
 import type { ExploreTile as ExploreTileData } from "@/content/explore";
-import { cn } from "@/lib/cn";
 
 interface ExploreTileProps {
   tile: ExploreTileData;
-  /** Landscape on small screens (used for the first tile spanning two columns). */
-  wide?: boolean;
 }
 
-export function ExploreTile({ tile, wide = false }: ExploreTileProps) {
+export function ExploreTile({ tile }: ExploreTileProps) {
   return (
     <Link
       href={tile.href}
-      className={cn(
-        "group relative block overflow-hidden rounded-card bg-plum-900",
-        wide ? "aspect-[16/10] lg:aspect-[3/4]" : "aspect-[3/4]",
-      )}
+      className="group relative block aspect-[3/4] overflow-hidden rounded-card bg-plum-900"
     >
       <Image
         src={tile.image}
         alt=""
         fill
-        sizes="(min-width: 1024px) 20vw, 50vw"
+        sizes="(min-width: 1024px) 20vw, (min-width: 768px) 33vw, 72vw"
         quality={85}
         style={{ objectPosition: tile.position }}
         className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.05]"

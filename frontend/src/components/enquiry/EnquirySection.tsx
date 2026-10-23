@@ -1,41 +1,34 @@
-import { Mail, Phone } from "lucide-react";
 import { Reveal } from "@/components/motion/Reveal";
-import { Icon } from "@/components/ui/Icon";
 import { Section } from "@/components/ui/Section";
 import { SectionLabel } from "@/components/ui/SectionLabel";
-import { site } from "@/content/site";
+import { EnquiryContacts } from "./EnquiryContacts";
 import { EnquiryForm } from "./EnquiryForm";
-
-const contacts = [
-  { icon: Phone, label: site.phones.general.label, href: site.phones.general.href },
-  { icon: Mail, label: "info@jti.edu.au", href: "mailto:info@jti.edu.au" },
-];
 
 export function EnquirySection() {
   return (
-    <Section id="enquire" tone="cream" labelledBy="enquire-title">
-      <Reveal className="mx-auto max-w-[60ch] text-center">
-        <SectionLabel className="justify-center">Contact</SectionLabel>
-        <h2 id="enquire-title" className="mt-5 text-h2">
-          Get in touch with us
-        </h2>
-        <p className="mt-4">
-          Leave your details and we will send you more information about studying at JTI.
-        </p>
-        <ul className="mt-6 flex flex-wrap justify-center gap-x-8 gap-y-3">
-          {contacts.map((contact) => (
-            <li key={contact.href}>
-              <a href={contact.href} className="inline-flex items-center gap-2 font-medium text-plum-700 hover:underline">
-                <Icon icon={contact.icon} size={16} />
-                {contact.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </Reveal>
-      <Reveal className="mx-auto mt-12 max-w-5xl rounded-media border border-line bg-paper p-6 md:p-10" delay={0.1}>
-        <EnquiryForm />
-      </Reveal>
+    <Section id="enquire" tone="paper" labelledBy="enquire-title">
+      <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
+        <Reveal className="lg:col-span-5">
+          <SectionLabel>Contact</SectionLabel>
+          <h2 id="enquire-title" className="mt-5 text-h2">
+            Get in touch with us
+          </h2>
+          <p className="mt-4 max-w-[44ch] text-body-lg">
+            Leave your details and our admissions team will send you more information about
+            studying at JTI.
+          </p>
+          <EnquiryContacts />
+        </Reveal>
+        <Reveal className="lg:col-span-7" delay={0.1}>
+          <div className="rounded-media border border-line bg-paper p-6 shadow-float md:p-10">
+            <h3 className="text-h3">Send an enquiry</h3>
+            <p className="mt-2 text-[0.9375rem] text-muted">Fields marked * are required.</p>
+            <div className="mt-8">
+              <EnquiryForm />
+            </div>
+          </div>
+        </Reveal>
+      </div>
     </Section>
   );
 }

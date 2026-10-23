@@ -1,6 +1,6 @@
 import { Field } from "@/components/form/Field";
 import { Input } from "@/components/form/Input";
-import { Select } from "@/components/form/Select";
+import { Dropdown } from "@/components/form/Dropdown";
 import { Textarea } from "@/components/form/Textarea";
 
 const campuses = [
@@ -22,7 +22,7 @@ export function FormShowcase() {
         <Input id="sg-phone" type="tel" aria-describedby="sg-phone-hint" />
       </Field>
       <Field id="sg-campus" label="Campus" required>
-        <Select id="sg-campus" placeholder="Choose a campus" options={campuses} />
+        <Dropdown id="sg-campus" placeholder="Choose a campus" options={campuses} />
       </Field>
       <div className="md:col-span-2">
         <Field id="sg-message" label="Message">

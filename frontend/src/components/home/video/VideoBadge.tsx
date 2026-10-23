@@ -14,7 +14,7 @@ export function VideoBadge({ icon, value, label, className }: VideoBadgeProps) {
   return (
     <div
       className={cn(
-        "absolute z-10 hidden items-center gap-3 rounded-card border border-white bg-paper/85 px-4 py-3 shadow-float backdrop-blur-md sm:flex",
+        "absolute z-10 hidden items-center gap-3 rounded-card border border-white/20 bg-plum-900/70 px-4 py-3 shadow-float backdrop-blur-md sm:flex",
         className,
       )}
     >
@@ -22,8 +22,8 @@ export function VideoBadge({ icon, value, label, className }: VideoBadgeProps) {
         <Icon icon={icon} />
       </span>
       <span className="leading-tight">
-        <span className="block font-semibold text-ink">{value}</span>
-        <span className="block text-[0.8125rem] text-muted">{label}</span>
+        <span className="block font-semibold text-white">{value}</span>
+        <span className="block text-[0.8125rem] text-white/75">{label}</span>
       </span>
     </div>
   );

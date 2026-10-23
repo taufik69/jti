@@ -7,7 +7,7 @@ import { YouTubeFacade } from "./YouTubeFacade";
 export function VideoFrame() {
   return (
     <div className="relative">
-      <div className="rounded-media border border-white bg-paper/70 p-2 shadow-float backdrop-blur-sm md:p-3">
+      <div className="rounded-media border border-white/15 bg-white/5 p-2 backdrop-blur-sm md:p-3">
         <YouTubeFacade videoId={video.id} title={video.title} />
       </div>
       <VideoBadge icon={CalendarCheck} value="Since 2008" label="Training in Melbourne" className="-left-6 -top-6" />

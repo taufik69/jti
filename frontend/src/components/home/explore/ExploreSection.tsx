@@ -16,10 +16,13 @@ export function ExploreSection() {
         title="Everything you need to know before you enrol"
         intro="How we teach, where you will study, and the support around you from enquiry to graduation."
       />
-      <Reveal stagger className="grid grid-cols-2 gap-3 md:gap-4 lg:grid-cols-5">
-        {exploreTiles.map((tile, i) => (
-          <RevealItem key={tile.href} className={i === 0 ? "col-span-2 lg:col-span-1" : undefined}>
-            <ExploreTile tile={tile} wide={i === 0} />
+      <Reveal
+        stagger
+        className="-mx-5 flex snap-x snap-mandatory gap-3 overflow-x-auto px-5 pb-4 scroll-px-5 md:mx-0 md:grid md:grid-cols-3 md:gap-4 md:overflow-visible md:px-0 md:pb-0 lg:grid-cols-5"
+      >
+        {exploreTiles.map((tile) => (
+          <RevealItem key={tile.href} className="w-[72%] shrink-0 snap-start sm:w-[45%] md:w-auto">
+            <ExploreTile tile={tile} />
           </RevealItem>
         ))}
       </Reveal>

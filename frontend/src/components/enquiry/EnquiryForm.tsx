@@ -11,16 +11,16 @@ import { useEnquiryForm } from "./useEnquiryForm";
 
 export function EnquiryForm() {
   const { form, status, sentTo, onSubmit, reset } = useEnquiryForm();
-  const { register, formState } = form;
+  const { register, control, formState } = form;
   const { errors, isSubmitting } = formState;
 
   if (status === "sent") return <EnquirySuccess email={sentTo} onReset={reset} />;
 
   return (
-    <form noValidate onSubmit={onSubmit} className="grid gap-x-5 gap-y-6 md:grid-cols-3">
+    <form noValidate onSubmit={onSubmit} className="grid gap-x-5 gap-y-6 sm:grid-cols-2">
       <EnquiryTextFields register={register} errors={errors} />
-      <EnquirySelectFields register={register} errors={errors} />
-      <div className="md:col-span-3">
+      <EnquirySelectFields control={control} errors={errors} />
+      <div className="sm:col-span-2">
         <Field id="enq-message" label="Message" required error={errors.message?.message}>
           <Textarea
             id="enq-message"
@@ -31,13 +31,13 @@ export function EnquiryForm() {
           />
         </Field>
       </div>
-      <div className="flex flex-col items-center gap-4 md:col-span-3">
+      <div className="flex flex-col gap-4 sm:col-span-2">
         {status === "error" && (
           <p role="alert" className="text-[0.9375rem] text-error">
             Your enquiry couldn't be sent. Try again, or call us on {site.phones.general.label}.
           </p>
         )}
-        <Button type="submit" size="lg" disabled={isSubmitting} className="min-w-48">
+        <Button type="submit" size="lg" withArrow disabled={isSubmitting} className="w-full">
           {isSubmitting ? "Sending…" : "Send enquiry"}
         </Button>
       </div>

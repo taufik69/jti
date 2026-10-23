@@ -168,21 +168,3 @@
   width: 24px;
   background: var(--color-plum-700);
 }
-
-/* Drifting background blobs (BlobBackground). Transform only, so no layout or paint cost. */
-@keyframes blob-drift-a {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  33% { transform: translate(8%, -6%) scale(1.08); }
-  66% { transform: translate(-5%, 7%) scale(0.95); }
-}
-
-@keyframes blob-drift-b {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(-10%, -8%) scale(1.12); }
-}
-
-@keyframes blob-drift-c {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  40% { transform: translate(6%, 10%) scale(1.05); }
-  80% { transform: translate(-8%, -4%) scale(0.92); }
-}

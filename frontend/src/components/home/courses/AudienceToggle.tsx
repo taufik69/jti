@@ -12,7 +12,7 @@ interface AudienceToggleProps {
 
 export function AudienceToggle({ value, onChange }: AudienceToggleProps) {
   return (
-    <div role="group" aria-label="Show courses for" className="inline-flex rounded-control border border-line bg-paper p-1">
+    <div role="group" aria-label="Show courses for" className="flex w-full rounded-control border border-line bg-paper p-1 sm:inline-flex sm:w-auto">
       {audiences.map((audience) => {
         const active = audience.id === value;
         return (
@@ -22,7 +22,7 @@ export function AudienceToggle({ value, onChange }: AudienceToggleProps) {
             aria-pressed={active}
             onClick={() => onChange(audience.id)}
             className={cn(
-              "relative h-10 cursor-pointer px-5 text-[0.9375rem] font-medium transition-colors duration-150",
+              "relative h-10 flex-1 cursor-pointer whitespace-nowrap px-5 text-[0.9375rem] font-medium transition-colors duration-150 sm:flex-none",
               active ? "text-white" : "text-body hover:text-plum-700",
             )}
           >
@@ -33,7 +33,10 @@ export function AudienceToggle({ value, onChange }: AudienceToggleProps) {
                 transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
               />
             )}
-            <span className="relative">{audience.label} students</span>
+            <span className="relative">
+              {audience.label}
+              <span className="hidden sm:inline"> students</span>
+            </span>
           </button>
         );
       })}

@@ -1,6 +1,6 @@
 /** Mobile: horizontal snap rail. Desktop: asymmetric 12-column grid. */
 export const gridClass =
-  "-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-4 scroll-px-5 " +
+  "-mx-5 flex snap-x snap-mandatory items-start gap-4 overflow-x-auto px-5 pb-4 scroll-px-5 lg:items-stretch " +
   "lg:mx-0 lg:grid lg:grid-cols-12 lg:overflow-visible lg:px-0 lg:pb-0";
 
 const railItem = "w-[85%] shrink-0 snap-start sm:w-[55%] lg:w-auto";

@@ -1,10 +1,7 @@
 import { courseGroups } from "./course-groups";
 import { qualifications } from "./qualifications";
 
-interface Option {
-  value: string;
-  label: string;
-}
+import type { Option } from "@/lib/option";
 
 /** Enquiry types exactly as on the current jti.edu.au form. */
 export const enquiryTypes: Option[] = [

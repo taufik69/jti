@@ -22,7 +22,7 @@ export function CourseGroupCard({ group, featured = false, className }: CourseGr
       )}
     >
       {featured && (
-        <div className="relative hidden aspect-[16/7] overflow-hidden bg-plum-100 lg:block">
+        <div className="relative hidden min-h-56 flex-1 overflow-hidden bg-plum-100 lg:block">
           {/* TODO: replace with real JTI photo (aged care practical session) */}
           <Image
             src="/images/healthcare.jpg"
@@ -33,7 +33,7 @@ export function CourseGroupCard({ group, featured = false, className }: CourseGr
           />
         </div>
       )}
-      <div className="flex flex-1 flex-col p-6 md:p-7">
+      <div className={cn("flex flex-col p-6 md:p-7", featured ? "max-lg:flex-1" : "flex-1")}>
         <div className="flex items-start justify-between gap-4">
           <h3 className={cn("font-medium text-ink", featured ? "text-h3" : "text-xl leading-snug")}>
             {group.title}

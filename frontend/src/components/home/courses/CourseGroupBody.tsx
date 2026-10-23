@@ -1,5 +1,4 @@
 import { Chip } from "@/components/ui/Chip";
-import { Todo } from "@/components/ui/Todo";
 import type { CourseGroup } from "@/content/types";
 import { QualificationRow } from "./QualificationRow";
 
@@ -23,13 +22,13 @@ export function CourseGroupBody({ group }: CourseGroupBodyProps) {
           ))}
         </ul>
       )}
-      <div className="mt-auto flex flex-wrap gap-2 pt-6">
-        {group.modes.length > 0 ? (
-          group.modes.map((mode) => <Chip key={mode}>{mode}</Chip>)
-        ) : (
-          <Todo>study modes</Todo>
-        )}
-      </div>
+      {group.modes.length > 0 && (
+        <div className="mt-auto flex flex-wrap gap-2 pt-6">
+          {group.modes.map((mode) => (
+            <Chip key={mode}>{mode}</Chip>
+          ))}
+        </div>
+      )}
     </>
   );
 }
