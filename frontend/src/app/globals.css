@@ -97,6 +97,8 @@
 
   p {
     text-wrap: pretty;
+    text-align: justify;
+    hyphens: auto;
   }
 
   ::selection {

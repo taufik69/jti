@@ -1,10 +1,10 @@
 import { Container } from "@/components/ui/Container";
 import { footerColumns } from "@/content/footer";
+import { FooterBrand } from "./FooterBrand";
 import { FooterColumn } from "./FooterColumn";
 import { FooterContact } from "./FooterContact";
+import { FooterCta } from "./FooterCta";
 import { FooterLegal } from "./FooterLegal";
-import { Logo } from "./Logo";
-import { SocialLinks } from "./SocialLinks";
 
 /** The single permitted gradient: a faint radial plum tint, top left. */
 const tint = "bg-[radial-gradient(60rem_30rem_at_0%_0%,rgb(93_20_125/0.35),transparent_70%)]";
@@ -12,24 +12,19 @@ const tint = "bg-[radial-gradient(60rem_30rem_at_0%_0%,rgb(93_20_125/0.35),trans
 export function SiteFooter() {
   return (
     <footer className={`bg-plum-950 text-white/80 ${tint}`}>
-      <Container className="pb-10 pt-16 md:pt-20">
-        <div className="grid gap-12 md:grid-cols-12">
-          <div className="md:col-span-12 lg:col-span-3">
-            <Logo onDark />
-            <p className="mt-5 max-w-[30ch] text-[0.9375rem]">
-              Nationally recognised training in Melbourne since 2008.
-            </p>
-            <div className="mt-6">
-              <SocialLinks />
-            </div>
+      <FooterCta />
+      <Container className="pb-8 pt-14 md:pt-20">
+        <div className="grid gap-12 lg:grid-cols-12 lg:gap-10">
+          <div className="lg:col-span-3">
+            <FooterBrand />
           </div>
-          <div className="grid gap-x-10 md:col-span-12 md:grid-cols-2 md:gap-y-10 lg:col-span-9 lg:grid-cols-4">
+          <div className="grid gap-x-10 md:grid-cols-3 md:gap-y-10 lg:col-span-6">
             {footerColumns.map((column) => (
               <FooterColumn key={column.title} column={column} />
             ))}
-            <div className="mt-10 md:mt-0">
-              <FooterContact />
-            </div>
+          </div>
+          <div className="lg:col-span-3">
+            <FooterContact />
           </div>
         </div>
         <FooterLegal />

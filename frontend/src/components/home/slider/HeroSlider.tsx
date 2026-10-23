@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import { slides } from "@/content/slides";
+import { HeroGrid } from "./HeroGrid";
 import { HeroSlide } from "./HeroSlide";
 import { HeroSliderControls } from "./HeroSliderControls";
 import { useSliderAutoplay } from "./useSliderAutoplay";
@@ -18,6 +19,7 @@ export function HeroSlider() {
 
   return (
     <section aria-roledescription="carousel" aria-label="Highlights" className={`relative bg-plum-950 ${glow}`}>
+      <HeroGrid />
       <h1 className="sr-only">Job Training Institute — vocational training in Melbourne</h1>
       <Swiper
         modules={[A11y, Autoplay, EffectFade, Keyboard, Navigation, Pagination]}
