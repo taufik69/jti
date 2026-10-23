@@ -1,0 +1,188 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+@theme {
+  /* Primary — JTI purple */
+  --color-plum-950: #1e0629;
+  --color-plum-900: #2e0b40;
+  --color-plum-800: #451062;
+  --color-plum-700: #5d147d;
+  --color-plum-600: #733193;
+  --color-plum-500: #8b4fab;
+  --color-plum-300: #c7a6d9;
+  --color-plum-100: #efe5f5;
+  --color-plum-50: #f8f3fb;
+
+  /* Accent — JTI gold */
+  --color-gold-600: #e0a93e;
+  --color-gold-500: #ffcb69;
+  --color-gold-400: #fdcc76;
+  --color-gold-100: #fff6e3;
+
+  /* Neutrals — warm, purple-tinted.
+     muted is #716A77, not the brief's #7A7380: the original only reaches
+     4.35:1 on canvas, below WCAG AA. */
+  --color-ink: #1c1720;
+  --color-body: #4b4b4b;
+  --color-muted: #716a77;
+  --color-line: #e9e4ec;
+  --color-paper: #ffffff;
+  --color-canvas: #fbf9f6;
+
+  /* Functional status only — never decorative. The one hue outside the brand,
+     because form errors must not rely on plum, which already means "link". */
+  --color-error: #b42318;
+  --color-error-50: #fffbfa;
+
+  /* Fluid type scale, 360px → 1440px viewport */
+  --text-display: clamp(2.75rem, 1.833rem + 4.074vw, 5.5rem);
+  --text-display--line-height: 1.02;
+  --text-display--letter-spacing: -0.025em;
+  --text-display--font-weight: 600;
+  --text-h1: clamp(2.25rem, 1.75rem + 2.222vw, 3.75rem);
+  --text-h1--line-height: 1.08;
+  --text-h1--letter-spacing: -0.02em;
+  --text-h1--font-weight: 600;
+  --text-h2: clamp(1.75rem, 1.417rem + 1.481vw, 2.75rem);
+  --text-h2--line-height: 1.14;
+  --text-h2--letter-spacing: -0.015em;
+  --text-h2--font-weight: 600;
+  --text-h3: clamp(1.375rem, 1.25rem + 0.556vw, 1.75rem);
+  --text-h3--line-height: 1.2;
+  --text-h3--letter-spacing: -0.01em;
+  --text-h3--font-weight: 500;
+  --text-body-lg: clamp(1.125rem, 1.083rem + 0.185vw, 1.25rem);
+  --text-body-lg--line-height: 1.6;
+  --text-body: clamp(1rem, 0.979rem + 0.093vw, 1.0625rem);
+  --text-body--line-height: 1.65;
+  --text-label: 0.8125rem;
+  --text-label--line-height: 1.2;
+  --text-label--letter-spacing: 0.06em;
+  --text-label--font-weight: 500;
+
+  /* Three radii only */
+  --radius-control: 6px;
+  --radius-card: 16px;
+  --radius-media: 28px;
+
+  --shadow-float: 0 12px 32px -12px rgb(46 11 64 / 0.18);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --container-site: 80rem;
+}
+
+@theme inline {
+  --font-sans: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background: var(--color-canvas);
+    color: var(--color-body);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+  }
+
+  h1, h2, h3, h4 {
+    color: var(--color-ink);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-gold-400);
+    color: var(--color-plum-950);
+  }
+
+  /* Gold ring per brief, with a plum hairline so it still reads at 3:1 on light surfaces */
+  :focus-visible {
+    outline: 2px solid var(--color-gold-500);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 2px var(--color-plum-700);
+  }
+}
+
+@utility text-label {
+  font-size: var(--text-label);
+  line-height: var(--text-label--line-height);
+  letter-spacing: var(--text-label--letter-spacing);
+  font-weight: var(--text-label--font-weight);
+  text-transform: uppercase;
+}
+
+@keyframes menu-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes menu-out {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(6px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Swiper pagination bullets, restyled to brand tokens */
+.hero-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px !important;
+  background: rgb(255 255 255 / 0.45);
+  opacity: 1;
+  transition: width 300ms var(--ease-out-soft), background-color 200ms;
+  border-radius: 999px;
+}
+
+.hero-pagination .swiper-pagination-bullet-active {
+  width: 32px;
+  background: var(--color-gold-500);
+}
+
+.testimonial-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  background: var(--color-plum-300);
+  opacity: 1;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: width 300ms var(--ease-out-soft), background-color 200ms;
+}
+
+.testimonial-pagination .swiper-pagination-bullet-active {
+  width: 24px;
+  background: var(--color-plum-700);
+}
+
+/* Drifting background blobs (BlobBackground). Transform only, so no layout or paint cost. */
+@keyframes blob-drift-a {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(8%, -6%) scale(1.08); }
+  66% { transform: translate(-5%, 7%) scale(0.95); }
+}
+
+@keyframes blob-drift-b {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-10%, -8%) scale(1.12); }
+}
+
+@keyframes blob-drift-c {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  40% { transform: translate(6%, 10%) scale(1.05); }
+  80% { transform: translate(-8%, -4%) scale(0.92); }
+}
