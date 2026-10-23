@@ -1,3 +1,4 @@
+import { Reveal } from "@/components/motion/Reveal";
 import { Container } from "@/components/ui/Container";
 import { footerColumns } from "@/content/footer";
 import { FooterBrand } from "./FooterBrand";
@@ -15,17 +16,17 @@ export function SiteFooter() {
       <FooterCta />
       <Container className="pb-8 pt-14 md:pt-20">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-10">
-          <div className="lg:col-span-3">
+          <Reveal className="lg:col-span-3" from="left">
             <FooterBrand />
-          </div>
-          <div className="grid gap-x-10 md:grid-cols-3 md:gap-y-10 lg:col-span-6">
+          </Reveal>
+          <Reveal className="grid gap-x-10 md:grid-cols-3 md:gap-y-10 lg:col-span-6" delay={0.1}>
             {footerColumns.map((column) => (
               <FooterColumn key={column.title} column={column} />
             ))}
-          </div>
-          <div className="lg:col-span-3">
+          </Reveal>
+          <Reveal className="lg:col-span-3" delay={0.2} from="right">
             <FooterContact />
-          </div>
+          </Reveal>
         </div>
         <FooterLegal />
       </Container>

@@ -14,7 +14,7 @@ export function VideoSection() {
     <section aria-labelledby="video-title" className="relative isolate overflow-hidden bg-plum-950 py-20 text-white md:py-28">
       <GridBackground />
       <Container className="grid items-center gap-14 lg:grid-cols-12 lg:gap-12">
-        <Reveal className="lg:col-span-5">
+        <Reveal className="lg:col-span-5" from="left">
           <SectionLabel onDark>Campus life</SectionLabel>
           <h2 id="video-title" className="mt-5 text-h2 text-white">
             How life at Job Training Institute looks
@@ -38,7 +38,7 @@ export function VideoSection() {
             </a>
           </div>
         </Reveal>
-        <Reveal className="lg:col-span-7" delay={0.1}>
+        <Reveal className="lg:col-span-7" delay={0.1} from="right">
           <VideoFrame />
         </Reveal>
       </Container>

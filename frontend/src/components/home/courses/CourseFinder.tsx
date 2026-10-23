@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { Reveal } from "@/components/motion/Reveal";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import type { Audience } from "@/content/types";
@@ -24,17 +25,19 @@ export function CourseFinder() {
           </div>
         }
       />
-      <AnimatePresence mode="wait" initial={false}>
-        <motion.div
-          key={audience}
-          initial={{ opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.2 }}
-        >
-          <CourseGrid audience={audience} />
-        </motion.div>
-      </AnimatePresence>
+      <Reveal from="right">
+        <AnimatePresence mode="wait" initial={false}>
+          <motion.div
+            key={audience}
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+          >
+            <CourseGrid audience={audience} />
+          </motion.div>
+        </AnimatePresence>
+      </Reveal>
     </Section>
   );
 }

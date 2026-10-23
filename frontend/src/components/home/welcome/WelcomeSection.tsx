@@ -9,7 +9,7 @@ export function WelcomeSection() {
   return (
     <Section tone="paper" labelledBy="welcome-title">
       <div className="grid gap-10 lg:grid-cols-12 lg:gap-16">
-        <Reveal className="lg:col-span-5">
+        <Reveal className="lg:col-span-5" from="left">
           <SectionLabel>About JTI</SectionLabel>
           <h2 id="welcome-title" className="mt-5 text-h2">
             Welcome to Job Training Institute
@@ -21,7 +21,7 @@ export function WelcomeSection() {
             Who we are
           </Button>
         </Reveal>
-        <Reveal className="lg:col-span-7" delay={0.1}>
+        <Reveal className="lg:col-span-7" delay={0.1} from="right">
           <div className="max-w-[65ch] space-y-4 text-body-lg">
             <p>
               With over 15 years of experience, Job Training Institute (JTI) is a trusted Australian

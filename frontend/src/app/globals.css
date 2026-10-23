@@ -82,6 +82,12 @@
     text-rendering: optimizeLegibility;
   }
 
+  /* Reveal animations start up to 32px off to the side; clip (not hidden) so sticky still works. */
+  html,
+  body {
+    overflow-x: clip;
+  }
+
   body {
     background: var(--color-canvas);
     color: var(--color-body);

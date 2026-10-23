@@ -21,7 +21,7 @@ export function ExploreSection() {
         className="-mx-5 flex snap-x snap-mandatory gap-3 overflow-x-auto px-5 pb-4 scroll-px-5 md:mx-0 md:grid md:grid-cols-3 md:gap-4 md:overflow-visible md:px-0 md:pb-0 lg:grid-cols-5"
       >
         {exploreTiles.map((tile) => (
-          <RevealItem key={tile.href} className="w-[72%] shrink-0 snap-start sm:w-[45%] md:w-auto">
+          <RevealItem key={tile.href} from="right" className="w-[72%] shrink-0 snap-start sm:w-[45%] md:w-auto">
             <ExploreTile tile={tile} />
           </RevealItem>
         ))}

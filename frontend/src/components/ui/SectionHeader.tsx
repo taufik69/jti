@@ -17,7 +17,7 @@ interface SectionHeaderProps {
 /** Label on its own line, then title (7 cols) and intro or controls (5 cols, bottom-aligned). */
 export function SectionHeader({ id, label, index, title, intro, aside, onDark = false, className }: SectionHeaderProps) {
   return (
-    <Reveal className={cn("mb-10 md:mb-14", className)}>
+    <Reveal className={cn("mb-10 md:mb-14", className)} from="left">
       <SectionLabel index={index} onDark={onDark}>
         {label}
       </SectionLabel>
