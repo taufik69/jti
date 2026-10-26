@@ -2,6 +2,8 @@ import type { ReactNode } from "react";
 import type { Course } from "@/content/courses";
 import { infoSection, type CourseDetails, type InfoSection } from "@/lib/find-course";
 import { CareersSection } from "./CareersSection";
+import { CourseDocuments } from "./CourseDocuments";
+import { CourseStructure } from "./CourseStructure";
 import { courseSections, moreInfoKeys, type SectionId } from "./course-sections";
 import { DetailSection } from "./DetailSection";
 import { FeesSection } from "./FeesSection";
@@ -10,7 +12,6 @@ import { OverviewSection } from "./OverviewSection";
 import { PlacementSection } from "./PlacementSection";
 import { RichBlocks } from "./RichBlocks";
 import { StudySection } from "./StudySection";
-import { UnitList } from "./UnitList";
 
 interface CourseBodyProps {
   course: Course;
@@ -34,12 +35,17 @@ export function CourseBody({ course, details }: CourseBodyProps) {
   const content: Record<SectionId, ReactNode> = {
     overview: <OverviewSection details={details} />,
     fees: <FeesSection course={course} details={details} />,
-    units: <UnitList units={details.units} />,
+    units: <CourseStructure details={details} />,
     entry: <RichBlocks blocks={infoSection(details, "entry")?.blocks ?? []} />,
     study: <StudySection details={details} />,
     placement: <PlacementSection course={course} details={details} />,
     careers: <CareersSection details={details} />,
-    more: <MoreInfo sections={more} />,
+    more: (
+      <div className="space-y-8">
+        {more.length > 0 && <MoreInfo sections={more} />}
+        <CourseDocuments links={details.links} />
+      </div>
+    ),
   };
 
   return (

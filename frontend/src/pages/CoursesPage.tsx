@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { useLocation } from "react-router";
 import { CourseResults } from "@/components/finder/CourseResults";
 import { CourseSearch } from "@/components/finder/CourseSearch";
+import { CoursesHelp } from "@/components/finder/CoursesHelp";
 import { CoursesHero } from "@/components/finder/CoursesHero";
 import { FilterSidebar } from "@/components/finder/FilterSidebar";
 import { MobileFilters } from "@/components/finder/MobileFilters";
@@ -42,6 +43,7 @@ export function CoursesPage() {
             <CourseResults finder={finder} />
           </div>
         </div>
+        <CoursesHelp />
       </Container>
     </>
   );

@@ -20,7 +20,7 @@ export function CourseDetailPage() {
     <>
       <title>{`${course.code} ${course.title} · Job Training Institute`}</title>
       <meta name="description" content={details.overview[0]?.slice(0, 160)} />
-      <CourseDetailHero course={course} />
+      <CourseDetailHero course={course} tagline={details.tagline} />
       <SectionTabs sections={courseSections(details)} />
       <Container className="grid gap-10 py-12 md:py-16 lg:grid-cols-[1fr_21rem] lg:gap-14">
         <div className="min-w-0 lg:order-1">

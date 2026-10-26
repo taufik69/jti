@@ -29,7 +29,7 @@ export function StudentTypeToggle({ value, counts, total, onChange }: StudentTyp
             onClick={() => onChange(option.value)}
             className={cn(
               "flex cursor-pointer flex-col items-center rounded-[12px] px-2 py-2 text-[0.875rem] font-medium transition-colors duration-150",
-              on ? "bg-plum-700 text-white" : "text-ink hover:bg-plum-50",
+              on ? "bg-ink text-white" : "text-ink hover:bg-ink/5",
             )}
           >
             {option.label}

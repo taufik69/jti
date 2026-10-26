@@ -21,6 +21,9 @@ export function CareersSection({ details }: CareersSectionProps) {
           <TagList items={details.pathways} icon={GraduationCap} />
         </div>
       )}
+      {details.pathwayNotes.map((note) => (
+        <p key={note} className="text-left text-[0.9375rem] text-muted">{note}</p>
+      ))}
     </div>
   );
 }

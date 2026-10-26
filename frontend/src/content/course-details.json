@@ -173,7 +173,19 @@
      }
     ]
    }
-  ]
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [
+   "Written Assessments",
+   "Report",
+   "Project",
+   "Role Play",
+   "Implementation",
+   "Review & Evaluation",
+   "Observation",
+   "Presentation"
+  ],
+  "links": []
  },
  "certificate-iii-in-early-childhood-education-and-care": {
   "overview": [
@@ -309,7 +321,7 @@
     ]
    },
    {
-    "label": "Re-issue certificate",
+    "label": "Re-issue certificate (including Academic Transcript)",
     "lines": [
      "$50 (Digital version only)",
      "$80 (Including hard copy)"
@@ -537,7 +549,28 @@
      }
     ]
    }
-  ]
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [
+   "Written Assessments",
+   "Case Studies/Scenarios",
+   "Research Activity/Projects/Plans",
+   "Simulations/ role play",
+   "Reflective practice / Self-reflection",
+   "Third Party Observation",
+   "Work placement Assessment Task"
+  ],
+  "links": [
+   {
+    "label": "Student code of conduct, rights and responsibilities",
+    "href": "https://jti.edu.au/study/domestic-forms"
+   },
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/study/recognition-prior-learning"
+   }
+  ],
+  "tagline": "Your Learning, Your Style: Blended or Self-Paced Delivery Backed by Quality Education and Outstanding Support."
  },
  "certificate-iii-in-individual-support-ageing-disability": {
   "overview": [
@@ -631,7 +664,15 @@
    "Community House Worker",
    "Residential Care Worker",
    "Food Services Deliverer",
-   "Transport Support Worker"
+   "Transport Support Worker",
+   "In Home Respite Worker",
+   "Disability Service Officer",
+   "Care Worker",
+   "Client Assistant",
+   "Family Support Worker",
+   "Care Service Employee",
+   "Planned activity assistant",
+   "Home care assistant"
   ],
   "pathways": [
    "CHC43121 - Certificate IV in Disability Support",
@@ -672,7 +713,7 @@
     ]
    },
    {
-    "label": "Re-issue certificate",
+    "label": "Re-issue certificate (including Academic Transcript)",
     "lines": [
      "$50 (Digital version only)",
      "$80 (Including hard copy)"
@@ -760,6 +801,33 @@
     "key": "delivery",
     "title": "How it's delivered",
     "blocks": [
+     {
+      "type": "h",
+      "text": "1. Blended Delivery (Face-to-Face & Virtual)"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Weekly virtual classes via Zoom 1 day per week (5 hours class +1-hour support)",
+       "Scheduled face-to-face simulation sessions on campus for 3 days",
+       "Access to course resources and activities via Moodle",
+       "Online support from qualified Trainers and assessors with extensive industry experience",
+       "Ideal for learners seeking structured study with accelerated completion options"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "2. Self-Paced Delivery"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Flexible self-paced learning through Moodle",
+       "Ongoing trainer support via email, phone, and forums",
+       "Optional fortnightly tutorial sessions available online",
+       "Ideal for learners who prefer autonomy and time flexibility"
+      ]
+     },
      {
       "type": "p",
       "text": "Simulated Training Environment: Simulation sessions are designed to replicate real workplace scenarios, utilising industry-standard equipment and practices."
@@ -879,7 +947,20 @@
      }
     ]
    }
-  ]
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [],
+  "links": [
+   {
+    "label": "Student handbook (PDF)",
+    "href": "https://jti.edu.au/pdf/Student-Handbook-(Domestic).pdf"
+   },
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/recognition-of-prior-learning/"
+   }
+  ],
+  "tagline": "Your Learning, Your Style: Blended or Self-Paced Delivery Backed by Quality Education and Outstanding Support."
  },
  "certificate-iv-in-disability": {
   "overview": [
@@ -948,7 +1029,14 @@
    "Disabilities Supervisor",
    "Project Officer",
    "Disability Support Assistant (Schools)",
-   "Job coordinator"
+   "Job coordinator",
+   "Disability Service Officer",
+   "Senior Disability Worker",
+   "Lifestyle Support Officer",
+   "Senior Personal Care Assistant",
+   "Community Development Officer",
+   "Support Facilitator (Disability)",
+   "Behavioural Support Officer"
   ],
   "pathways": [
    "CHC52025 Diploma of Community Services",
@@ -977,7 +1065,7 @@
   },
   "extras": [
    {
-    "label": "Re-issue certificate",
+    "label": "Re-issue certificate (including Academic Transcript)",
     "lines": [
      "$50 (Digital version only)",
      "$80 (Including hard copy)"
@@ -1173,6 +1261,10 @@
     "title": "Student support",
     "blocks": [
      {
+      "type": "p",
+      "text": "JTI is committed to ensuring that all students receive adequate learning support to ensure their full potential is reached. JTI ensures that:"
+     },
+     {
       "type": "ul",
       "items": [
        "Access to experienced trainers and assessors",
@@ -1186,7 +1278,17 @@
      }
     ]
    }
-  ]
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [],
+  "links": [
+   {
+    "label": "Student handbook (PDF)",
+    "href": "https://jti.edu.au/pdf/Student-Handbook-(Domestic).pdf"
+   }
+  ],
+  "tagline": "Your Learning, Your Style: Blended or Self-Paced Delivery . Backed by Quality Education and Outstanding Support.",
+  "unitRule": "Successful completion of this course requires the fulfilment of 10 Units of Study: 7 core units and 3 elective units."
  },
  "certificate-iv-in-mental-health-peer-work-1": {
   "overview": [
@@ -1281,7 +1383,8 @@
    "Community Support Worker (Peer Specialist)",
    "Family Peer Support Worker",
    "Youth Peer Support Worker (youth services or early intervention programs)",
-   "AOD Peer Worker (Alcohol and Other Drugs services)"
+   "AOD Peer Worker (Alcohol and Other Drugs services)",
+   "Suicide Prevention Peer Worker (crisis helplines, outreach, or aftercare services)"
   ],
   "pathways": [
    "Diploma of Mental Health",
@@ -1289,7 +1392,9 @@
    "Specialised Skill sets for work within a variety of Community Services settings",
    "CHC62015 Advanced Diploma of Community Sector Management",
    "Bachelor of Applied Social Science (Community Services)",
-   "Bachelor of Psychological Science"
+   "Bachelor of Psychological Science",
+   "Bachelor of Psychological Science (Honours)",
+   "Bachelor of Social Work"
   ],
   "duration": [
    {
@@ -1316,7 +1421,7 @@
     ]
    },
    {
-    "label": "Re-issue certificate",
+    "label": "Re-issue certificate (including Academic Transcript)",
     "lines": [
      "$50 (Digital version only); $80 (Including hard copy)"
     ]
@@ -1516,7 +1621,28 @@
      }
     ]
    }
-  ]
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [],
+  "links": [
+   {
+    "label": "Student handbook (PDF)",
+    "href": "https://jti.edu.au/study/domestic-forms"
+   },
+   {
+    "label": "JTI Online Services Standard (PDF)",
+    "href": "https://jti.edu.au/pdf/JTI_Online%20Services%20Standard-2022.pdf"
+   },
+   {
+    "label": "Student code of conduct, rights and responsibilities",
+    "href": "https://jti.edu.au/study/domestic-forms"
+   },
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/recognition-of-prior-learning/"
+   }
+  ],
+  "unitRule": "Successful completion of this course requires the fulfilment of 15 Units of Study: 8 Core and 7 Elective Units."
  },
  "diploma-of-business": {
   "overview": [
@@ -1807,10 +1933,56 @@
        "For any training concerns, students to contact:trainer80@jti.edu.au",
        "For any other student support concerns, students to contact: studentsupport@jti.edu.au"
       ]
+     }
+    ]
+   },
+   {
+    "key": "why",
+    "title": "Why study with JTI",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "1. Quality Training and Delivery."
      },
      {
       "type": "p",
-      "text": "For more information on support services"
+      "text": "JTI has consistently upheld high-quality training and delivery and achieved the highest rating “Demonstrated Consistently Compliant” a provider can receive from our regulator, the Australian Skills Quality Authority (ASQA)."
+     },
+     {
+      "type": "p",
+      "text": "As of 2018, JTI was rated by the Department of Education in Victoria as being above the state average in all benchmarks set by the Victorian Government. The measured benchmarks included ratings for student experience and student outcomes. In 2018, 87% of students at JTI stated they were satisfied with us as a training provider which was 10% higher than the Victorian State average for all RTOs that was 77%."
+     },
+     {
+      "type": "h",
+      "text": "2. Multicultural Diversity"
+     },
+     {
+      "type": "p",
+      "text": "At JTI we celebrate our multicultural diversity and take time to celebrate and embrace all cultures through several social and community events throughout the year such as Multicultural Day and Australia Day. We understand that settling into a foreign country can sometimes be difficult so our ability to relate to students and staff from all walks of life, and from a range of backgrounds helps to ease students into life at JTI. We believe that together, we achieve!!"
+     },
+     {
+      "type": "h",
+      "text": "3. Flexibility"
+     },
+     {
+      "type": "p",
+      "text": "Through blended-learning, we offer flexibility to students which includes: face-to-face, online and self-study modes. For many of our mature students, this flexibility enables our students to manage the balance between work, study and family commitments."
+     },
+     {
+      "type": "h",
+      "text": "4. Industry Partnerships"
+     },
+     {
+      "type": "p",
+      "text": "Because our training is industry relevant and specific, we maintain strong Industry partnerships, which assist, in our students securing work placements and clinical placements, as well as jobs on completion of their course. We hold employer days where students interact with potential employers as well as an annual Industry luncheon which keep us up to date with industry trends and standards."
+     },
+     {
+      "type": "h",
+      "text": "5. Community Centric"
+     },
+     {
+      "type": "p",
+      "text": "JTI is part of the community and we are engaged in various community engagements in our neighbourhoods. Two of our campuses are in low social economic demographics and it is our responsibility to ensure students enrolled with us get good student Support enabling them to complete their courses and engage in the workforce. Our trainers as well as student support officers hold a lot of support sessions to encourage students to get going when things get tough."
      }
     ]
    },
@@ -1836,7 +2008,36 @@
      }
     ]
    }
-  ]
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [],
+  "links": [
+   {
+    "label": "Student handbook (PDF)",
+    "href": "https://jti.edu.au/study/domestic-forms"
+   },
+   {
+    "label": "JTI Online Services Standard (PDF)",
+    "href": "https://jti.edu.au/pdf/JTI_Online%20Services%20Standard-2022.pdf"
+   },
+   {
+    "label": "Student code of conduct, rights and responsibilities",
+    "href": "https://jti.edu.au/study/domestic-forms"
+   },
+   {
+    "label": "Tuition fees, domestic and international (PDF)",
+    "href": "https://jti.edu.au/pdf/JTI-Tuition-Fees-Domestic-and-International.pdf"
+   },
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/study/recognition-prior-learning"
+   },
+   {
+    "label": "Student support services",
+    "href": "https://jti.edu.au/student-support/"
+   }
+  ],
+  "unitRule": "Successful completion of Diploma of Business requires the fulfilment of 12 units of study: 5 core and 7 elective units."
  },
  "diploma-of-community-services-case-management": {
   "overview": [
@@ -1954,7 +2155,23 @@
    "Support Facilitator (Community Services)",
    "Community Housing Worker",
    "Assistant Community Worker",
-   "Coordinator of Volunteer Work"
+   "Coordinator of Volunteer Work",
+   "Team Leader",
+   "Family Support Worker",
+   "Disability Team Leader",
+   "Early Intervention Worker",
+   "Community Care Manager",
+   "Care Team Leader",
+   "Community Access Coordinator",
+   "Pastoral Care Counsellor",
+   "Youth Housing Support Worker",
+   "Housing Manager",
+   "Welfare Support Worker",
+   "Case Coordinator (Disability)",
+   "Community Recreation Coordinator",
+   "Community Housing Resources Worker",
+   "Family Services Coordinator",
+   "Community Services Coordinator"
   ],
   "pathways": [
    "CHC62015 - Advanced Diploma of Community Sector Management",
@@ -1995,7 +2212,7 @@
     ]
    },
    {
-    "label": "Re-issue certificate",
+    "label": "Re-issue certificate (including Academic Transcript)",
     "lines": [
      "$50 (Digital version only)",
      "$80 (Including hard copy)"
@@ -2213,7 +2430,17 @@
      }
     ]
    }
-  ]
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [],
+  "links": [
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/study/recognition-prior-learning"
+   }
+  ],
+  "tagline": "Your Learning, Your Style: Blended or Self-Paced Delivery Backed by Quality Education and Outstanding Support.",
+  "unitRule": "Successful completion of this course requires the fulfilment of 20 Units of Study: 12 Core and 8 Elective Units."
  },
  "diploma-of-early-childhood-education-and-care": {
   "overview": [
@@ -2355,7 +2582,7 @@
     ]
    },
    {
-    "label": "Re-issue certificate",
+    "label": "Re-issue certificate (including Academic Transcript)",
     "lines": [
      "$50 (Digital version only)",
      "$80 (Including hard copy)"
@@ -2648,6 +2875,35 @@
      }
     ]
    }
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [
+   "Written Assessments",
+   "Case Studies/Scenarios",
+   "Research Activity/Projects/Plans",
+   "Simulations/ role play",
+   "reflective practice / Self- reflection",
+   "Performance Feedback",
+   "third party Observation",
+   "Work placement Assessment Task"
+  ],
+  "links": [
+   {
+    "label": "Student handbook (PDF)",
+    "href": "https://jti.edu.au/study/domestic-forms"
+   },
+   {
+    "label": "JTI Online Services Standard (PDF)",
+    "href": "https://jti.edu.au/pdf/JTI_Online%20Services%20Standard-2022.pdf"
+   },
+   {
+    "label": "Student code of conduct, rights and responsibilities",
+    "href": "https://jti.edu.au/study/domestic-forms"
+   },
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/study/recognition-prior-learning"
+   }
   ]
  },
  "diploma-of-mental-health-1": {
@@ -2771,7 +3027,8 @@
    "CHC62015 Advanced Diploma of Community Sector Management",
    "Bachelor of Applied Social Science (Community Services)",
    "Bachelor of Psychological Science",
-   "Bachelor of Psychological Science (Honours)"
+   "Bachelor of Psychological Science (Honours)",
+   "Bachelor of Social Work"
   ],
   "duration": [
    {
@@ -2796,7 +3053,7 @@
     ]
    },
    {
-    "label": "Re-issue certificate",
+    "label": "Re-issue certificate (including Academic Transcript)",
     "lines": [
      "$50 (Digital version only)",
      "$80 (Including hard copy)"
@@ -3003,7 +3260,34 @@
      }
     ]
    }
-  ]
+  ],
+  "pathwayNotes": [
+   "A range of other Advanced Diploma or Graduate Diploma qualifications exist as pathways for this qualification which include:"
+  ],
+  "assessmentMethods": [],
+  "links": [
+   {
+    "label": "Student handbook (PDF)",
+    "href": "https://jti.edu.au/study/domestic-forms"
+   },
+   {
+    "label": "JTI Online Services Standard (PDF)",
+    "href": "https://jti.edu.au/pdf/JTI_Online%20Services%20Standard-2022.pdf"
+   },
+   {
+    "label": "Student code of conduct, rights and responsibilities",
+    "href": "https://jti.edu.au/study/domestic-forms"
+   },
+   {
+    "label": "Tuition fees, domestic and international (PDF)",
+    "href": "https://jti.edu.au/pdf/JTI-Tuition-Fees-Domestic-and-International.pdf"
+   },
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/study/recognition-prior-learning"
+   }
+  ],
+  "unitRule": "Successful completion of this course requires the fulfilment of 20 Units of Study: 15 Core and 5 Elective Units."
  },
  "int-certificate-iii-in-early-childhood-education-and-care": {
   "overview": [
@@ -3272,6 +3556,26 @@
       "text": "For more information, please check the International Student Handbook (available on the JTI Website)."
      }
     ]
+   }
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [
+   "Written Assessments",
+   "Case Studies/Scenarios",
+   "Research Activity/Projects/Plans",
+   "Simulations/Role Play",
+   "Reflective Practice/Self-reflection",
+   "Third Party Observation",
+   "Work Placement Assessment Tasks"
+  ],
+  "links": [
+   {
+    "label": "ACECQA approved qualifications",
+    "href": "https://www.acecqa.gov.au"
+   },
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/recognition-of-prior-learning/"
    }
   ]
  },
@@ -3545,7 +3849,20 @@
      }
     ]
    }
-  ]
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [
+   "Short Questions",
+   "Multiple Choice",
+   "True or False",
+   "Case Studies",
+   "Scenarios",
+   "Simulations / Role Play",
+   "Workplace Observation",
+   "Third Party Observation",
+   "Research Activity / Project"
+  ],
+  "links": []
  },
  "int-certificate-iv-in-disability0939790d": {
   "overview": [
@@ -3792,6 +4109,22 @@
      }
     ]
    }
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [
+   "Written Assessments",
+   "Case Studies/Scenarios",
+   "Simulations/Role Play",
+   "Reflective Practice/Self-reflection",
+   "Research Activities/Projects/Plans",
+   "Third Party Observation",
+   "Work Placement Tasks"
+  ],
+  "links": [
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/recognition-of-prior-learning/"
+   }
   ]
  },
  "int-certificate-iv-in-mental-health-peer-work": {
@@ -3878,6 +4211,12 @@
    }
   ],
   "careers": [
+   "Mental Health Peer Worker (Consumer or Carer)",
+   "Peer Mentor / Peer Support Worker",
+   "Community Support Worker",
+   "Support Facilitator / Recovery Worker",
+   "Residential Support Worker",
+   "Outreach Support Worker",
    "Mental Health Peer Worker",
    "Community Rehabilitation Worker",
    "Mental Health Outreach Officer",
@@ -4062,6 +4401,23 @@
      }
     ]
    }
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [
+   "Short Questions / Multiple Choice Questions / True or False",
+   "Case Studies / Scenarios",
+   "Personal / Reflective Journal",
+   "Workplace Observation",
+   "Third Party Observation",
+   "Research Activity / Project",
+   "Portfolio",
+   "Simulations"
+  ],
+  "links": [
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/recognition-of-prior-learning/"
+   }
   ]
  },
  "int-diploma-in-mental-health": {
@@ -4172,14 +4528,28 @@
     "core": false
    }
   ],
-  "careers": [],
+  "careers": [
+   "Community rehabilitation and support worker",
+   "Community support worker",
+   "Mental health outreach worker",
+   "Mental health rehabilitation support worker",
+   "Mental health support worker",
+   "Case Manager",
+   "Community Services Worker",
+   "Mental Health Intake Officer",
+   "Mental Health Practitioner (non-clinical roles)"
+  ],
   "pathways": [
    "Bachelor of Community Mental Health, Alcohol and Other Drugs",
    "Specialised Skill sets for work within a variety of Community Services settings",
    "Advanced Diploma of Community Sector Management",
    "Bachelor of Applied Social Science (Community Services)",
    "Bachelor of Psychological Science",
-   "Bachelor of Psychological Science (Honours)"
+   "Bachelor of Psychological Science (Honours)",
+   "Bachelor of Social Work",
+   "Bachelor of Community Services",
+   "Bachelor of Counselling",
+   "Bachelor of Mental Health or related disciplines"
   ],
   "duration": [],
   "fees": null,
@@ -4349,6 +4719,26 @@
      }
     ]
    }
+  ],
+  "pathwayNotes": [
+   "Pathways into the qualification Preferred pathways for candidates considering this qualification include: Certificate IV in Mental Health or other relevant qualification OR Candidates with vocational experience.​ Pathways from the qualification",
+   "A range of other Advanced Diploma or Graduate Diploma qualifications exist as pathways for this qualification which include:",
+   "After completing the Diploma of Mental Health, students may choose to continue their studies at a higher level within the community services or health field. Possible further study options include:",
+   "Progression to higher qualifications will depend on the entry requirements of each institution."
+  ],
+  "assessmentMethods": [
+   "Written Assessments",
+   "Case Studies/Scenarios",
+   "Research Activity/Projects/Plans",
+   "Simulations/Role play",
+   "Third party Observation",
+   "Work placement Assessment Task"
+  ],
+  "links": [
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/recognition-of-prior-learning/"
+   }
   ]
  },
  "int-diploma-of-business-leadership": {
@@ -4494,7 +4884,18 @@
      }
     ]
    }
-  ]
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [
+   "Written Questions",
+   "Case Studies",
+   "Report",
+   "Role Play",
+   "Analysis",
+   "Project",
+   "Presentation"
+  ],
+  "links": []
  },
  "int-diploma-of-community-services-case-management": {
   "overview": [
@@ -4613,7 +5014,10 @@
    "Community Services Worker",
    "Program Coordinator / Manager",
    "Community Worker / Senior Youth Officer",
-   "Social Welfare Worker"
+   "Social Welfare Worker",
+   "Support Facilitator / Early Intervention Worker",
+   "Chaplain or Family Services Coordinator",
+   "Welfare Worker"
   ],
   "pathways": [
    "Advanced Diploma of Community Sector Management",
@@ -4785,6 +5189,22 @@
       "text": "For more information, please check the International Student’s Handbook (available on the JTI Website)."
      }
     ]
+   }
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [
+   "Written Assessments",
+   "Case Studies/Scenarios",
+   "Research Activities/Projects",
+   "Simulations/Role Play",
+   "Coaching Session (CS)",
+   "Third Party Observation",
+   "Work Placement Tasks"
+  ],
+  "links": [
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/recognition-of-prior-learning/"
    }
   ]
  },
@@ -5106,6 +5526,23 @@
       "text": "For more information please check the International Student’s Handbook (available on the JTI Website)."
      }
     ]
+   }
+  ],
+  "pathwayNotes": [],
+  "assessmentMethods": [
+   "Written Assessments",
+   "Case Studies/Scenarios",
+   "Research Projects/Plans",
+   "Simulations/Role Play",
+   "Reflective Practice",
+   "Performance Feedback",
+   "Third Party Observation",
+   "Work Placement Tasks"
+  ],
+  "links": [
+   {
+    "label": "Recognition of prior learning",
+    "href": "https://jti.edu.au/recognition-of-prior-learning/"
    }
   ]
  }

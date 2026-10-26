@@ -10,11 +10,12 @@ import { CourseFacts } from "./CourseFacts";
 
 interface CourseDetailHeroProps {
   course: Course;
+  tagline?: string;
 }
 
 const badge = "rounded-full px-3 py-1 text-[0.8125rem] font-medium";
 
-export function CourseDetailHero({ course }: CourseDetailHeroProps) {
+export function CourseDetailHero({ course, tagline }: CourseDetailHeroProps) {
   const image = fieldImages[course.field];
   const other = otherAudienceVersion(course);
 
@@ -36,6 +37,7 @@ export function CourseDetailHero({ course }: CourseDetailHeroProps) {
               {course.cricos && <span className={`${badge} border border-white/20 text-white`}>CRICOS {course.cricos}</span>}
             </div>
             <h1 className="mt-6 text-h1 text-white">{course.title}</h1>
+            {tagline && <p className="mt-5 max-w-[60ch] text-left text-body-lg text-white/85">{tagline}</p>}
             {other && (
               <p className="mt-5 text-left text-white/75">
                 Also offered to {other.audience} students.{" "}

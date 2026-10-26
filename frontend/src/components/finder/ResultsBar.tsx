@@ -32,12 +32,12 @@ export function ResultsBar({ finder, total }: ResultsBarProps) {
           type="button"
           aria-pressed={filters.savedOnly}
           onClick={() => update({ savedOnly: !filters.savedOnly })}
-          className={cn(pill, "cursor-pointer", filters.savedOnly ? "border-plum-700 bg-plum-700 text-white" : "border-line bg-paper text-ink hover:border-plum-300")}
+          className={cn(pill, "cursor-pointer", filters.savedOnly ? "border-ink bg-ink text-white" : "border-line bg-paper text-ink hover:border-ink/25")}
         >
           <Icon icon={Bookmark} size={16} />
           Saved <span className="tabular-nums">{saved.length}</span>
         </button>
-        <label className={cn(pill, "relative border-line bg-paper text-muted hover:border-plum-300")}>
+        <label className={cn(pill, "relative border-line bg-paper text-muted hover:border-ink/25")}>
           Sort by
           <select
             value={sort}

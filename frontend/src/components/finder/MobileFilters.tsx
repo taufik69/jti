@@ -24,9 +24,9 @@ export function MobileFilters({ finder }: MobileFiltersProps) {
         onClick={() => setOpen(!open)}
         className="flex h-12 w-full cursor-pointer items-center gap-3 rounded-card border border-line bg-paper px-4 font-medium text-ink"
       >
-        <Icon icon={SlidersHorizontal} size={20} className="text-plum-700" />
+        <Icon icon={SlidersHorizontal} size={20} className="text-ink" />
         Filters
-        {active > 0 && <span className="rounded-full bg-plum-700 px-2 text-[0.75rem] tabular-nums text-white">{active}</span>}
+        {active > 0 && <span className="rounded-full bg-ink px-2 text-[0.75rem] tabular-nums text-white">{active}</span>}
         <Icon icon={ChevronDown} size={20} className={cn("ml-auto transition-transform", open && "rotate-180")} />
       </button>
       {open && (

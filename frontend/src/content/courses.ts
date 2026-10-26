@@ -40,15 +40,6 @@ export const fieldLabels: Record<Course["field"], string> = {
   business: "Business",
 };
 
-/** Group intros on /courses, adapted from the category pages on jti.edu.au. */
-export const fieldIntros: Record<Course["field"], string> = {
-  "individual-support": "Start a career in aged care and disability support, helping people live independently at home, in residential care and in the community.",
-  "early-childhood": "Study early childhood education for a fulfilling career working with young children in long day care, kindergartens and family day care.",
-  "community-services": "Case management and welfare work with individuals, families and young people across the community services sector.",
-  "mental-health": "Support people living with mental health challenges, including peer work for people with lived experience as a consumer or carer.",
-  business: "Business and leadership skills for managing a team, running operations or starting a business of your own.",
-};
-
 /** TODO: replace with real JTI photos for each study area. */
 export const fieldImages: Record<Course["field"], { src: string; position?: string }> = {
   "individual-support": { src: "/images/healthcare.jpg", position: "30% center" },

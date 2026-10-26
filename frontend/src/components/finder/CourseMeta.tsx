@@ -20,7 +20,7 @@ export function CourseMeta({ course }: CourseMetaProps) {
     <ul className="space-y-2 text-[0.875rem] text-body">
       {items.map(([icon, text]) => (
         <li key={text} className="flex items-center gap-2.5">
-          <Icon icon={icon} size={16} className="shrink-0 text-plum-500" />
+          <Icon icon={icon} size={16} className="shrink-0 text-muted" />
           {text}
         </li>
       ))}

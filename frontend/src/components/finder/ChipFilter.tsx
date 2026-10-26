@@ -27,7 +27,7 @@ export function ChipFilter<T extends string>({ options, selected, counts, onChan
             className={cn(
               "inline-flex h-9 cursor-pointer items-center gap-1.5 rounded-full border px-3.5 text-[0.875rem] transition-colors duration-150",
               "disabled:cursor-not-allowed disabled:opacity-40",
-              on ? "border-plum-700 bg-plum-700 text-white" : "border-line bg-paper text-ink hover:border-plum-300",
+              on ? "border-ink bg-ink text-white" : "border-line bg-paper text-ink hover:border-ink/25",
             )}
           >
             {label}

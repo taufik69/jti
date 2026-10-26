@@ -16,7 +16,7 @@ export type ContentBlock =
 
 export type InfoKey =
   | "payment" | "entry" | "delivery" | "assessment" | "placement"
-  | "rpl" | "support" | "scholarship" | "compliance" | "other";
+  | "rpl" | "support" | "scholarship" | "compliance" | "other" | "why";
 
 export interface InfoSection {
   key: InfoKey;
@@ -30,11 +30,25 @@ export interface DomesticFees {
   selfPaced: { registration: string | null; total: string | null } | null;
 }
 
+export interface CourseLink {
+  label: string;
+  href: string;
+}
+
 export interface CourseDetails {
+  /** e.g. "Your Learning, Your Style: Blended or Self-Paced Delivery…" where the page has one. */
+  tagline?: string;
   overview: string[];
   units: CourseUnit[];
+  /** Packaging rule, e.g. "…requires the fulfilment of 10 Units of Study: 7 core units and 3 elective units." */
+  unitRule?: string;
+  assessmentMethods: string[];
   careers: string[];
   pathways: string[];
+  /** Sentences from the pathway section that are not list items. */
+  pathwayNotes: string[];
+  /** Handbook, policies and other documents the page links to. */
+  links: CourseLink[];
   duration: ContentBlock[];
   fees: DomesticFees | null;
   /** Extra pricing rows such as recommended books and certificate re-issue. */

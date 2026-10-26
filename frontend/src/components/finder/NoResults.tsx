@@ -8,8 +8,8 @@ interface NoResultsProps {
 
 export function NoResults({ finder }: NoResultsProps) {
   return (
-    <div className="flex flex-col items-center rounded-card border border-dashed border-plum-300 bg-paper px-6 py-16 text-center">
-      <Icon icon={SearchX} size={24} className="text-plum-500" />
+    <div className="flex flex-col items-center rounded-card border border-dashed border-ink/25 bg-paper px-6 py-16 text-center">
+      <Icon icon={SearchX} size={24} className="text-muted" />
       <h2 className="mt-4 text-h3 text-ink">No courses match</h2>
       <p className="mt-2 max-w-[40ch] text-center text-body">Try fewer filters, or search by a course code such as CHC33021.</p>
       <button
@@ -18,7 +18,7 @@ export function NoResults({ finder }: NoResultsProps) {
           finder.reset();
           finder.update({ query: "" });
         }}
-        className="mt-6 cursor-pointer font-medium text-plum-700 underline underline-offset-4"
+        className="mt-6 cursor-pointer font-medium text-ink underline underline-offset-4"
       >
         Show all courses
       </button>

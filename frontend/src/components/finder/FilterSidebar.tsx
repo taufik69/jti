@@ -46,7 +46,7 @@ export function FilterSidebar({ finder }: FilterSidebarProps) {
         />
       </FilterGroup>
       {active > 0 && (
-        <button type="button" onClick={reset} className="cursor-pointer text-[0.9375rem] font-medium text-plum-700 underline-offset-4 hover:underline">
+        <button type="button" onClick={reset} className="cursor-pointer text-[0.9375rem] font-medium text-ink underline-offset-4 hover:underline">
           Clear {active} filter{active > 1 ? "s" : ""}
         </button>
       )}
