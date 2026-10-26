@@ -13,10 +13,14 @@ frontend/
 │   ├── skills/        # frontend skills (see below)
 │   └── rules/         # coding rules, always follow them
 ├── docs/plans/        # design plans
+├── index.html         # Vite entry: <head> meta, #root
 ├── public/            # static assets (brand/, images/)
 └── src/
-    ├── app/           # Next.js App Router routes, globals.css (design tokens in @theme)
-    ├── components/    # ui/, layout/, form/, course/, motion/, styleguide/
+    ├── main.tsx       # mounts <App /> inside BrowserRouter, loads font + CSS
+    ├── App.tsx        # site shell (header, routes, footer, JSON-LD)
+    ├── pages/         # one component per route (HomePage, StyleguidePage, NotFoundPage)
+    ├── styles/        # globals.css (design tokens in @theme)
+    ├── components/    # ui/, layout/, form/, course/, motion/, styleguide/, home/
     ├── content/       # typed site data (courses, nav, footer, site facts) — CMS-ready
     ├── hooks/
     └── lib/
@@ -24,16 +28,21 @@ frontend/
 
 ## Stack
 
-- Next.js 15 (App Router) + React 19 + TypeScript (strict), Tailwind CSS v4, linted with oxlint.
+- Vite + React 19 + TypeScript (strict), React Router 7 (`BrowserRouter`), Tailwind CSS v4
+  (`@tailwindcss/vite`), linted with oxlint. Roboto from `@fontsource-variable/roboto`.
+- Client-rendered SPA: the host must serve `index.html` for every unknown path.
+- Use `Link` (`components/ui/Link`) for links and `Image` (`components/ui/Image`) for images,
+  never raw `react-router` Link or `<img>`. Set a page title by rendering `<title>` in the page.
+- The enquiry form validates in the browser; `lib/deliver-enquiry.ts` is where sending goes (TODO).
 - `motion` for animation, `lenis` for smooth scroll, Radix primitives (NavigationMenu, Dialog,
   Accordion) restyled to tokens, `lucide-react` icons via `components/ui/Icon` (1.5px stroke).
 - All commands run from `frontend/`:
   - `npm install` — install dependencies
   - `npm run dev` — start dev server
-  - `npm run build` — type-check and build for production
+  - `npm run build` — type-check and build to `dist/`
   - `npm run typecheck` — TypeScript only
   - `npm run lint` — run oxlint
-  - `npm run start` — serve the production build
+  - `npm run preview` — serve the production build
 - `/styleguide` shows every token and base component.
 
 ## Skills

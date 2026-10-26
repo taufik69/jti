@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/components/ui/Link";
 import { ArrowRight, Mail, MapPin, Phone } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";
 import { site } from "@/content/site";

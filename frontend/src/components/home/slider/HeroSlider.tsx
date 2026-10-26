@@ -1,5 +1,3 @@
-"use client";
-
 import { A11y, Autoplay, EffectFade, Keyboard, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";

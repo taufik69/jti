@@ -1,7 +1,5 @@
-"use client";
-
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Link } from "@/components/ui/Link";
+import { useLocation } from "react-router";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { ChevronDown } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";
@@ -12,7 +10,7 @@ import { menuViewport, navTopLink } from "./nav-styles";
 
 /** Radix handles keyboard support; delayDuration is the hover-intent window. */
 export function DesktopNav() {
-  const pathname = usePathname();
+  const { pathname } = useLocation();
 
   return (
     <NavigationMenu.Root

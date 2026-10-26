@@ -1,5 +1,3 @@
-"use client";
-
 import * as RadixSelect from "@radix-ui/react-select";
 import { ChevronDown } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";

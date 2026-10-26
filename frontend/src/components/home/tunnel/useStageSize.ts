@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useState, type RefObject } from "react";
 import type { StageSize } from "./tunnel-cards";
 

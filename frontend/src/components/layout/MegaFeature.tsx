@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import { Image } from "@/components/ui/Image";
+import { Link } from "@/components/ui/Link";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { ArrowRight } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";

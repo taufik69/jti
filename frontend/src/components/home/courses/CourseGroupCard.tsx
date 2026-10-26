@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import { Image } from "@/components/ui/Image";
+import { Link } from "@/components/ui/Link";
 import { ArrowUpRight } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";
 import type { CourseGroup } from "@/content/types";

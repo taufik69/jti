@@ -1,5 +1,3 @@
-"use client";
-
 import * as Dialog from "@radix-ui/react-dialog";
 import { Menu, X } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";

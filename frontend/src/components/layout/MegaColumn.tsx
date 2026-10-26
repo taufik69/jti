@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/components/ui/Link";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import type { NavColumn } from "@/content/types";
 import { cn } from "@/lib/cn";

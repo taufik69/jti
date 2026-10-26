@@ -1,5 +1,3 @@
-"use client";
-
 import { motion } from "motion/react";
 import { audiences } from "@/content/home";
 import type { Audience } from "@/content/types";
