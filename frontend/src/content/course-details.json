@@ -5,19 +5,6 @@
    "Individuals in these roles carry out complex tasks in a specialist field of expertise. They may undertake technical research and analysis, and will often contribute to setting the strategic direction for a work area.",
    "The qualification is suited to individuals who are responsible for the supervision and leadership of a team or work area (including by managing staff performance and making staffing decisions). Licensing/Regulatory Information"
   ],
-  "entry": [
-   "Entry to this qualification is limited to those who have completed a Diploma or Advanced Diploma from the BSB Training Package (current or superseded equivalent versions). or",
-   "Have two years equivalent full-time relevant workplace experience in an operational or leadership role in an enterprise.",
-   "To enrol in this course, applicants should submit:",
-   "Completed and signed 'Application for Enrolment Form';",
-   "Certified transcripts of academic records including the last two years of schooling;",
-   "Certified evidence of completing year 12;",
-   "Certified evidence of date of birth/Passport;",
-   "Certified evidence English language proficiency;",
-   "Letter(s) of recommendation from teacher(s) (if available);",
-   "Minimum Age Requirement: 18 years of age;",
-   "Unique Student Identifier (USI)- application for USI is done at the time of enrolment into the course."
-  ],
   "units": [
    {
     "code": "BSBCRT611",
@@ -80,15 +67,112 @@
   "pathways": [
    "Bachelor of Business (Marketing)"
   ],
-  "assessment": [
-   "Written Assessments",
-   "Report",
-   "Project",
-   "Role Play",
-   "Implementation",
-   "Review & Evaluation",
-   "Observation",
-   "Presentation"
+  "duration": [],
+  "fees": null,
+  "extras": [],
+  "sections": [
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Entry to this qualification is limited to those who have completed a Diploma or Advanced Diploma from the BSB Training Package (current or superseded equivalent versions)."
+     },
+     {
+      "type": "sep",
+      "text": "or"
+     },
+     {
+      "type": "p",
+      "text": "Have two years equivalent full-time relevant workplace experience in an operational or leadership role in an enterprise."
+     },
+     {
+      "type": "h",
+      "text": "To enrol in this course, applicants should submit"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed and signed 'Application for Enrolment Form';",
+       "Certified transcripts of academic records including the last two years of schooling;",
+       "Certified evidence of completing year 12;",
+       "Certified evidence of date of birth/Passport;",
+       "Certified evidence English language proficiency;",
+       "Letter(s) of recommendation from teacher(s) (if available);",
+       "Minimum Age Requirement: 18 years of age;",
+       "Unique Student Identifier (USI)- application for USI is done at the time of enrolment into the course."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Qualification details"
+     },
+     {
+      "type": "table",
+      "rows": [
+       [
+        "VET National Code",
+        "CRICOS Code",
+        "Course Duration",
+        "Work Placement hours",
+        "Material Fee",
+        "Offshore Price",
+        "Onshore Price"
+       ],
+       [
+        "BSB60120",
+        "111657B",
+        "63 weeks",
+        "N/A",
+        "$500",
+        "$11,000",
+        "$8,000"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "For accounting issues, contact: accounts1@jti.edu.au",
+       "For work placement, contact: workplacement@jti.edu.au",
+       "For student support, contact studentsupport@jti.edu.au",
+       "Any IT issues, contact itsupport@jti.edu.au",
+       "Any enquiries, contact contact@jti.edu.au",
+       "For Certificate and Statement of Attainment, contact certificates@jti.edu.au",
+       "For urgent enquiries call our Head office (City Campus : 03 9055 5007)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "other",
+    "title": "Other information",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "JTI does not guarantee the following"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "That a learner will successfully complete a training product on our scope of registration. Learners need to put effort in their study and completion of assignments and JTI will provide the trainers and required resources to enable the learner to successfully complete their study.",
+       "A training product can be completed in a manner which does not meet the requirements of clause 1.1 and 1.2 of VET standards 2015 e.g in a shorter period of time than the AQF specifications.",
+       "A learner will obtain a particular employment outcome where this is outside the control of JTI. JTI is a training organisation and has no control of employment outcomes."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "*For more information please check International student’s Handbook (From the JTI Website)"
+     }
+    ]
+   }
   ]
  },
  "certificate-iii-in-early-childhood-education-and-care": {
@@ -96,12 +180,6 @@
    "The CHC30125 Certificate III in Early Childhood Education and Care is a nationally recognized qualification designed for individuals who are passionate about nurturing and educating young children during their most formative years. This course equips learners with the essential knowledge, practical skills, and understanding to provide high-quality care and educational support in a variety of early childhood settings.",
    "Prospective learners should ensure they are physically able to perform required duties such as lifting, bending, and engaging in floor-based play with children.",
    "Graduates of this qualification will be prepared to work under supervision or autonomously, depending on the service environment, and in accordance with the Education and Care Services National Regulations and the National Quality Standard (NQS)."
-  ],
-  "entry": [
-   "Be 18 years of age or older at the time of enrolment",
-   "Be reasonably physically fit (due to the physical demands of the role)",
-   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
-   "Complete Language, Literacy, and Numeracy assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
   ],
   "units": [
    {
@@ -201,26 +279,270 @@
    "CHC50125 Diploma of Early Childhood Education and Care",
    "Bachelor of Early Childhood Education or Bachelor of Education(Early Childhood)"
   ],
-  "assessment": [
-   "Written Assessments",
-   "Case Studies/Scenarios",
-   "Research Activity/Projects/Plans",
-   "Simulations/ role play",
-   "Reflective practice / Self-reflection",
-   "Third Party Observation",
-   "Work placement Assessment Task"
+  "duration": [
+   {
+    "type": "p",
+    "text": "Blended Delivery: Typically completed within 12-15 months"
+   },
+   {
+    "type": "p",
+    "text": "Self-Paced Delivery: minimum for 12 months"
+   }
+  ],
+  "fees": {
+   "selfFunded": {
+    "registration": "$500",
+    "tuition": "$5000",
+    "total": "$5000"
+   },
+   "selfPaced": {
+    "registration": "$500",
+    "total": "$1,599"
+   }
+  },
+  "extras": [
+   {
+    "label": "Recommended Books",
+    "lines": [
+     "The Big Picture (Karen Kearns) & Birth to Big School (Karen Kearns) Copies of this textbook are available at JTI Library for borrowing.",
+     "This can be purchased from vendors directly around $89 (price is subject to change by vendors)"
+    ]
+   },
+   {
+    "label": "Re-issue certificate",
+    "lines": [
+     "$50 (Digital version only)",
+     "$80 (Including hard copy)"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment methods below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is done in arrears, except the registration fee.Registration Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Entry Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Be 18 years of age or older at the time of enrolment",
+       "Be reasonably physically fit (due to the physical demands of the role)",
+       "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+       "Complete Language, Literacy, and Numeracy assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Enrolment Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed application form (online or written)",
+       "Pre-Training Review Form",
+       "LLN Assessment",
+       "Valid photo ID",
+       "Proof of age (Victorian residency and concession eligibility if applicable)",
+       "USI (Unique Student Identifier) details"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Pre-Training Review"
+     },
+     {
+      "type": "p",
+      "text": "The Pre-Training Review (PTR) is conducted to ensure you are enrolled in the most suitable course and to identify any support you may need. As part of this process, your Language, Literacy and Numeracy (LLN) skills and Digital Literacy needs will be assessed."
+     },
+     {
+      "type": "h",
+      "text": "Please note"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "LLN and Digital Literacy results do not affect your eligibility for enrolment.",
+       "The assessments are used only to identify whether you may require additional support.",
+       "Your training and assessment needs will be determined based on the PTR and LLN results.",
+       "Outcomes of your PTR will be communicated to you via email or interview.",
+       "All information is kept confidential in line with JTI’s Privacy Policy."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "This course is current as per training.gov.au"
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "1. Blended Delivery (Face-to-Face & Virtual)"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Weekly virtual classes via Zoom 1 day per week (5 hours class +1-hour support)",
+       "Scheduled face-to-face simulation sessions on campus for 1 day",
+       "Access to course resources and activities via Moodle",
+       "Online support from qualified trainers and assessors with extensive industry experience",
+       "Ideal for learners seeking structured study with accelerated completion options"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "2. Self-Paced Delivery"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Flexible self-paced learning through Moodle",
+       "Ongoing trainer support via email, phone, and forums",
+       "Optional fortnightly tutorial sessions available online",
+       "Ideal for learners who prefer autonomy and time flexibility"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Simulated Training Environment: Simulation sessions are designed to replicate real workplace scenarios, utilising industry-standard equipment and practices."
+     }
+    ]
+   },
+   {
+    "key": "assessment",
+    "title": "Assessments",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Some assignments that you will undertake may include"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Short Questions",
+       "Multiple Choice Questions",
+       "True or False Case Studies",
+       "Scenarios",
+       "Research Activities",
+       "Project",
+       "Simulations",
+       "Observation at the work place by an Assessor",
+       "Third Party Observation by work place supervisor",
+       "Portfolio",
+       "Personal Journal"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All students are encouraged to submit assignments online."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "To successfully complete the qualification, students must undertake a minimum of 160 hours of work placement in an approved early childhood education and care service. This practical component provides valuable hands-on experience under the supervision of qualified educators"
+     },
+     {
+      "type": "p",
+      "text": "Before commencing placement, students must attend a Pre-Work Placement Workshop including Health & Safety, Caregiving Tasks and Professional Conduct."
+     },
+     {
+      "type": "h",
+      "text": "Additional Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Working With Children Check (WWCC)",
+       "HLTAID012 Provide First Aid & CPR in an educational and care setting",
+       "Valid National Police Check (Issued within the past 12 months)",
+       "Covid 19 Vaccination Certificate (Minimum 2 doses)",
+       "Annual Influenza Vaccination (Subject to placement requirements)"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "All learners must be able to"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Perform physical tasks (lifting, bending, floor play)",
+       "Engage safely with children (0–5 years)",
+       "Maintain ethical conduct and child-safe behaviours",
+       "Comply with mandatory reporting and workplace safety rules"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Reasonable adjustments cannot compromise child safety or regulatory requirements."
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility."
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "Access to experienced trainers and assessors",
+       "Dedicated Student Support Officers",
+       "Technical assistance: itsupport@jti.edu.au",
+       "Work placement support: workplacement@jti.edu.au",
+       "Accounting and fee support: manisha@jti.edu.au",
+       "Certificate enquiries: certificates@jti.edu.au",
+       "General student support: studentsupport@jti.edu.au"
+      ]
+     }
+    ]
+   }
   ]
  },
  "certificate-iii-in-individual-support-ageing-disability": {
   "overview": [
    "The CHC33021 Certificate III in Individual Support (Ageing and Disability) is a nationally recognised qualification designed for individuals seeking a rewarding career in the Aged Care and Disability sectors. This course equips students with the essential skills and knowledge to provide person-centred support to older individuals and people living with a disability across a range of settings, including residential aged care facilities, home care environments, and community care services.",
    "Through a combination of theory, practical simulation, and real-world placement, students will gain competencies in delivering physical, emotional, and behavioural support, implementing individualised care plans, understanding dementia, and promoting independence and quality of life for clients."
-  ],
-  "entry": [
-   "Be 18 years of age or older at the time of enrolment",
-   "Be reasonably physically fit (due to the physical demands of the role)",
-   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
-   "Complete Language, Literacy, and Numeracy (LLN) assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
   ],
   "units": [
    {
@@ -317,21 +639,252 @@
    "CHC52025 - Diploma of Community Services",
    "CHC53315 - Diploma of Mental Health"
   ],
-  "assessment": []
+  "duration": [
+   {
+    "type": "p",
+    "text": "Blended Delivery: Typically completed within 8–12 months"
+   },
+   {
+    "type": "p",
+    "text": "Self-Paced Delivery: Up to 12 months maximum."
+   }
+  ],
+  "fees": {
+   "selfFunded": {
+    "registration": "$500",
+    "tuition": "$3,500",
+    "total": "$3,500"
+   },
+   "selfPaced": {
+    "registration": "$500",
+    "total": "$1,599"
+   }
+  },
+  "extras": [
+   {
+    "label": "Recommended Books",
+    "lines": [
+     "The Individual support worker by Geoff Arnott",
+     "Individual Support: Ageing by Wendy Morton, Nicole Dawson, Lisa Taffe",
+     "Individual Support: Disability by Nicole Dawson, Keith Bourke, Wendy Morton, Lisa Taffe",
+     "The Disability Support Worker by Geoff Arnott",
+     "This can be purchased from vendors directly around $89 (price is subject to change by vendors)"
+    ]
+   },
+   {
+    "label": "Re-issue certificate",
+    "lines": [
+     "$50 (Digital version only)",
+     "$80 (Including hard copy)"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept a wide range of payment methods"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is done in arrears, except the registration fee.Registration Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Entry Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Be 18 years of age or older at the time of enrolment",
+       "Be reasonably physically fit (due to the physical demands of the role)",
+       "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+       "Complete Language, Literacy, and Numeracy (LLN) assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Enrolment Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed application form (online or written)",
+       "Pre-Training Review Form",
+       "LLN Assessment",
+       "Valid photo ID",
+       "Proof of age (Victorian residency and concession eligibility if applicable)",
+       "USI (Unique Student Identifier) details"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Pre-Training Review (PTR)"
+     },
+     {
+      "type": "p",
+      "text": "The Pre-Training Review (PTR) is conducted to ensure you are enrolled in the most suitable course and to identify any support you may need. As part of this process, your Language, Literacy and Numeracy (LLN) skills and Digital Literacy needs will be assessed."
+     },
+     {
+      "type": "ul",
+      "items": [
+       "LLN and Digital Literacy results do not affect your eligibility for enrolment.",
+       "The assessments are used only to identify whether you may require additional support.",
+       "Your training and assessment needs will be determined based on the PTR and LLN results.",
+       "Outcomes of your PTR will be communicated to you via email or interview.",
+       "All information is kept confidential in line with JTI’s Privacy Policy."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "This course is current as per training.gov.au."
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Simulated Training Environment: Simulation sessions are designed to replicate real workplace scenarios, utilising industry-standard equipment and practices."
+     },
+     {
+      "type": "p",
+      "text": "Third Party Arrangements"
+     },
+     {
+      "type": "p",
+      "text": "Job Training Institute does not deliver this course through third party arrangements. We use brokers or agents for recruitment of students, but not for training. Job Training Institute is responsible for the quality of the training and assessment in compliance with VET standards, and for the issuance of the AQF certification documentation"
+     },
+     {
+      "type": "p",
+      "text": "Delivery Venue for Practical class"
+     },
+     {
+      "type": "p",
+      "text": "Simulation class will be delivered at one of our campuses. Some students may take the option of attending online classes depending upon Individual cases."
+     }
+    ]
+   },
+   {
+    "key": "assessment",
+    "title": "Assessments",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Some assignments that you will undertake may include"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Short Questions",
+       "Multiple Choice Questions",
+       "True or False",
+       "Case Studies",
+       "Scenarios",
+       "Research Activities",
+       "Project",
+       "Simulations",
+       "Support plans",
+       "Observation at the work place by an Assessor",
+       "Third Party Observation by work place supervisor",
+       "Portfolio",
+       "Personal Journal"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All students are encouraged to submit assignments online."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "This qualification includes a mandatory minimum of 120 hours of vocational placement in an approved aged care or disability facility (where relevant). The placement provides students with hands-on experience, contextualized scenarios, and competency development that would otherwise be conducted in a simulated environment."
+     },
+     {
+      "type": "p",
+      "text": "For self-paced students who reside outside of Victoria, the required work placement hours are minimum of 140 hours, if they are unable to attend the face-to-face simulation and manual handling training. For all other students, it is compulsory to attend three days of face-to-face simulation and manual handling training at JTI Campus."
+     },
+     {
+      "type": "h",
+      "text": "Additional Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "HLTAID011 Provide First Aid & CPR certification (Subject to placement requirements)",
+       "National Police Check (Issued within the past 12 months)",
+       "Manual Handling certificate (Subject to placement requirements)",
+       "Covid 19 Vaccination Certificate (Minimum 2 doses)",
+       "Annual Influenza Vaccination (Subject to placement providers)",
+       "NDIS Worker Screening Check (Subject to placement providers)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "These requirements ensure student safety, compliance with legislative obligations, and preparation for vocational practice"
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility. For further information, please speak to a Job Training Institute staff member or"
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "JTI is committed to ensuring that all students receive adequate learning support to ensure their full potential is reached, therefore, JTI ensures that:"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Access to experienced trainers and assessors",
+       "Dedicated Student Support Officers",
+       "Technical assistance: itsupport@jti.edu.au",
+       "Work placement support: workplacement@jti.edu.au",
+       "Accounting and fee support: manisha@jti.edu.au",
+       "Certificate enquiries: certificates@jti.edu.au",
+       "General student support: studentsupport@jti.edu.au"
+      ]
+     }
+    ]
+   }
+  ]
  },
  "certificate-iv-in-disability": {
   "overview": [
    "The Certificate IV in Disability Support (CHC43121) is a nationally recognized qualification designed for individuals who are passionate about empowering people with disabilities to achieve greater levels of independence, self-reliance, and community participation.",
    "This qualification reflects the role of workers in the disability support sector who operate autonomously and may take on leadership or supervisory responsibilities. It is ideal for individuals who already have experience in the sector or those looking to advance their careers in a meaningful and rewarding field."
-  ],
-  "entry": [
-   "Completion of: CHC33021 Certificate III in Individual Support (Disability), OR",
-   "Completion of: CHC33015 Certificate III in Individual Support (Disability), OR",
-   "Completion of: CHC30408 Certificate III in Disability PLUS the CHCSS00125 Entry to Certificate IV in Disability Support",
-   "Be 18 years of age or older at the time of enrolment",
-   "Be reasonably physically fit (due to the physical demands of the role)",
-   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
-   "Complete Language, Literacy, and Numeracy (LLN) assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
   ],
   "units": [
    {
@@ -402,19 +955,244 @@
    "CHC53315 - Diploma of Mental Health",
    "CHC62015 Advanced Diploma of Community Sector Management"
   ],
-  "assessment": []
+  "duration": [
+   {
+    "type": "ul",
+    "items": [
+     "Blended Delivery: Typically completed within 6-12 months",
+     "Self-Paced Delivery: Minimum for 6 months"
+    ]
+   }
+  ],
+  "fees": {
+   "selfFunded": {
+    "registration": "$500",
+    "tuition": "$2500",
+    "total": "$2500"
+   },
+   "selfPaced": {
+    "registration": "$500",
+    "total": "$1,599"
+   }
+  },
+  "extras": [
+   {
+    "label": "Re-issue certificate",
+    "lines": [
+     "$50 (Digital version only)",
+     "$80 (Including hard copy)"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept a wide range of payment methods"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is done in arrears, except the registration fee.Registration Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Entry Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completion of: CHC33021 Certificate III in Individual Support (Disability), OR",
+       "Completion of: CHC33015 Certificate III in Individual Support (Disability), OR",
+       "Completion of: CHC30408 Certificate III in Disability PLUS the CHCSS00125 Entry to Certificate IV in Disability Support",
+       "Be 18 years of age or older at the time of enrolment",
+       "Be reasonably physically fit (due to the physical demands of the role)",
+       "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+       "Complete Language, Literacy, and Numeracy (LLN) assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Enrolment Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed application form (online or written)",
+       "Pre-Training Review Form",
+       "LLN Assessment",
+       "Valid photo ID",
+       "Proof of age (Victorian residency and concession eligibility if applicable)",
+       "USI (Unique Student Identifier) details"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Pre-Training Review (PTR)"
+     },
+     {
+      "type": "p",
+      "text": "The Pre-Training Review (PTR) is conducted to ensure you are enrolled in the most suitable course and to identify any support you may need. As part of this process, your Language, Literacy and Numeracy (LLN) skills and Digital Literacy needs will be assessed."
+     },
+     {
+      "type": "ul",
+      "items": [
+       "LLN and Digital Literacy results do not affect your eligibility for enrolment.",
+       "The assessments are used only to identify whether you may require additional support.",
+       "Your training and assessment needs will be determined based on the PTR and LLN results.",
+       "Outcomes of your PTR will be communicated to you via email or interview.",
+       "All information is kept confidential in line with JTI’s Privacy Policy."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "This course is current as per training.gov.au."
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "1. Blended Delivery (Face-to-Face & Virtual)"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Weekly virtual classes via Zoom 1 day per week (5 hours class +1-hour support)",
+       "Scheduled face-to-face simulation sessions on campus for 1 day",
+       "Access to course resources and activities via Moodle",
+       "Online support from qualified trainers and assessors with extensive industry experience",
+       "Ideal for learners seeking structured study with accelerated completion options"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "2. Self-Paced Delivery"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Flexible self-paced learning through Moodle",
+       "Ongoing trainer support via email, phone, and forums",
+       "Optional fortnightly tutorial sessions available online",
+       "Ideal for learners who prefer autonomy and time flexibility"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "assessment",
+    "title": "Assessments",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Some assignments that you will undertake may include"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Short questions",
+       "Multiple choice questions",
+       "True or false",
+       "Case studies and scenarios",
+       "Simulations",
+       "Research activity",
+       "Project",
+       "Support plans",
+       "Third party observation",
+       "Work placement observation",
+       "Portfolio",
+       "Personal journal"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All students are encouraged to submit assignments online."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "To successfully complete this course, students must undertake a minimum of 120 hours of supervised work placement in a suitable disability setting. This provides valuable real-world experience and helps students build confidence in their professional practice."
+     },
+     {
+      "type": "p",
+      "text": "Simulation Training: All students are required to attend two days of face-to-face training at the JTI City Campus. These sessions are designed to replicate real workplace scenarios using industry-standard equipment, procedures, and practices, providing a realistic and practical learning experience."
+     },
+     {
+      "type": "h",
+      "text": "Additional Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Working With Children Check (WWCC)",
+       "HLTAID011 Provide First Aid & CPR certification (Subject to placement requirements)",
+       "National Police Check (Issued within the past 12 months)",
+       "Covid 19 Vaccination Certificate (Minimum 2 doses)",
+       "Annual Influenza Vaccination (Subject to placement requirements)",
+       "Manual Handling Certificate (Subject to placement requirements)",
+       "NDIS Worker Screening Check (Subject to placement requirements"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility"
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "Access to experienced trainers and assessors",
+       "Dedicated Student Support Officers",
+       "Technical assistance: itsupport@jti.edu.au",
+       "Work placement support: workplacement@jti.edu.au",
+       "Accounting and fee support: manisha@jti.edu.au",
+       "Certificate enquiries: certificates@jti.edu.au",
+       "General student support: studentsupport@jti.edu.au"
+      ]
+     }
+    ]
+   }
+  ]
  },
  "certificate-iv-in-mental-health-peer-work-1": {
   "overview": [
    "CHC43515 Certificate IV in Mental Health Peer Work is a course you can choose to specialise in either consumer peer work or carer peer work. In both specialisations you will develop communication skills, learn how to work with a diverse range of people, and gain experience working within the recovery framework. Our highly-experienced team of industry professionals will give you the one-on-one guidance needed to succeed in the industry.",
    "This qualification reflects the role of workers who have lived experience of mental illness as either a consumer or carer and who work in mental health services in roles that support consumer peer or carer peers. Workers are employed in the mental health sector in government, public, private or community managed services.",
    "Upon completion of this course you will be qualified to work in a range of residential, outreach, and peer support programs as a mental health peer worker."
-  ],
-  "entry": [
-   "Be 18 years of age or older at the time of enrolment",
-   "Be reasonably physically fit (due to the physical demands of the role)",
-   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
-   "Complete Language, Literacy, and Numeracy (LLN) assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
   ],
   "units": [
    {
@@ -513,26 +1291,238 @@
    "Bachelor of Applied Social Science (Community Services)",
    "Bachelor of Psychological Science"
   ],
-  "assessment": []
+  "duration": [
+   {
+    "type": "p",
+    "text": "Blended Delivery: Typically completed within 12 months."
+   }
+  ],
+  "fees": {
+   "selfFunded": {
+    "registration": "$500",
+    "tuition": "$4000",
+    "total": "$4000"
+   },
+   "selfPaced": null
+  },
+  "extras": [
+   {
+    "label": "Recommended Books",
+    "lines": [
+     "Peer Work in Australia: A New Future for Mental Health (Tim Fong, Janet Meagher, etc.)",
+     "Peer Support in Mental Health: Theory, Research, Policy and Practice (Michael John Norton, forthcoming)",
+     "Trauma-Informed Healthcare Approaches: A Guide for Primary Care & Mental Health Services",
+     "The Peer Support Toolkit Workbook: From Lived Experience to Lasting Impact (Jason Katchenago)"
+    ]
+   },
+   {
+    "label": "Re-issue certificate",
+    "lines": [
+     "$50 (Digital version only); $80 (Including hard copy)"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment method below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is done in arrears, except the registration fee. The registration fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Entry Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Be 18 years of age or older at the time of enrolment",
+       "Be reasonably physically fit (due to the physical demands of the role)",
+       "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+       "Complete Language, Literacy, and Numeracy (LLN) assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Enrolment Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed application form (online or written)",
+       "Pre-Training Review Form",
+       "LLN Assessment",
+       "Valid photo ID",
+       "Proof of age (Victorian residency and concession eligibility if applicable)",
+       "USI (Unique Student Identifier) details"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Pre-Training Review (PTR)"
+     },
+     {
+      "type": "p",
+      "text": "The Pre-Training Review (PTR) is conducted to ensure you are enrolled in the most suitable course and to identify any support you may need. As part of this process, your Language, Literacy and Numeracy (LLN) skills and Digital Literacy needs will be assessed."
+     },
+     {
+      "type": "ul",
+      "items": [
+       "LLN and Digital Literacy results do not affect your eligibility for enrolment.",
+       "The assessments are used only to identify whether you may require additional support.",
+       "Your training and assessment needs will be determined based on the PTR and LLN results.",
+       "Outcomes of your PTR will be communicated to you via email or interview.",
+       "All information is kept confidential in line with JTI’s Privacy Policy."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "This course is current as per training.gov.au."
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Blended Delivery (Virtual)"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Weekly virtual classes via Zoom 1 day per week (5 hours class + 1 hour support)",
+       "Access to course resources and activities via Moodle",
+       "Online support from qualified trainers and assessors with extensive industry experience"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Ideal for learners seeking structured study with accelerated completion options."
+     },
+     {
+      "type": "h",
+      "text": "Third Party Arrangements"
+     },
+     {
+      "type": "p",
+      "text": "Job Training Institute does not deliver this course through third party arrangements. We use brokers or agents for recruitment of students, but not for training. Job Training Institute is responsible for the quality of the training and assessment in compliance with VET standards, and for the issuance of the AQF certification documentation."
+     }
+    ]
+   },
+   {
+    "key": "assessment",
+    "title": "Assessments",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Examples of assessments you will need to do to be competent are"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Work Observation",
+       "Short Questions",
+       "Case Studies/Scenarios",
+       "Research Activities",
+       "Portfolio of Work",
+       "Personal Journal",
+       "Demonstration",
+       "Role Playing",
+       "Practical Exercises",
+       "Group Activities"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "This qualification includes a mandatory minimum of 80 hours of vocational placement."
+     },
+     {
+      "type": "p",
+      "text": "The JTI Work Placement Coordinator, JTI trainers, and the student will work together to arrange a suitable work placement. Students are currently employed in the sector should consult their trainer to confirm if their current workplace meets the course placement requirements."
+     },
+     {
+      "type": "h",
+      "text": "Additional Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Working With Children Check (WWCC)",
+       "HLTAID011 Provide First Aid & CPR certification (Subject to placement requirements)",
+       "National Police Check (Issued within the past 12 months)",
+       "Covid 19 Vaccination Certificate (Minimum 2 doses)",
+       "Annual Influenza Vaccination (Subject to placement requirements)",
+       "NDIS Worker Screening Check (Subject to placement requirements)",
+       "Manual Handling Certificate (Subject to placement requirements)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility. For further information, please speak to a Job Training Institute staff member or"
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "JTI is committed to ensuring that all students receive adequate learning support to ensure their full potential is reached. JTI ensures that:"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Access to experienced trainers and assessors",
+       "Dedicated Student Support Officers",
+       "Technical assistance: itsupport@jti.edu.au",
+       "Work placement support: workplacement@jti.edu.au",
+       "Accounting and fee support: manisha@jti.edu.au",
+       "Certificate enquiries: certificates@jti.edu.au",
+       "General student support: studentsupport@jti.edu.au"
+      ]
+     }
+    ]
+   }
+  ]
  },
  "diploma-of-business": {
   "overview": [
    "This course is designed to give you develop the skills and knowledge to start a new business or pursue a management role to support employees. Our BSB50120 Diploma of Business (Leadership) can provide valuable trainings needed to become a valued business professional, focusing on applying effective leadership practices when managing a team to meet company objectives.",
    "This qualification reflects the role of individuals in a variety of Business Services job roles and may have frontline management accountabilities.",
    "In this role, people carry out moderately complex tasks in a specialist field of expertise that requires business operations skills. They may possess substantial experience in a range of settings but seek to further develop their skills across a wide range of business functions. No licensing, legislative or certification requirements apply to this qualification at the time of publication."
-  ],
-  "entry": [
-   "There are no prerequisites or mandatory entry requirements, allowing flexible entry points that reflect an entrant’s knowledge, skills and experience.",
-   "Entry requirements for this course are:",
-   "An online application or written enrolment form",
-   "Pre-Training Review which includes a successful completion of language, literacy and numeracy assessment",
-   "Unique Student Identifier (USI)-done during the enrolment process Identification Documents",
-   "Identification documents, one of which has a photograph of the student such as a passport and/or driver license.",
-   "Language, Literacy and Numeracy Assessment:",
-   "Prior to course commencement, students will be required to undertake a pre-training review which includes a Language, Literacy and Numeracy (LLN) Assessment. This assessment is used to determine the student’s level of language, literacy and numeracy as well as student’s suitability for the specific qualification as required to complete the course and whether the student requires additional support. Students who are assessed as not having the required level of language, literacy and numeracy skills will be referred to external support networks or to JTI English classes for further skills development in the required area/s. Students can re-apply for enrolment once they have developed skills in that area.",
-   "It would be preferred if you are under 25 that you have completed year 10.",
-   "If you are over 25, you should have relevant work/life experience.",
-   "If you are aged 18 years and below, we need further approvals from your guardian before enrolling you in the course."
   ],
   "units": [
    {
@@ -609,17 +1599,248 @@
    "Advanced Diploma of Business",
    "Advanced Diploma of Leadership and Management"
   ],
-  "assessment": []
+  "duration": [
+   {
+    "type": "p",
+    "text": "According to Australian Qualifications Framework, Diploma of Business course must be delivered for 1-2 years. But the Duration for each learner will depend on everyone’s skills and knowledge. For example, students with higher education qualifications and students who are already employed in the industry will find themselves completing the course within a shorter time frame as compared to learners with lower education and no experience in the industry. JTI considers each learner on an individual basis and learners who may want to complete the course at a shorter time frame than the one recommended by AQF will be given the following options:"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "Undertake an assessment with a JTI staff member to demonstrate their capacity to undertake the course within a shorter time frame",
+     "Produce evidence of higher learning or previous experience",
+     "Undertake an RPL if applicable.",
+     "Commit to attending online support classes as well as face to face classes and a commitment to self-study."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "JTI offers flexible training which suits individuals and meets industry requirements. The flexible nature of our delivery of these courses [online, blended, face-to-face and self- study] caters to students in need of flexible study and work hours, for example working parents, students studying other courses, those juggling between employment and studies and all who are time constrained and wish to either further their education or change career paths."
+   }
+  ],
+  "fees": null,
+  "extras": [],
+  "sections": [
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept a wide range of payment methods"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Cheque or money order",
+       "Cash",
+       "EFTPOS (whether over the phone or in person)",
+       "Online credit card and debit card payments (Fees and charges may apply)",
+       "Direct deposits."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is done in arrears, except the registration fee.Registration Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "There are no prerequisites or mandatory entry requirements, allowing flexible entry points that reflect an entrant’s knowledge, skills and experience."
+     },
+     {
+      "type": "h",
+      "text": "Entry requirements for this course are"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "An online application or written enrolment form",
+       "Pre-Training Review which includes a successful completion of language, literacy and numeracy assessment",
+       "Unique Student Identifier (USI)-done during the enrolment process Identification Documents",
+       "Identification documents, one of which has a photograph of the student such as a passport and/or driver license."
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Language, Literacy and Numeracy Assessment"
+     },
+     {
+      "type": "p",
+      "text": "Prior to course commencement, students will be required to undertake a pre-training review which includes a Language, Literacy and Numeracy (LLN) Assessment. This assessment is used to determine the student’s level of language, literacy and numeracy as well as student’s suitability for the specific qualification as required to complete the course and whether the student requires additional support. Students who are assessed as not having the required level of language, literacy and numeracy skills will be referred to external support networks or to JTI English classes for further skills development in the required area/s. Students can re-apply for enrolment once they have developed skills in that area."
+     },
+     {
+      "type": "ul",
+      "items": [
+       "It would be preferred if you are under 25 that you have completed year 10.",
+       "If you are over 25, you should have relevant work/life experience.",
+       "If you are aged 18 years and below, we need further approvals from your guardian before enrolling you in the course."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "This course is current as per training.gov.au"
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Classes for the Individual Support (Ageing & Disability) course are held at a variety of times and locations to be convenient and flexible for today’s busy schedules. All our students have both face-to-face and online learning available to them. Students are to submit assessments online, which is available 24/7 and this minimises the time lapse between submissions, marking and feedback. We encourage our Individual Support (Ageing & Disability) course students to take full advantage of our e-learning for studying and submitting assignments. Classes are held regularly at various campuses in Melbourne."
+     },
+     {
+      "type": "p",
+      "text": "Modes of delivery"
+     },
+     {
+      "type": "h",
+      "text": "This course is delivered in various modes which include"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Face to face",
+       "Online",
+       "Self-directed learning and",
+       "work placement."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "In online classes students can interact with a trainer and one another by asking questions and sharing experiences. Work placement is undertaken at various industry facilities that are not related to Job Training Institute, hence, we are unable to guarantee work placement at a specific facility. Students will be advised of the venue of their work placement that they must attend as their course progresses."
+     },
+     {
+      "type": "p",
+      "text": "Third Party Arrangements"
+     },
+     {
+      "type": "p",
+      "text": "Job Training Institute does not deliver this course through third party arrangements. We use brokers or agents for recruitment of students, but not for training. Job Training Institute is responsible for the quality of the training and assessment in compliance with VET standards, and for the issuance of the AQF certification documentation"
+     },
+     {
+      "type": "p",
+      "text": "Delivery Venue"
+     },
+     {
+      "type": "p",
+      "text": "This course will be delivered at one of our campuses or a hired venue. Some students may take the option of attending weekly online classes."
+     }
+    ]
+   },
+   {
+    "key": "assessment",
+    "title": "Assessments",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Example of assessments you will need to do to be competent are"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Written Questions",
+       "Case Studies/Scenarios",
+       "Project",
+       "Demonstration",
+       "Role Playing",
+       "Report",
+       "Analysis",
+       "Presentation"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Assessment Submission"
+     },
+     {
+      "type": "p",
+      "text": "Assessments can be submitted via face to face classes or the online learning environment. Online submission is the preferred mode of assessment submission. Students receive their feedback from the trainers online or through the manual method. Support is provided by the trainers online through email, chat lines, live classes and via the telephone."
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Recognition of Prior Learning is the process that recognises a student’s current skills and experience, regardless of where and when the learning occurred. Students may have existing knowledge and skills, and these could be formally recognised and credited towards a qualification from JTI. For further information on RPL,"
+     },
+     {
+      "type": "p",
+      "text": "Credit Transfer (CT)"
+     },
+     {
+      "type": "p",
+      "text": "JTI recognises all qualifications issued under the AQF (Australian Qualifications Framework). Original copies of certificate and transcript will need to be sighted by a trainer. There is no fee for credit transfer. If a credit transfer for ‘Provide First Aid’ unit is applied for, it must be current, including the CPR component which requires a refresher every year. Talk to our staff about credit transfer during the enrolment process."
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "JTI is committed to ensuring that all students receive adequate learning support to ensure their full potential is reached, therefore, JTI ensures that:"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "The learning and support need of all students is assessed upon entry into a course.",
+       "All students are made aware of how to access the services they require to successfully complete their course.",
+       "Feedback is collected about JTI's provision of support services and the feedback is systematically collated, analysed and used to improve training services. Support services available to all JTI students include:",
+       "The trainer/educator is normally the first point of support. If the student is struggling with any training issues, or anything to do with their results and feedback, they should talk to their trainer for assistance.",
+       "If the student has an IT issue, they are to email itsupport@jti.edu.au for assistance.",
+       "For certificates and statement of attainment, students are to contact the quality assurance department on certificates@jti.edu.au",
+       "If students would like to access their records, they should contact the campus manager. Contact details at the Dandenong campus are: info@jti.edu.au",
+       "Any accounting issues, the students are to contact: accounts1@jti.edu.au",
+       "For work placement issues, students are to contact: workplacement@jti.edu.au",
+       "For any training concerns, students to contact:trainer80@jti.edu.au",
+       "For any other student support concerns, students to contact: studentsupport@jti.edu.au"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "For more information on support services"
+     }
+    ]
+   },
+   {
+    "key": "other",
+    "title": "Other information",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "JTI does not guarantee the following"
+     },
+     {
+      "type": "p",
+      "text": "1. That a learner will successfully complete a training product on our scope of registration. Learners need to put effort in their study and completion of assignments and JTI will provide the trainers and required resources to enable the learner successfully complete their study."
+     },
+     {
+      "type": "p",
+      "text": "2. A training product can be completed in a manner which does not meet the requirements of clause 1.1 and 1.2 of VET standards 2015 e.g in a shorter period of time that the AQF specifications."
+     },
+     {
+      "type": "p",
+      "text": "3. A learner will obtain a particular employment outcome where this is outside the control of JTI. JTI is a training organisation and has no control of employment outcomes."
+     }
+    ]
+   }
+  ]
  },
  "diploma-of-community-services-case-management": {
   "overview": [
    "The CHC52025 Diploma of Community Services (Case Management & Child, Youth and Family Welfare) is a course designed to give you the foundation knowledge needed for working in the Community Sector. This course provides you with the knowledge and skills required to perform as a professional community services worker, across a variety of settings within the social and community services industry. These may include areas such as mental health, homelessness, family and domestic violence, child protection, employment support and migrant services. The course provides the skills and knowledge essential to undertake case management in the community services sector. Students gain the expertise and knowledge necessary to facilitate case management, assess and analyze client needs, communicate effectively with clients and staff, and support client self-management."
-  ],
-  "entry": [
-   "Be 18 years of age or older at the time of enrolment",
-   "Be reasonably physically fit (due to the physical demands of the role)",
-   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
-   "Complete Language, Literacy, and Numeracy assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
   ],
   "units": [
    {
@@ -742,7 +1963,257 @@
    "Bachelor of Psychological Science (Honours)",
    "Bachelor of Social Work"
   ],
-  "assessment": []
+  "duration": [
+   {
+    "type": "ul",
+    "items": [
+     "Blended Delivery: Typically completed within 12-18 months",
+     "Self-Paced Delivery: Minimum for 12 months"
+    ]
+   }
+  ],
+  "fees": {
+   "selfFunded": {
+    "registration": "$500",
+    "tuition": "$6000",
+    "total": "$6000"
+   },
+   "selfPaced": {
+    "registration": "$500",
+    "total": "$1,999"
+   }
+  },
+  "extras": [
+   {
+    "label": "Recommended Books",
+    "lines": [
+     "Delivering Person-Centred Services: A Case Management Approach Geoff Arnott, Eva Bowers, Stacey Murray",
+     "Case Management: Inclusive Community Practice (2nd ed.)",
+     "Elizabeth Moore (ed.)",
+     "Fundamentals of Case Management Practice: Skills for the Human Services Nancy Summers",
+     "(Copies of this textbook are available at JTI library for borrowing)"
+    ]
+   },
+   {
+    "label": "Re-issue certificate",
+    "lines": [
+     "$50 (Digital version only)",
+     "$80 (Including hard copy)"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment method below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is done in arrears, except the registration fee.Registration Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Entry Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Be 18 years of age or older at the time of enrolment",
+       "Be reasonably physically fit (due to the physical demands of the role)",
+       "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+       "Complete Language, Literacy, and Numeracy assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Enrolment Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed application form (online or written)",
+       "Pre-Training Review Form",
+       "LLN Assessment",
+       "Valid photo ID",
+       "Proof of age (Victorian residency and concession eligibility if applicable)",
+       "USI (Unique Student Identifier) details"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Pre-Training Review"
+     },
+     {
+      "type": "p",
+      "text": "The Pre-Training Review (PTR) is conducted to ensure you are enrolled in the most suitable course and to identify any support you may need. As part of this process, your Language, Literacy and Numeracy (LLN) skills and Digital Literacy needs will be assessed."
+     },
+     {
+      "type": "h",
+      "text": "Please note"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "LLN and Digital Literacy results do not affect your eligibility for enrolment.",
+       "The assessments are used only to identify whether you may require additional support.",
+       "Your training and assessment needs will be determined based on the PTR and LLN results.",
+       "Outcomes of your PTR will be communicated to you via email or interview.",
+       "All information is kept confidential in line with JTI’s Privacy Policy."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "This course is current as per training.gov.au"
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "1. Blended Delivery (Face-to-Face & Virtual)"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Weekly virtual classes via Zoom 1 day per week (5 hours class +1-hour support)",
+       "Scheduled face-to-face simulation sessions on campus for 1 day",
+       "Access to course resources and activities via Moodle",
+       "Online support from qualified trainers and assessors with extensive industry experience",
+       "Ideal for learners seeking structured study with accelerated completion options"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "2. Self-Paced Delivery"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Flexible self-paced learning through Moodle",
+       "Ongoing trainer support via email, phone, and forums",
+       "Optional fortnightly tutorial sessions available online",
+       "Ideal for learners who prefer autonomy and time flexibility"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "assessment",
+    "title": "Assessments",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Example of assessments you will need to do to be competent are"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Short questions",
+       "Multiple choice questions",
+       "True or false",
+       "Case studies and scenarios",
+       "Simulations",
+       "Research activity",
+       "Project",
+       "Support plan",
+       "Work placement observation",
+       "Third party observation",
+       "Portfolio",
+       "Personal journal"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All students are encouraged to submit assignment online."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "To successfully complete this course, students must undertake a minimum of 240 hours of supervised work placement in a suitable community services setting. This provides valuable real-world experience and helps students build confidence in their professional practice"
+     },
+     {
+      "type": "p",
+      "text": "Before commencing placement, students must attend a Simulation session, either at the JTI Campus or via Zoom."
+     },
+     {
+      "type": "p",
+      "text": "For self-paced students, the required work placement hours are minimum of 260 hours if they are unable to attend the Simulation training either at the JTI Campus or via Zoom."
+     },
+     {
+      "type": "h",
+      "text": "Additional Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Working With Children Check (WWCC)",
+       "HLTAID011 Provide First Aid & CPR certification (Subject to placement requirements)",
+       "National Police Check (Issued within the past 12 months)",
+       "Covid 19 Vaccination Certificate (Minimum 2 doses)",
+       "Annual Influenza Vaccination (Subject to placement requirements)",
+       "NDIS Worker Screening Check (Subject to placement requirements)",
+       "Manual Handling (Subject to placement requirements)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer (CT) based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility. For further information, please speak to a Job Training Institute staff member or"
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "JTI is committed to ensuring that all students receive adequate learning support to ensure their full potential is reached, therefore, JTI ensures that:"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Access to experienced trainers and assessors",
+       "Dedicated Student Support Officers",
+       "Technical assistance: itsupport@jti.edu.au",
+       "Work placement support: workplacement@jti.edu.au",
+       "Accounting and fee support: manisha@jti.edu.au",
+       "Certificate enquiries: certificates@jti.edu.au",
+       "General student support: studentsupport@jti.edu.au"
+      ]
+     }
+    ]
+   }
+  ]
  },
  "diploma-of-early-childhood-education-and-care": {
   "overview": [
@@ -751,17 +2222,6 @@
    "It is noted that whilst Diploma of Early Childhood equips workers to work with children from 0-5 years of age, some workplaces and jurisdictions require workers to have skills and knowledge to work with children in both early and middle childhood (i.e. aged 0-12 years).",
    "Where workers are required to work across the span of development from 0-12 years, candidates should receive training and/or assessment across this broader span of development and in addition to the qualification, be awarded a Statement of Attainment for achievement of the Middle childhood development skill set. VET Student loans is available for this course.",
    "CHC50125 Diploma of Early Childhood Education and Care is delivered with Victoria and Common Wealth Government, funding for students who meet the eligibility criteria. Please Note:"
-  ],
-  "entry": [
-   "Entry to this qualification is open to individuals who hold:",
-   "CHC30125 Certificate III in Early Childhood Education and Care (or its equivalent successor) or",
-   "CHC30113 Certificate III in Early Childhood Education and Care.",
-   "Alternatively, individuals may hold:",
-   "An Australian diploma in Early Childhood Education and Care or",
-   "An Australian diploma or certificate III in Children’s Services.",
-   "AND",
-   "Demonstrate at least 12 months of cumulative employment (full-time equivalent) within the last 5 years in a regulated education and care service in Australia, supported by verifiable evidence. or",
-   "Hold the CHCSS00147 Entry into Diploma of Early Childhood Education and Care."
   ],
   "units": [
    {
@@ -856,26 +2316,343 @@
    "Bachelor of Education Primary/Secondary",
    "Bachelor of Early Childhood Education or Bachelor of Education(Early Childhood)"
   ],
-  "assessment": [
-   "Written Assessments",
-   "Case Studies/Scenarios",
-   "Research Activity/Projects/Plans",
-   "Simulations/ role play",
-   "reflective practice / Self- reflection",
-   "Performance Feedback",
-   "third party Observation",
-   "Work placement Assessment Task"
+  "duration": [
+   {
+    "type": "p",
+    "text": "According to Australian Qualifications Framework, Diploma of Early Childhood Education and Care course must be delivered for 1-2 years with minimum of 280 hours of work placement. But the Duration for each learner will depend on everyone’s skills and knowledge. For example, students with higher education qualifications and students who are already employed in the industry will find themselves completing the course within a shorter time frame as compared to learners with lower education and no experience in the industry. JTI considers each learner on an individual basis and learners who may want to complete the course at a shorter time frame than the one recommended by AQF will be given the following options:"
+   },
+   {
+    "type": "ul",
+    "items": [
+     "Undertake an assessment with a JTI staff member to demonstrate their capacity to undertake the course within a shorter time frame",
+     "Produce evidence of higher learning or previous experience",
+     "Undertake an RPL if applicable.",
+     "Commit to attending online support classes as well as face to face classes and a commitment to self-study."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "JTI offers flexible training which suits individuals and meets industry requirements. The flexible nature of our delivery of these courses [online, blended, face-to-face and self- study] caters to students in need of flexible study and work hours, for example working parents, students studying other courses, those juggling between employment and studies and all who are time constrained and wish to either further their education or change career paths."
+   }
+  ],
+  "fees": {
+   "selfFunded": {
+    "registration": "$500",
+    "tuition": "$6000",
+    "total": "$6000"
+   },
+   "selfPaced": {
+    "registration": "$500",
+    "total": "$1,999"
+   }
+  },
+  "extras": [
+   {
+    "label": "Recommended Books",
+    "lines": [
+     "The Big Picture (Karen Kearns) & Birth to Big School (Karen Kearns) Copies of this textbook are available at JTI Library for borrowing.",
+     "This can be purchased from vendors directly around $89 (price is subject to change by vendors)"
+    ]
+   },
+   {
+    "label": "Re-issue certificate",
+    "lines": [
+     "$50 (Digital version only)",
+     "$80 (Including hard copy)"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment methods below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is done in arrears, except the registration fee.Registration Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Entry Requirements"
+     },
+     {
+      "type": "h",
+      "text": "Entry to this qualification is open to individuals who hold"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "CHC30125 Certificate III in Early Childhood Education and Care (or its equivalent successor)"
+      ]
+     },
+     {
+      "type": "sep",
+      "text": "or"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "CHC30113 Certificate III in Early Childhood Education and Care."
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Alternatively, individuals may hold"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "An Australian diploma in Early Childhood Education and Care"
+      ]
+     },
+     {
+      "type": "sep",
+      "text": "or"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "An Australian diploma or certificate III in Children’s Services."
+      ]
+     },
+     {
+      "type": "sep",
+      "text": "and"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Demonstrate at least 12 months of cumulative employment (full-time equivalent) within the last 5 years in a regulated education and care service in Australia, supported by verifiable evidence."
+      ]
+     },
+     {
+      "type": "sep",
+      "text": "or"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Hold the CHCSS00147 Entry into Diploma of Early Childhood Education and Care."
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Enrolment Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed application form (online or written)",
+       "Pre-Training Review Form",
+       "LLN Assessment",
+       "Valid photo ID",
+       "Proof of age (Victorian residency and concession eligibility if applicable)",
+       "USI (Unique Student Identifier) details"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Pre-Training Review"
+     },
+     {
+      "type": "p",
+      "text": "The Pre-Training Review (PTR) is conducted to ensure you are enrolled in the most suitable course and to identify any support you may need. As part of this process, your Language, Literacy and Numeracy (LLN) skills and Digital Literacy needs will be assessed."
+     },
+     {
+      "type": "h",
+      "text": "Please note"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "LLN and Digital Literacy results do not affect your eligibility for enrolment.",
+       "The assessments are used only to identify whether you may require additional support.",
+       "Your training and assessment needs will be determined based on the PTR and LLN results.",
+       "Outcomes of your PTR will be communicated to you via email or interview.",
+       "All information is kept confidential in line with JTI’s Privacy Policy."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "This course is current as per training.gov.au"
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Classes for this course are held at a variety of times and locations to be convenient and flexible for today’s busy schedules. All our students have both face-to-face and online learning available to them. Students are to submit assessments online, which is available 24/7 and this minimises the time lapse between submissions, marking and feedback. We encourage our students to take full advantage of our e-learning for studying and submitting assignments. Students undertaking online option must attend mandatory simulation sessions, First aid and work placements face to face.Online students must also attend weekly online sessions with a JTI trainer and must be able to identify themselves to the trainer during these online sessions."
+     },
+     {
+      "type": "p",
+      "text": "Modes of delivery"
+     },
+     {
+      "type": "h",
+      "text": "This course is delivered in various modes which include"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Face to face",
+       "Online",
+       "Self-directed learning and",
+       "work placement."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Work placement is undertaken at various industry facilities that are not related to Job Training Institute, hence, we are unable to guarantee work placement at a specific facility. Students will be advised of the venue of their work placement that they must attend as their course progresses."
+     },
+     {
+      "type": "p",
+      "text": "Third Party Arrangements"
+     },
+     {
+      "type": "p",
+      "text": "Job Training Institute does not deliver this course through third party arrangements. We use brokers or agents for recruitment of students, but not for training. Job Training Institute is responsible for the quality of the training and assessment in compliance with VET standards, and for the issuance of the AQF certification documentation"
+     },
+     {
+      "type": "p",
+      "text": "Delivery Venue for Practical Class"
+     },
+     {
+      "type": "p",
+      "text": "Simulation class will be delivered at one of our campuses. Some students may take the option of attending online classes depending uppon Individual cases."
+     }
+    ]
+   },
+   {
+    "key": "assessment",
+    "title": "Assessments",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Some assignments that you will undertake may include"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Work Observation",
+       "Personal Journal",
+       "Short Questions",
+       "Case Studies/Scenarios",
+       "Research Activities",
+       "Portfolio of Work",
+       "Demonstration",
+       "Role Playing",
+       "Practical Exercises",
+       "Group Activities",
+       "Formative Assessments",
+       "Summative Assessment"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All student are encouraged to submit assignment online."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "To successfully complete this qualification, students must complete a minimum of 280 hours of vocational placement in a regulated early childhood education and care service in Australia. These hours allow students to demonstrate competence in real workplace environments as required by the national training package."
+     },
+     {
+      "type": "h",
+      "text": "Additional Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Working With Children Check (WWCC)",
+       "HLTAID012 Provide First Aid & CPR in an educational and care setting",
+       "Valid National Police Check (Issued within the past 12 months)",
+       "Covid 19 Vaccination Certificate (Minimum 2 doses)",
+       "Annual Influenza Vaccination (Subject to placement requirements)"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "All learners must be able to"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Perform physical tasks (lifting, bending, floor play)",
+       "Engage safely with children (0–5 years)",
+       "Maintain ethical conduct and child-safe behaviours",
+       "Comply with mandatory reporting and workplace safety rules"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Reasonable adjustments cannot compromise child safety or regulatory requirements."
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility."
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "JTI is committed to ensuring that all students receive adequate learning support to ensure their full potential is reached, therefore, JTI ensures that:"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "The learning and support need of all students is assessed upon entry into a course.",
+       "All students are made aware of how to access the services they require to successfully complete their course.",
+       "Feedback is collected about JTI's provision of support services and the feedback is systematically collated, analysed and used to improve training services. Support services available to all JTI students include:",
+       "The trainer/educator is normally the first point of support. If the student is struggling with any training issues, or anything to do with their results and feedback, they should talk to their trainer for assistance.",
+       "If the student has an IT issue, they are to email itsupport@jti.edu.au for assistance.",
+       "For certificates and statement of attainment, students are to contact the quality assurance department on certificates@jti.edu.au",
+       "If students would like to access their records, they should contact the campus manager. Contact details at the Dandenong campus are: info@jti.edu.au",
+       "Any accounting issues, the students are to contact: manisha@jti.edu.au",
+       "For work placement issues, students are to contact: workplacement@jti.edu.au",
+       "For any other student support concerns, students to contact: studentsupport@jti.edu.au"
+      ]
+     }
+    ]
+   }
   ]
  },
  "diploma-of-mental-health-1": {
   "overview": [
    "CHC53315 Diploma of Mental Health is a course designed to give you the foundation knowledge needed for working in the Community Sector. This course provides you with the knowledge and skills required to perform as a professional community services worker, across a variety of settings within the social and community services industry. These may include areas such as mental health, homelessness, family and domestic violence, child protection, employment support, and migrant services. This qualification reflects the role of workers who provide services to clients in relation to mental health issues. They can provide counseling, referral, advocacy, and education/health promotion services. These workers are required to have high-level specialist knowledge, skills, and competencies, especially in regard to laws affecting people with mental health issues, the range of services available to them and health issues related to mental health."
-  ],
-  "entry": [
-   "Be 18 years of age or older at the time of enrolment",
-   "Be reasonably physically fit (due to the physical demands of the role)",
-   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
-   "Complete Language, Literacy, and Numeracy assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
   ],
   "units": [
    {
@@ -996,24 +2773,243 @@
    "Bachelor of Psychological Science",
    "Bachelor of Psychological Science (Honours)"
   ],
-  "assessment": []
+  "duration": [
+   {
+    "type": "p",
+    "text": "Typically completed within 12-18 months"
+   }
+  ],
+  "fees": {
+   "selfFunded": {
+    "registration": "$500",
+    "tuition": "$6700",
+    "total": "$6700"
+   },
+   "selfPaced": null
+  },
+  "extras": [
+   {
+    "label": "Recommended Books",
+    "lines": [
+     "Mental Health and Collaborative Community Practice: An Australian Perspective (Graham Meadows, John Farhall, Ellie Fossey, et al.)",
+     "Mental Health Case Management: A Practical Guide (Shaun M. Eack)"
+    ]
+   },
+   {
+    "label": "Re-issue certificate",
+    "lines": [
+     "$50 (Digital version only)",
+     "$80 (Including hard copy)"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment methods below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is done in arrears, except the registration fee.Registration Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Entry Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Be 18 years of age or older at the time of enrolment",
+       "Be reasonably physically fit (due to the physical demands of the role)",
+       "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+       "Complete Language, Literacy, and Numeracy assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Enrolment Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed application form (online or written)",
+       "Pre-Training Review Form",
+       "LLN Assessment",
+       "Valid photo ID",
+       "Proof of age (Victorian residency and concession eligibility if applicable)",
+       "USI (Unique Student Identifier) details"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Pre-Training Review"
+     },
+     {
+      "type": "p",
+      "text": "The Pre-Training Review (PTR) is conducted to ensure you are enrolled in the most suitable course and to identify any support you may need. As part of this process, your Language, Literacy and Numeracy (LLN) skills and Digital Literacy needs will be assessed."
+     },
+     {
+      "type": "h",
+      "text": "Please note"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "LLN and Digital Literacy results do not affect your eligibility for enrolment.",
+       "The assessments are used only to identify whether you may require additional support.",
+       "Your training and assessment needs will be determined based on the PTR and LLN results.",
+       "Outcomes of your PTR will be communicated to you via email or interview.",
+       "All information is kept confidential in line with JTI’s Privacy Policy."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "This course is current as per training.gov.au"
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Blended Delivery (Virtual)"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Weekly virtual classes via Zoom 1 day per week (5 hours class +1-hour support)",
+       "Access to course resources and activities via Moodle",
+       "Online support from qualified trainers and assessors with extensive industry experience",
+       "Ideal for learners seeking structured study with accelerated completion optionsThis course is delivered in various modes which include:"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Third Party Arrangements"
+     },
+     {
+      "type": "p",
+      "text": "Job Training Institute does not deliver this course through third party arrangements. We use brokers or agents for recruitment of students, but not for training. Job Training Institute is responsible for the quality of the training and assessment in compliance with VET standards, and for the issuance of the AQF certification documentation"
+     }
+    ]
+   },
+   {
+    "key": "assessment",
+    "title": "Assessments",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Example of assessments you will need to do to be competent are"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Work Observation",
+       "Short Questions",
+       "Case Studies/Scenarios",
+       "Research Activities",
+       "Project",
+       "Portfolio of Work",
+       "Personal Journal",
+       "Demonstration",
+       "Role Playing",
+       "Practical Exercises",
+       "Group Activities"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All students are encouraged to submit assignments online"
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "To successfully complete this course, students must undertake a minimum of 160 hours of supervised work placement in a suitable Mental Health setting."
+     },
+     {
+      "type": "p",
+      "text": "The JTI Work Placement Coordinator, JTI trainers, and the student will work together to arrange a suitable work placement. Students are currently employed in the sector should consult their trainer to confirm if their current workplace meets the course placement requirements"
+     },
+     {
+      "type": "h",
+      "text": "Additional Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Working With Children Check (WWCC)",
+       "HLTAID011 Provide First Aid & CPR certification (Subject to placement requirements)",
+       "National Police Check (Issued within the past 12 months)",
+       "Covid 19 Vaccination Certificate (Minimum 2 doses)",
+       "Annual Influenza Vaccination (Subject to placement requirements)",
+       "NDIS Worker Screening Check (Subject to placement requirements)",
+       "Manual Handling (Subject to placement requirements)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility."
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "JTI is committed to ensuring that all students receive adequate learning support to ensure their full potential is reached, therefore, JTI ensures that:"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Access to experienced trainers and assessors",
+       "Dedicated Student Support Officers",
+       "Technical assistance: itsupport@jti.edu.au",
+       "Work placement support: workplacement@jti.edu.au",
+       "Accounting and fee support: manisha@jti.edu.au",
+       "Certificate enquiries: certificates@jti.edu.au",
+       "General student support: studentsupport@jti.edu.au"
+      ]
+     }
+    ]
+   }
+  ]
  },
  "int-certificate-iii-in-early-childhood-education-and-care": {
   "overview": [
    "This qualification reflects the role of early childhood educators who support children’s wellbeing, learning and development in regulated education and care services in Australia. Educators apply well-developed skills and knowledge, working within approved learning frameworks and established policies and procedures. They may work independently or under limited supervision. Graduates may find employment in long day care, family day care, kindergartens or preschools.",
    "To achieve this qualification, students must complete a minimum of 160 hours of work placement in a regulated early childhood education and care service in Australia.",
    "There are currently no occupational licensing requirements for this qualification. For regulatory information and approved qualifications, please refer to ACECQA."
-  ],
-  "entry": [
-   "To enroll in this course, applicants should submit:",
-   "Completed and signed 'International Student Application Form'",
-   "Certified transcripts of all academic achievements, including secondary school education",
-   "Certified evidence of date of birth/Passport",
-   "Certified evidence of English language proficiency",
-   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
-   "Minimum Age Requirement: 18 years of age",
-   "Provide evidence of Health and Insurance Requirements",
-   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
   ],
   "units": [
    {
@@ -1113,23 +3109,176 @@
    "CHC50121 Diploma of Early Childhood Education and Care",
    "Bachelor of Early Childhood Education or Bachelor of Education (Early Childhood)"
   ],
-  "assessment": []
+  "duration": [],
+  "fees": null,
+  "extras": [],
+  "sections": [
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "To enroll in this course, applicants should submit"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed and signed 'International Student Application Form'",
+       "Certified transcripts of all academic achievements, including secondary school education",
+       "Certified evidence of date of birth/Passport",
+       "Certified evidence of English language proficiency",
+       "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+       "Minimum Age Requirement: 18 years of age",
+       "Provide evidence of Health and Insurance Requirements",
+       "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment method below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is made in arrears, except the Enrolment Fee. Enrolment Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "At Job Training Institute (JTI), our CRICOS-registered courses are delivered through 20 hours of structured, face-to-face instruction per week at our City campus. Course delivery is supported by interactive classroom activities, practical sessions, and limited online components, ensuring that teaching methods meet the learning outcomes and competency standards of each qualification."
+     },
+     {
+      "type": "h",
+      "text": "This delivery model complies with"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Standards for RTOs 2015 (Clauses 1.2 and 1.3)",
+       "ESOS Act 2000 and National Code 2018 (Standard 7)",
+       "CRICOS registration requirements"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Students’ learning is further supported with resources, practical exercises, and guidance to facilitate competency achievement in line with ASQA and CRICOS compliance obligations."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "This qualification includes a mandatory minimum of 160 hours of vocational placement in a regulated early childhood education and care service in Australia. The placement provides students with valuable hands-on experience, real workplace interaction, and competency development that supports their learning and prepares them for employment in the sector."
+     },
+     {
+      "type": "p",
+      "text": "Pre-Placement Requirement: Students must attend a Work Placement Preparation Workshop including Health & Safety, Caregiving Tasks, and Professional Conduct."
+     },
+     {
+      "type": "h",
+      "text": "Additional Work Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "HLTAID012 Provide First Aid in an education and care setting",
+       "National Police Check (issued within the last 12 months)",
+       "Working with Children Check",
+       "COVID-19 Vaccination Certificate (minimum two doses)",
+       "Flu Vaccination Certificate (Yearly required)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility. For further information, please speak to a Job Training Institute staff member or"
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "Accounting: manisha@jti.edu.au",
+       "Work Placement: workplacement@jti.edu.au",
+       "Student Support: studentsupport@jti.edu.au",
+       "IT Support: itsupport@jti.edu.au",
+       "Enquiries: contact@jti.edu.au",
+       "Certificates: certificates@jti.edu.au",
+       "Urgent Enquiries: City Campus – (03) 9055 5007"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "other",
+    "title": "Other information",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "JTI does not guarantee the following"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "That a learner will successfully complete a training product on our scope of registration. Learners need to put effort in their study and completion of assignments and JTI will provide the trainers and required resources to enable the learner to successfully complete their study.",
+       "A training product can be completed in a manner which does not meet the requirements of clauses 1.1 and 1.2 of VET standards 2015 e.g. in a shorter period than the AQF specifications.",
+       "A learner will obtain a particular employment outcome where this is outside the control of JTI. JTI is a training organization and has no control of employment outcomes."
+      ]
+     }
+    ]
+   },
+   {
+    "key": "compliance",
+    "title": "Compliance & regulatory information",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "The course is delivered in line with ASQA Standards for RTOs 2015, the ESOS Act 2000, and the National Code 2018 to ensure international students receive high-quality education and support.",
+       "Students are informed of their rights, responsibilities, and support services in accordance with CRICOS obligations."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "For more information, please check the International Student Handbook (available on the JTI Website)."
+     }
+    ]
+   }
+  ]
  },
  "int-certificate-iii-in-individual-support-ageing-disability": {
   "overview": [
    "This qualification reflects the role of workers in the community and/or residential setting who follow an individualized plan to provide person-centred support to people who may require support due to ageing, disability or some other reason. Work involves using discretion and judgement in relation to individual support as well as taking responsibility for own outputs. Workers have a range of factual, technical and procedural knowledge, as well as some theoretical knowledge of the concepts and practices required to provide person-centred support.",
    "To achieve this qualification, the candidate must have completed at least 120 hours of work as detailed in the Assessment Requirements of the units of competency."
-  ],
-  "entry": [
-   "To enrol in this course, applicants should submit:",
-   "Completed and signed ‘International Student Application Form’",
-   "Certified transcripts of all academic achievements, including secondary school education",
-   "Certified evidence of date of birth/Passport",
-   "Certified evidence of English language proficiency",
-   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
-   "Minimum Age Requirement: 18 years of age",
-   "Provide evidence of Health and Insurance Requirements",
-   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
   ],
   "units": [
    {
@@ -1222,23 +3371,186 @@
    "Diploma of Community Services",
    "Diploma of Mental Health"
   ],
-  "assessment": []
+  "duration": [],
+  "fees": null,
+  "extras": [],
+  "sections": [
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "To enrol in this course, applicants should submit"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed and signed ‘International Student Application Form’",
+       "Certified transcripts of all academic achievements, including secondary school education",
+       "Certified evidence of date of birth/Passport",
+       "Certified evidence of English language proficiency",
+       "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+       "Minimum Age Requirement: 18 years of age",
+       "Provide evidence of Health and Insurance Requirements",
+       "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment method below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is made in arrears, except the Enrolment Fee. Enrolment Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "At Job Training Institute (JTI), our CRICOS-registered courses are delivered through 20 hours of structured, face-to-face instruction per week at our City campus. Course delivery is supported by interactive classroom activities, practical sessions, and limited online components, ensuring that teaching methods meet the learning outcomes and competency standards of each qualification."
+     },
+     {
+      "type": "h",
+      "text": "This delivery model complies with"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Standards for RTOs 2015 (Clauses 1.2 and 1.3), which require training and assessment to be delivered effectively and by qualified trainers;ESOS Act 2000 and National Code 2018 (Standard 7)",
+       "CRICOS registration requirements"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Students’ learning is further supported with resources, practical exercises, and guidance to facilitate competency achievement in line with ASQA and CRICOS compliance obligations."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "This qualification includes a mandatory minimum of 120 hours of vocational placement in an approved aged care or disability facility (where relevant)."
+     },
+     {
+      "type": "h",
+      "text": "Pre-Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Manual Handling",
+       "Simulation exercises relevant to aged care/disability work"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Additional Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "HLTAID011 Provide First Aid certification (as per provider requirements)",
+       "National Police Check issued within the last 12 months",
+       "COVID-19 Vaccination Certificate (minimum two doses)",
+       "Annual Influenza Vaccination (if applicable)",
+       "NDIS Screencheck (where relevant)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "These requirements ensure student safety, compliance with legislative obligations, and preparedness for vocational practice."
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility. For further information, please speak to a Job Training Institute staff member or"
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "For accounting issues: manisha@jti.edu.au",
+       "For work placement: workplacement@jti.edu.au",
+       "For student support: studentsupport@jti.edu.au",
+       "For IT issues: itsupport@jti.edu.au",
+       "For general enquiries: contact@jti.edu.au",
+       "For certificates: certificates@jti.edu.au",
+       "Urgent enquiries: City Campus (03) 9055 5007"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "other",
+    "title": "Other information",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "JTI does not guarantee the following"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "That a learner will successfully complete a training product on our scope of registration. Learners need to put effort in their study and completion of assignments and JTI will provide the trainers and required resources to enable the learner to successfully complete their study.",
+       "A training product can be completed in a manner which does not meet the requirements of clause 1.1 and 1.2 of VET Standards 2015, e.g. in a shorter period of time than the AQF specifications.",
+       "A learner will obtain a particular employment outcome where this is outside the control of JTI. JTI is a training organization and has no control of employment outcomes."
+      ]
+     }
+    ]
+   },
+   {
+    "key": "compliance",
+    "title": "Compliance & regulatory information",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "The course is delivered in line with ASQA Standards for RTOs 2015, the ESOS Act 2000, and the National Code 2018 to ensure international students receive high-quality education and support.",
+       "Students are informed of their rights, responsibilities, and available support services in accordance with CRICOS obligations."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "For more information, please check the International Student’s Handbook (available on the JTI Website)."
+     }
+    ]
+   }
+  ]
  },
  "int-certificate-iv-in-disability0939790d": {
   "overview": [
    "This qualification reflects the role of workers in a range of community settings and clients’ homes, who provide training and support in a manner that empowers people with disabilities to achieve greater levels of independence, self-reliance, community participation and wellbeing. Workers promote a person-centered approach, work without direct supervision and may be required to supervise and/or coordinate a small team.",
    "This qualification prepares workers to provide support in community settings and in clients’ homes to people with disability. The course focuses on a person-centred approach designed to increase independence, self-reliance, community participation and wellbeing. Graduates work with limited supervision and may also supervise or coordinate small teams of support workers."
-  ],
-  "entry": [
-   "To enrol in this course, applicants should submit:",
-   "Completed and signed 'International Student Application Form'",
-   "Certified transcripts of all academic achievements, including secondary school education",
-   "Certified evidence of date of birth/Passport",
-   "Certified evidence of English language proficiency",
-   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
-   "Minimum Age Requirement: 18 years of age",
-   "Provide evidence of Health and Insurance Requirements",
-   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
   ],
   "units": [
    {
@@ -1306,24 +3618,187 @@
    "Diploma of Community Services",
    "Diploma of Mental Health"
   ],
-  "assessment": []
+  "duration": [],
+  "fees": null,
+  "extras": [],
+  "sections": [
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "To enrol in this course, applicants should submit"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed and signed 'International Student Application Form'",
+       "Certified transcripts of all academic achievements, including secondary school education",
+       "Certified evidence of date of birth/Passport",
+       "Certified evidence of English language proficiency",
+       "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+       "Minimum Age Requirement: 18 years of age",
+       "Provide evidence of Health and Insurance Requirements",
+       "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment method below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is made in arrears, except the Enrolment Fee. Enrolment Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "At Job Training Institute (JTI), our CRICOS-registered courses are delivered through 20 hours of structured, face-to-face instruction per week at our City campus. Course delivery is supported by interactive classroom activities, practical sessions, and limited online components, ensuring that teaching methods meet the learning outcomes and competency standards of each qualification."
+     },
+     {
+      "type": "h",
+      "text": "This delivery model complies with"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Standards for RTOs 2015 (Clauses 1.2 and 1.3), which require training and assessment to be delivered effectively and by qualified trainers",
+       "ESOS Act 2000 and National Code 2018 (Standard 7), ensuring CRICOS courses are delivered in accordance with approved course hours and teaching modes",
+       "CRICOS registration requirements, which mandate clear documentation of study hours, contact time, and teaching methods for international students"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Students’ learning is further supported with resources, practical exercises, and guidance to facilitate competency achievement in line with ASQA and CRICOS compliance obligations."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "This qualification includes a mandatory minimum of 120 hours of vocational placement in an approved disability support or community-based facility. The placement allows students to apply their skills in real workplace settings and develop competency through person-centered practice."
+     },
+     {
+      "type": "h",
+      "text": "Pre-Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Attend a Work Placement Preparation Workshop and complete all required tasks"
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Additional Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "HLTAID011 Provide First Aid certification (as per provider requirements)",
+       "National Police Check issued within the last 12 months",
+       "COVID-19 Vaccination Certificate (minimum two doses)",
+       "Annual Influenza Vaccination (if applicable)",
+       "NDIS Screencheck (Where Relevant)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "These requirements ensure student safety, compliance with legislative obligations, and preparedness for vocational practice."
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility. For further information, please speak to a Job Training Institute staff member or"
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "Accounting: manisha@jti.edu.au",
+       "Work Placement: workplacement@jti.edu.au",
+       "Student Support: studentsupport@jti.edu.au",
+       "IT Support: itsupport@jti.edu.au",
+       "Enquiries: contact@jti.edu.au",
+       "Certificates: certificates@jti.edu.au",
+       "Urgent Enquiries: City Campus – (03) 9055 5007"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "other",
+    "title": "Other information",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "JTI does not guarantee the following"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "That a learner will successfully complete a training product on our scope of registration. Learners need to put effort in their study and completion of assignments and JTI will provide the trainers and required resources to enable the learner to successfully complete their study.",
+       "A training product can be completed in a manner which does not meet the requirements of clause 1.1 and 1.2 of VET standards 2015 e.g in a shorter period of time than the AQF specifications.",
+       "A learner will obtain a particular employment outcome where this is outside the control of JTI. JTI is a training organization and has no control of employment outcomes."
+      ]
+     }
+    ]
+   },
+   {
+    "key": "compliance",
+    "title": "Compliance & regulatory information",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "The course is delivered in line with ASQA Standards for RTOs 2015, the ESOS Act 2000, and the National Code 2018 to ensure international students receive high-quality education and support.",
+       "Students are informed of their rights, responsibilities, and support services in accordance with CRICOS obligations."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "For more information please check the International Student Handbook (available on the JTI website)."
+     }
+    ]
+   }
+  ]
  },
  "int-certificate-iv-in-mental-health-peer-work": {
   "overview": [
    "This qualification prepares students to work in peer support roles within the mental health sector. It is designed for people who have lived experience of mental health challenges—either as a consumer or a carer—and who want to use that experience to support others in their recovery.",
    "Students learn how to provide person-centered support, facilitate self-advocacy, assist with recovery-oriented programs, and work collaboratively within multidisciplinary teams. They also develop strong communication skills while maintaining professional boundaries and self-care strategies.",
    "Graduates may work in community mental health services, non-government organizations, residential facilities, peer-run programs, or other support settings where lived experience is valued."
-  ],
-  "entry": [
-   "To enroll in this course, applicants should submit:",
-   "Completed and signed 'International Student Application Form'",
-   "Certified transcripts of all academic achievements, including secondary school education",
-   "Certified evidence of date of birth/Passport",
-   "Certified evidence of English language proficiency",
-   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
-   "Minimum Age Requirement: 18 years of age",
-   "Provide evidence of Health and Insurance Requirements",
-   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
   ],
   "units": [
    {
@@ -1415,24 +3890,185 @@
    "CHC52025 Diploma of Community Services",
    "Other qualifications in peer work, counselling, or community services"
   ],
-  "assessment": []
+  "duration": [],
+  "fees": null,
+  "extras": [],
+  "sections": [
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "To enroll in this course, applicants should submit"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed and signed 'International Student Application Form'",
+       "Certified transcripts of all academic achievements, including secondary school education",
+       "Certified evidence of date of birth/Passport",
+       "Certified evidence of English language proficiency",
+       "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+       "Minimum Age Requirement: 18 years of age",
+       "Provide evidence of Health and Insurance Requirements",
+       "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment method below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is made in arrears, except the Enrolment Fee. Enrolment Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "At Job Training Institute (JTI), our CRICOS-registered courses are delivered through 20 hours of structured, face-to-face instruction per week at our City campus. Course delivery is supported by interactive classroom activities, practical sessions, and limited online components, ensuring that teaching methods meet the learning outcomes and competency standards of each qualification."
+     },
+     {
+      "type": "h",
+      "text": "This delivery model complies with"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Standards for RTOs 2015 (Clauses 1.2 and 1.3), which require training and assessment to be delivered effectively and by qualified trainers;",
+       "ESOS Act 2000 and National Code 2018 (Standard 7), ensuring CRICOS courses are delivered in accordance with approved course hours and teaching modes, and that students receive appropriate support to achieve course outcomes;",
+       "CRICOS registration requirements, which mandate clear documentation of study hours, contact time, and teaching methods for international students."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Students’ learning is further supported with resources, practical exercises, and guidance to facilitate competency achievement in line with ASQA and CRICOS compliance obligations."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "This qualification includes 80 hours of vocational placement in a mental health peer work environment. Placement provides students with the opportunity to:"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Apply lived experience in real peer support roles",
+       "Practice recovery-oriented communication and support strategies",
+       "Work collaboratively with mental health professionals and community services",
+       "Build confidence and practical skills for employment in the sector"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All placement arrangements must meet regulatory and organizational requirements before commencement, and students must be deemed suitable for placement to ensure safety and professional standards."
+     },
+     {
+      "type": "h",
+      "text": "Additional Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "HLTAID011 Provide First Aid certification (as per provider requirements)",
+       "National Police Check issued within the last 12 months",
+       "COVID-19 Vaccination Certificate (minimum two doses)",
+       "Annual Influenza Vaccination (if applicable)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility. For further information, please speak to a Job Training Institute staff member or"
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "Accounting: manisha@jti.edu.au",
+       "Work Placement: workplacement@jti.edu.au",
+       "Student Support: studentsupport@jti.edu.au",
+       "IT Support: itsupport@jti.edu.au",
+       "Enquiries: contact@jti.edu.au",
+       "Certificates: certificates@jti.edu.au",
+       "Urgent Enquiries: City Campus – (03) 9055 5007"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "other",
+    "title": "Other information",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "JTI does not guarantee the following"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "That a learner will successfully complete a training product on our scope of registration. Learners need to put effort in their study and completion of assignments and JTI will provide the trainers and required resources to enable the learner to successfully complete their study.",
+       "A training product can be completed in a manner which does not meet the requirements of clause 1.1 and 1.2 of VET Standards 2015, e.g. in a shorter period of time than the AQF specifications.",
+       "A learner will obtain a particular employment outcome where this is outside the control of JTI. JTI is a training organisation and has no control of employment outcomes."
+      ]
+     }
+    ]
+   },
+   {
+    "key": "compliance",
+    "title": "Compliance & regulatory information",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "The course is delivered in line with ASQA Standards for RTOs 2015, the ESOS Act 2000, and the National Code 2018 to ensure international students receive high-quality education and support.",
+       "Students are informed of their rights, responsibilities, and support services in accordance with CRICOS obligations."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "For more information, please check the International Student’s Handbook (available on the JTI Website)."
+     }
+    ]
+   }
+  ]
  },
  "int-diploma-in-mental-health": {
   "overview": [
    "This qualification reflects the role of workers who provide services to clients in relation to mental health issues. They can provide counselling, referral, advocacy and education/health promotion services. These workers are required to have high level specialist knowledge, skills and competencies especially in regard to laws affecting people with mental health issues, the range of services available to them and health issues related to mental health.",
    "This qualification reflects the role of professionals who support individuals experiencing mental health challenges. Graduates learn to provide counselling, referrals, advocacy, and health promotion services within a mental health context.",
    "The course develops high-level specialist knowledge and skills, including an understanding of mental health laws, available community and health services, and the relationship between mental and physical wellbeing."
-  ],
-  "entry": [
-   "To enrol in this course, applicants should submit:",
-   "Completed and signed 'International Student Application Form'",
-   "Certified transcripts of all academic achievements, including secondary school education",
-   "Certified evidence of date of birth/Passport",
-   "Certified evidence English language proficiency",
-   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
-   "Minimum Age Requirement: 18 years of age",
-   "Provide evidence of Health and Insurance Requirements",
-   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
   ],
   "units": [
    {
@@ -1545,24 +4181,181 @@
    "Bachelor of Psychological Science",
    "Bachelor of Psychological Science (Honours)"
   ],
-  "assessment": []
+  "duration": [],
+  "fees": null,
+  "extras": [],
+  "sections": [
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "To enrol in this course, applicants should submit"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed and signed 'International Student Application Form'",
+       "Certified transcripts of all academic achievements, including secondary school education",
+       "Certified evidence of date of birth/Passport",
+       "Certified evidence English language proficiency",
+       "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+       "Minimum Age Requirement: 18 years of age",
+       "Provide evidence of Health and Insurance Requirements",
+       "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment method below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is made in arrears, except the Enrolment Fee. Enrolment Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "At Job Training Institute (JTI), our CRICOS-registered courses are delivered through 20 hours of structured, face-to-face instruction per week at our City campus. Course delivery is supported by interactive classroom activities, practical sessions, and limited online components, ensuring that teaching methods meet the learning outcomes and competency standards of each qualification."
+     },
+     {
+      "type": "h",
+      "text": "This delivery model complies with"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Standards for RTOs 2015 (Clauses 1.2 and 1.3), which require training and assessment to be delivered effectively and by qualified trainers.",
+       "ESOS Act 2000 and National Code 2018 (Standard 7), ensuring CRICOS courses are delivered in accordance with approved course hours and teaching modes, and that students receive appropriate support to achieve course outcomes.",
+       "CRICOS registration requirements, which mandate clear documentation of study hours, contact time, and teaching methods for international students."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Students’ learning is further supported with resources, practical exercises, and guidance to facilitate competency achievement in line with ASQA and CRICOS compliance obligations."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "To successfully complete this course, students are required to complete a minimum of 400 hours of supervised work placement in a suitable community services or mental health setting. JTI’s Work Placement Coordinator, trainers, and the student will work together to arrange an appropriate placement opportunity."
+     },
+     {
+      "type": "p",
+      "text": "Students who are already employed in the community services sector should speak with their trainer to determine whether their current workplace is suitable to meet the placement requirements for this qualification."
+     },
+     {
+      "type": "p",
+      "text": "Please note: Work placement arrangements must meet JTI and regulatory requirements before commencement."
+     },
+     {
+      "type": "h",
+      "text": "Additional Work Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "HLTAID011 Provide First Aid",
+       "Current National Police Check (less than 12 months)",
+       "Working with Children’s check",
+       "Covid-19 Vaccination Certificate (at least two doses)",
+       "Annual Influenza Vaccination (if applicable)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility. For further information, please speak to a Job Training Institute staff member or"
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "Accounting: manisha@jti.edu.au",
+       "Work Placement: workplacement@jti.edu.au",
+       "Student Support: studentsupport@jti.edu.au",
+       "IT Support: itsupport@jti.edu.au",
+       "Enquiries: contact@jti.edu.au",
+       "Certificates: certificates@jti.edu.au",
+       "Urgent Enquiries: City Campus – (03) 9055 5007"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "other",
+    "title": "Other information",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "JTI does not guarantee the following"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "That a learner will successfully complete a training product on our scope of registration. Learners need to put effort in their study and completion of assignments and JTI will provide the trainers and required resources to enable the learner to successfully complete their study.",
+       "A training product can be completed in a manner which does not meet the requirements of clause 1.1 and 1.2 of VET standards 2015 e.g. in a shorter period of time than the AQF specifications.",
+       "A learner will obtain a particular employment outcome where this is outside the control of JTI. JTI is a training organisation and has no control of employment outcomes."
+      ]
+     }
+    ]
+   },
+   {
+    "key": "compliance",
+    "title": "Compliance & regulatory information",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "The course is delivered in line with ASQA Standards for RTOs 2015, the ESOS Act 2000, and the National Code 2018 to ensure international students receive high-quality education and support.",
+       "Students are informed of their rights, responsibilities, and support services in accordance with CRICOS obligations."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "For more information, please check International Student’s Handbook (available on the JTI Website)."
+     }
+    ]
+   }
+  ]
  },
  "int-diploma-of-business-leadership": {
   "overview": [
    "This qualification reflects the role of individuals in a variety of Business Services job roles. These individuals may have frontline management accountabilities.",
    "Individuals in these roles carry out moderately complex tasks in a specialist field of expertise that requires business operations skills. They may possess substantial experience in a range of settings, but seek to further develop their skills across a wide range of business functions..",
    "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
-  ],
-  "entry": [
-   "To enrol in this course, applicants should submit:",
-   "Completed and signed 'Application for Enrolment Form';",
-   "Certified transcripts of academic records including the last two years of schooling;",
-   "Certified evidence of completing year 12;",
-   "Certified evidence of date of birth/Passport;",
-   "Certified evidence English language proficiency;",
-   "Letter(s) of recommendation from teacher(s) (if available);",
-   "Minimum Age Requirement: 18 years of age;",
-   "Unique Student Identifier (USI)- application for USI is done at the time of enrolment into the course."
   ],
   "units": [
    {
@@ -1634,31 +4427,79 @@
   "pathways": [
    "Advanced Diploma of Business"
   ],
-  "assessment": [
-   "Written Questions",
-   "Case Studies",
-   "Report",
-   "Role Play",
-   "Analysis",
-   "Project",
-   "Presentation"
+  "duration": [],
+  "fees": null,
+  "extras": [],
+  "sections": [
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "To enrol in this course, applicants should submit"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed and signed 'Application for Enrolment Form';",
+       "Certified transcripts of academic records including the last two years of schooling;",
+       "Certified evidence of completing year 12;",
+       "Certified evidence of date of birth/Passport;",
+       "Certified evidence English language proficiency;",
+       "Letter(s) of recommendation from teacher(s) (if available);",
+       "Minimum Age Requirement: 18 years of age;",
+       "Unique Student Identifier (USI)- application for USI is done at the time of enrolment into the course."
+      ]
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "For accounting issues, contact: accounts1@jti.edu.au",
+       "For work placement, contact: workplacement@jti.edu.au",
+       "For student support, contact studentsupport@jti.edu.au",
+       "Any IT issues, contact itsupport@jti.edu.au",
+       "Any enquiries, contact contact@jti.edu.au",
+       "For Certificate and Statement of Attainment, contact certificates@jti.edu.au",
+       "For urgent enquiries call our Head office (City Campus : 03 9055 5007)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "other",
+    "title": "Other information",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "JTI does not guarantee the following"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "That a learner will successfully complete a training product on our scope of registration. Learners need to put effort in their study and completion of assignments and JTI will provide the trainers and required resources to enable the learner to successfully complete their study.",
+       "A training product can be completed in a manner which does not meet the requirements of clause 1.1 and 1.2 of VET standards 2015 e.g in a shorter period of time than the AQF specifications.",
+       "A learner will obtain a particular employment outcome where this is outside the control of JTI. JTI is a training organisation and has no control of employment outcomes."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "*For more information please check International student’s Handbook (From the JTI Website)"
+     }
+    ]
+   }
   ]
  },
  "int-diploma-of-community-services-case-management": {
   "overview": [
    "This qualification reflects the roles of community services workers involved in managing, coordinating, and/or delivering person-centered services to individuals, groups, and communities. At this level, workers have specialized skills in community services and work autonomously under broad directions from senior management. Workers may provide direct support to clients, coordinate programs, manage cases, or supervise staff and volunteers.",
    "This qualification prepares students for roles in the community services sector, supporting individuals, families, and groups to improve their wellbeing and quality of life. Graduates may pursue career pathways such as case management, youth work, or family support."
-  ],
-  "entry": [
-   "To enrol in this course, applicants should submit:",
-   "Completed and signed 'International Student Application Form'",
-   "Certified transcripts of all academic achievements, including secondary school education",
-   "Certified evidence of date of birth/Passport",
-   "Certified evidence of English language proficiency",
-   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
-   "Minimum Age Requirement: 18 years of age",
-   "Provide evidence of Health and Insurance Requirements",
-   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
   ],
   "units": [
    {
@@ -1781,7 +4622,171 @@
    "Bachelor of Social Work",
    "Bachelor of Community Services"
   ],
-  "assessment": []
+  "duration": [],
+  "fees": null,
+  "extras": [],
+  "sections": [
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "To enrol in this course, applicants should submit"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed and signed 'International Student Application Form'",
+       "Certified transcripts of all academic achievements, including secondary school education",
+       "Certified evidence of date of birth/Passport",
+       "Certified evidence of English language proficiency",
+       "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+       "Minimum Age Requirement: 18 years of age",
+       "Provide evidence of Health and Insurance Requirements",
+       "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment method below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is made in arrears, except the Enrolment Fee. Enrolment Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "At Job Training Institute (JTI), our CRICOS-registered courses are delivered through 20 hours of structured, face-to-face instruction per week at our City Campus. Delivery is supported by interactive classroom activities, practical sessions, and limited online components."
+     },
+     {
+      "type": "h",
+      "text": "This delivery model complies with"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Standards for RTOs 2015 (Clauses 1.2 and 1.3)",
+       "ESOS Act 2000 and National Code 2018 (Standard 7)",
+       "CRICOS registration requirements"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Students’ learning is further supported with resources, practical exercises, and guidance to facilitate competency achievement in line with ASQA and CRICOS obligations."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "To successfully complete this course, students must undertake a minimum of 240 hours of supervised work placement in a suitable community services setting. This provides valuable real-world experience and helps students build confidence in their professional practice."
+     },
+     {
+      "type": "p",
+      "text": "Before placement: Students must attend a Simulation Class."
+     },
+     {
+      "type": "h",
+      "text": "Additional Work Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Working with Children Check (WWCC)",
+       "National Police Check (issued within the past 12 months)",
+       "COVID-19 Vaccination Certificate (minimum two doses, subject to placement requirements)",
+       "Annual Flu Vaccination Certificate",
+       "Apply First Aid (subject to placement requirements)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility. For further information, please speak to a Job Training Institute staff member or"
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "Accounting: manisha@jti.edu.au",
+       "Work Placement: workplacement@jti.edu.au",
+       "Student Support: studentsupport@jti.edu.au",
+       "IT Support: itsupport@jti.edu.au",
+       "Enquiries: contact@jti.edu.au",
+       "Certificates: certificates@jti.edu.au",
+       "Urgent Enquiries: City Campus – (03) 9055 5007"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "other",
+    "title": "Other information",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "JTI does not guarantee the following"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "That a learner will successfully complete a training product on our scope of registration. Learners need to put effort in their study and completion of assignments, and JTI will provide the trainers and required resources to enable the learner to successfully complete their study.",
+       "A training product can be completed in a manner which does not meet the requirements of clause 1.1 and 1.2 of VET Standards 2015, e.g. in a shorter period of time than the AQF specifications.",
+       "A learner will obtain a particular employment outcome where this is outside the control of JTI. JTI is a training organisation and has no control of employment outcomes."
+      ]
+     }
+    ]
+   },
+   {
+    "key": "compliance",
+    "title": "Compliance & regulatory information",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "The course is delivered in line with ASQA Standards for RTOs 2015, the ESOS Act 2000, and the National Code 2018 to ensure international students receive high-quality education and support.",
+       "Students are informed of their rights, responsibilities, and support services in accordance with CRICOS obligations."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "For more information, please check the International Student’s Handbook (available on the JTI Website)."
+     }
+    ]
+   }
+  ]
  },
  "int-diploma-of-early-childhood-education-and-care": {
   "overview": [
@@ -1789,26 +4794,6 @@
    "Early childhood educators work in long day care centres, family day care, pre-schools or kindergartens.",
    "To achieve this qualification, the individual must have completed at least 280 hours of work in a regulated children’s education and care service in Australia as detailed in the Assessment Requirements of units of competency.",
    "This qualification prepares students to work as professional educators in regulated early childhood education and care services in Australia. Students learn how to design and implement curriculum that supports children’s learning, wellbeing, and development in line with the approved learning frameworks. Diploma-qualified educators use specialized knowledge to make informed decisions in diverse workplace situations and may be responsible for supervising others."
-  ],
-  "entry": [
-   "Entry to this qualification is open to individuals who hold:",
-   "CHC30121 Certificate III in Early Childhood Education and Care (or its equivalent successor) or",
-   "CHC30113 Certificate III in Early Childhood Education and Care.",
-   "Alternatively, individuals may hold:",
-   "An Australian diploma in Early Childhood Education and Care or",
-   "An Australian diploma or certificate III in Children’s Services.",
-   "AND",
-   "Demonstrate at least 12 months of cumulative employment (full-time equivalent) within the last 5 years in a regulated education and care service in Australia, supported by verifiable evidence. or",
-   "Hold the CHCSS00147 Entry into Diploma of Early Childhood Education and Care.",
-   "To enroll in this course, applicants should submit:",
-   "Completed and signed 'International Student Application Form'",
-   "Certified transcripts of all academic achievements, including secondary school education",
-   "Certified evidence of date of birth/Passport",
-   "Certified evidence of English language proficiency",
-   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
-   "Minimum Age Requirement: 18 years of age",
-   "Provide evidence of Health and Insurance Requirements",
-   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
   ],
   "units": [
    {
@@ -1903,6 +4888,225 @@
    "Bachelor of Education (Primary/Secondary)",
    "Bachelor of Early Childhood Education or Bachelor of Education (Early Childhood)"
   ],
-  "assessment": []
+  "duration": [],
+  "fees": null,
+  "extras": [],
+  "sections": [
+   {
+    "key": "entry",
+    "title": "Entry & enrolment requirements",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "Entry to this qualification is open to individuals who hold"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "CHC30121 Certificate III in Early Childhood Education and Care (or its equivalent successor)"
+      ]
+     },
+     {
+      "type": "sep",
+      "text": "or"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "CHC30113 Certificate III in Early Childhood Education and Care."
+      ]
+     },
+     {
+      "type": "h",
+      "text": "Alternatively, individuals may hold"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "An Australian diploma in Early Childhood Education and Care"
+      ]
+     },
+     {
+      "type": "sep",
+      "text": "or"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "An Australian diploma or certificate III in Children’s Services."
+      ]
+     },
+     {
+      "type": "sep",
+      "text": "and"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Demonstrate at least 12 months of cumulative employment (full-time equivalent) within the last 5 years in a regulated education and care service in Australia, supported by verifiable evidence."
+      ]
+     },
+     {
+      "type": "sep",
+      "text": "or"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Hold the CHCSS00147 Entry into Diploma of Early Childhood Education and Care."
+      ]
+     },
+     {
+      "type": "h",
+      "text": "To enroll in this course, applicants should submit"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Completed and signed 'International Student Application Form'",
+       "Certified transcripts of all academic achievements, including secondary school education",
+       "Certified evidence of date of birth/Passport",
+       "Certified evidence of English language proficiency",
+       "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+       "Minimum Age Requirement: 18 years of age",
+       "Provide evidence of Health and Insurance Requirements",
+       "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "payment",
+    "title": "Payment",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "At Job Training Institute we accept the payment method below"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "EFT (Electronic Funds Transfer)"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "All payment is made in arrears, except the Enrolment Fee. Enrolment Fee is non-refundable."
+     }
+    ]
+   },
+   {
+    "key": "delivery",
+    "title": "How it's delivered",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "At Job Training Institute (JTI), our CRICOS-registered courses are delivered through 20 hours of structured, face-to-face instruction per week at our City campus. Delivery is supported by interactive activities, practical sessions, and limited online components."
+     },
+     {
+      "type": "h",
+      "text": "This delivery model complies with"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "Standards for RTOs 2015 (Clauses 1.2 and 1.3)",
+       "ESOS Act 2000 and National Code 2018 (Standard 7)",
+       "CRICOS registration requirements"
+      ]
+     },
+     {
+      "type": "p",
+      "text": "Students’ learning is further supported with resources, practical exercises, and guidance to facilitate competency achievement in line with ASQA and CRICOS obligations."
+     }
+    ]
+   },
+   {
+    "key": "placement",
+    "title": "Work placement",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "To successfully complete this qualification, students must complete a minimum of 280 hours of vocational placement in a regulated early childhood education and care service in Australia. These hours allow students to demonstrate competence in real workplace environments as required by the national training package."
+     },
+     {
+      "type": "h",
+      "text": "Additional Work Placement Requirements"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "National Police Check (issued within the last 12 months)",
+       "Working with Children Check",
+       "COVID-19 Vaccination Certificate (minimum two doses)",
+       "Flu Vaccination Certificate (Yearly required)"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "rpl",
+    "title": "Recognition of prior learning",
+    "blocks": [
+     {
+      "type": "p",
+      "text": "Students may be eligible for Recognition of Prior Learning (RPL) or Credit Transfer based on previous qualifications or relevant work experience. Please enquire during enrolment to determine eligibility. For further information, please speak to a Job Training Institute staff member or"
+     }
+    ]
+   },
+   {
+    "key": "support",
+    "title": "Student support",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "Accounting: manisha@jti.edu.au",
+       "Work Placement: workplacement@jti.edu.au",
+       "Student Support: studentsupport@jti.edu.au",
+       "IT Support: itsupport@jti.edu.au",
+       "Enquiries: contact@jti.edu.au",
+       "Certificates: certificates@jti.edu.au",
+       "Urgent Enquiries: City Campus – (03) 9055 5007"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "other",
+    "title": "Other information",
+    "blocks": [
+     {
+      "type": "h",
+      "text": "JTI does not guarantee the following"
+     },
+     {
+      "type": "ul",
+      "items": [
+       "That a learner will successfully complete a training product on our scope of registration. Learners need to put effort in their study and completion of assignments, and JTI will provide the trainers and required resources to enable the learner to successfully complete their study.",
+       "A training product can be completed in a manner which does not meet the requirements of clause 1.1 and 1.2 of VET Standards 2015, e.g. in a shorter period of time than the AQF specifications.",
+       "A learner will obtain a particular employment outcome where this is outside the control of JTI. JTI is a training organisation and has no control of employment outcomes."
+      ]
+     }
+    ]
+   },
+   {
+    "key": "compliance",
+    "title": "Compliance & regulatory information",
+    "blocks": [
+     {
+      "type": "ul",
+      "items": [
+       "The course is delivered in line with ASQA Standards for RTOs 2015, the ESOS Act 2000, and the National Code 2018 to ensure international students receive high-quality education and support.",
+       "Students are informed of their rights, responsibilities, and support services in accordance with CRICOS obligations."
+      ]
+     },
+     {
+      "type": "p",
+      "text": "For more information please check the International Student’s Handbook (available on the JTI Website)."
+     }
+    ]
+   }
+  ]
  }
 }

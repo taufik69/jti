@@ -1,48 +1,54 @@
-import { GraduationCap, UserRound } from "lucide-react";
-import type { CourseDetails } from "@/lib/find-course";
+import type { ReactNode } from "react";
+import type { Course } from "@/content/courses";
+import { infoSection, type CourseDetails, type InfoSection } from "@/lib/find-course";
+import { CareersSection } from "./CareersSection";
+import { courseSections, moreInfoKeys, type SectionId } from "./course-sections";
 import { DetailSection } from "./DetailSection";
-import { EntryList } from "./EntryList";
-import { TagList } from "./TagList";
+import { FeesSection } from "./FeesSection";
+import { MoreInfo } from "./MoreInfo";
+import { OverviewSection } from "./OverviewSection";
+import { PlacementSection } from "./PlacementSection";
+import { RichBlocks } from "./RichBlocks";
+import { StudySection } from "./StudySection";
 import { UnitList } from "./UnitList";
 
 interface CourseBodyProps {
+  course: Course;
   details: CourseDetails;
 }
 
-/** Ids and labels for the sections this course actually has content for. */
-export function bodySections(details: CourseDetails) {
-  return [
-    { id: "overview", label: "Overview", show: details.overview.length > 0 },
-    { id: "units", label: `Course structure (${details.units.length} units)`, show: details.units.length > 0 },
-    { id: "entry", label: "Entry requirements", show: details.entry.length > 0 },
-    { id: "careers", label: "Career outcomes", show: details.careers.length > 0 },
-    { id: "pathways", label: "Further study", show: details.pathways.length > 0 },
-  ].filter((s) => s.show);
-}
+const titles: Record<SectionId, string> = {
+  overview: "Overview",
+  fees: "Fees",
+  units: "Course structure",
+  entry: "Entry & enrolment requirements",
+  study: "How you'll study",
+  placement: "Work placement",
+  careers: "Careers & further study",
+  more: "Good to know",
+};
 
-export function CourseBody({ details }: CourseBodyProps) {
+/** Every section of the jti.edu.au course page, regrouped and restyled. */
+export function CourseBody({ course, details }: CourseBodyProps) {
+  const more = moreInfoKeys.map((k) => infoSection(details, k)).filter((s): s is InfoSection => Boolean(s));
+  const content: Record<SectionId, ReactNode> = {
+    overview: <OverviewSection details={details} />,
+    fees: <FeesSection course={course} details={details} />,
+    units: <UnitList units={details.units} />,
+    entry: <RichBlocks blocks={infoSection(details, "entry")?.blocks ?? []} />,
+    study: <StudySection details={details} />,
+    placement: <PlacementSection course={course} details={details} />,
+    careers: <CareersSection details={details} />,
+    more: <MoreInfo sections={more} />,
+  };
+
   return (
-    <div className="space-y-10">
-      <DetailSection id="overview" title="Overview">
-        <div className="space-y-4 text-body-lg">
-          {details.overview.map((p) => <p key={p} className="text-left">{p}</p>)}
-        </div>
-        {details.assessment.length > 0 && (
-          <p className="mt-6 text-left text-[0.9375rem] text-muted">Assessed through: {details.assessment.join(", ")}.</p>
-        )}
-      </DetailSection>
-      {details.units.length > 0 && (
-        <DetailSection id="units" title="Course structure"><UnitList units={details.units} /></DetailSection>
-      )}
-      {details.entry.length > 0 && (
-        <DetailSection id="entry" title="Entry requirements"><EntryList items={details.entry} /></DetailSection>
-      )}
-      {details.careers.length > 0 && (
-        <DetailSection id="careers" title="Where this course can take you"><TagList items={details.careers} icon={UserRound} /></DetailSection>
-      )}
-      {details.pathways.length > 0 && (
-        <DetailSection id="pathways" title="Further study"><TagList items={details.pathways} icon={GraduationCap} /></DetailSection>
-      )}
+    <div className="space-y-14">
+      {courseSections(details).map(({ id }) => (
+        <DetailSection key={id} id={id} title={titles[id]}>
+          {content[id]}
+        </DetailSection>
+      ))}
     </div>
   );
 }

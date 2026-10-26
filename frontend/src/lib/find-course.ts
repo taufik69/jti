@@ -8,17 +8,42 @@ export interface CourseUnit {
   core: boolean;
 }
 
+/** Rich text from a jti.edu.au accordion, flattened to the few shapes the pages use. */
+export type ContentBlock =
+  | { type: "p" | "h" | "sep"; text: string }
+  | { type: "ul"; items: string[] }
+  | { type: "table"; rows: string[][] };
+
+export type InfoKey =
+  | "payment" | "entry" | "delivery" | "assessment" | "placement"
+  | "rpl" | "support" | "scholarship" | "compliance" | "other";
+
+export interface InfoSection {
+  key: InfoKey;
+  title: string;
+  blocks: ContentBlock[];
+}
+
+/** Domestic pricing table: self-funded always, self-paced where offered. Values as printed, e.g. "$5000". */
+export interface DomesticFees {
+  selfFunded: { registration: string | null; tuition: string | null; total: string | null };
+  selfPaced: { registration: string | null; total: string | null } | null;
+}
+
 export interface CourseDetails {
   overview: string[];
-  entry: string[];
   units: CourseUnit[];
   careers: string[];
   pathways: string[];
-  assessment: string[];
+  duration: ContentBlock[];
+  fees: DomesticFees | null;
+  /** Extra pricing rows such as recommended books and certificate re-issue. */
+  extras: { label: string; lines: string[] }[];
+  sections: InfoSection[];
 }
 
 /** Text taken from each course page on jti.edu.au (October 2026), keyed by URL slug. */
-const detailsBySlug: Record<string, CourseDetails> = details;
+const detailsBySlug = details as Record<string, CourseDetails>;
 
 export const slugOf = (course: Course) => course.href.replace("/course/", "");
 
@@ -36,4 +61,8 @@ export function otherAudienceVersion(course: Course): Course | undefined {
 /** Up to three courses in the same study area and student type. */
 export function relatedCourses(course: Course): Course[] {
   return allCourses.filter((c) => c.field === course.field && c.audience === course.audience && c.id !== course.id).slice(0, 3);
+}
+
+export function infoSection(details: CourseDetails, key: InfoKey): InfoSection | undefined {
+  return details.sections.find((s) => s.key === key);
 }
