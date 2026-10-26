@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { useReducedMotion } from "motion/react";
 import type { Swiper as SwiperInstance } from "swiper";

@@ -1,5 +1,3 @@
-"use client";
-
 import { useRef } from "react";
 import { useReducedMotion, useScroll, useSpring, useTransform } from "motion/react";
 import { REST_PROGRESS, tunnelCards } from "./tunnel-cards";

@@ -1,6 +1,4 @@
-"use client";
-
-import Image from "next/image";
+import { Image } from "@/components/ui/Image";
 import { motion, useTransform, type MotionValue } from "motion/react";
 import { cardWidth, STAGGER_SPAN, type StageSize, type TunnelCardData } from "./tunnel-cards";
 import type { PointerOffset } from "./usePointerParallax";

@@ -73,7 +73,7 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Roboto Variable", ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {

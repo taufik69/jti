@@ -1,8 +1,7 @@
-"use client";
-
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { deliverEnquiry } from "@/lib/deliver-enquiry";
 import { enquirySchema, type EnquiryValues } from "@/lib/enquiry-schema";
 
 export type EnquiryStatus = "idle" | "sent" | "error";
@@ -18,13 +17,9 @@ export function useEnquiryForm() {
 
   const onSubmit = form.handleSubmit(async (values) => {
     setStatus("idle");
-    const response = await fetch("/api/enquiry", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(values),
-    }).catch(() => null);
+    const delivered = await deliverEnquiry(values).catch(() => false);
 
-    if (!response?.ok) {
+    if (!delivered) {
       setStatus("error");
       return;
     }

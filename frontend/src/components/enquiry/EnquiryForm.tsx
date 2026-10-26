@@ -1,5 +1,3 @@
-"use client";
-
 import { Field } from "@/components/form/Field";
 import { Textarea } from "@/components/form/Textarea";
 import { Button } from "@/components/ui/Button";

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/components/ui/Link";
 import { ArrowUpRight } from "lucide-react";
 import { Chip } from "@/components/ui/Chip";
 import { Icon } from "@/components/ui/Icon";

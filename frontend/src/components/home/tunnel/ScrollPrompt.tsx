@@ -1,5 +1,3 @@
-"use client";
-
 import { motion, useTransform, type MotionValue } from "motion/react";
 
 interface ScrollPromptProps {

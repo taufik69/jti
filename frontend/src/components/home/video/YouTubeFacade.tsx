@@ -1,7 +1,5 @@
-"use client";
-
 import { useState } from "react";
-import Image from "next/image";
+import { Image } from "@/components/ui/Image";
 import { Play } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";
 

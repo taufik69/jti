@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { ButtonShowcase } from "@/components/styleguide/ButtonShowcase";
 import { CardShowcase } from "@/components/styleguide/CardShowcase";
 import { ColorSwatches } from "@/components/styleguide/ColorSwatches";
@@ -9,14 +8,11 @@ import { StyleguideBlock } from "@/components/styleguide/StyleguideBlock";
 import { TypeScale } from "@/components/styleguide/TypeScale";
 import { Container } from "@/components/ui/Container";
 
-export const metadata: Metadata = {
-  title: "Styleguide",
-  robots: { index: false, follow: false },
-};
-
-export default function StyleguidePage() {
+export function StyleguidePage() {
   return (
     <Container className="pb-24 pt-12 md:pt-20">
+      <title>Styleguide · Job Training Institute</title>
+      <meta name="robots" content="noindex, nofollow" />
       <h1 className="text-h1 max-w-[18ch]">JTI design system</h1>
       <p className="mt-4 max-w-[60ch] text-body-lg">
         Tokens and base components for the jti.edu.au rebuild. Everything on the site is assembled

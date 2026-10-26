@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import { Image } from "@/components/ui/Image";
+import { Link } from "@/components/ui/Link";
 import { ArrowUpRight } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";
 import type { ExploreTile as ExploreTileData } from "@/content/explore";
@@ -19,7 +19,6 @@ export function ExploreTile({ tile }: ExploreTileProps) {
         alt=""
         fill
         sizes="(min-width: 1024px) 20vw, (min-width: 768px) 33vw, 72vw"
-        quality={85}
         style={{ objectPosition: tile.position }}
         className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.05]"
       />

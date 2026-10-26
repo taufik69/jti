@@ -1,5 +1,3 @@
-"use client";
-
 import { motion, useTransform, type MotionValue } from "motion/react";
 import { Button } from "@/components/ui/Button";
 import { tunnelHero } from "@/content/hero-tunnel";
