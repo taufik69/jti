@@ -1,8 +1,8 @@
 import { EnquirySection } from "@/components/enquiry/EnquirySection";
 import { CourseFinder } from "@/components/home/courses/CourseFinder";
 import { ExploreSection } from "@/components/home/explore/ExploreSection";
-import { HeroSlider } from "@/components/home/slider/HeroSlider";
 import { TestimonialsSection } from "@/components/home/testimonials/TestimonialsSection";
+import { TunnelHero } from "@/components/home/tunnel/TunnelHero";
 import { VideoSection } from "@/components/home/video/VideoSection";
 import { WelcomeSection } from "@/components/home/welcome/WelcomeSection";
 
@@ -10,7 +10,7 @@ import { WelcomeSection } from "@/components/home/welcome/WelcomeSection";
 export default function HomePage() {
   return (
     <>
-      <HeroSlider />
+      <TunnelHero />
       <WelcomeSection />
       <ExploreSection />
       <CourseFinder />
