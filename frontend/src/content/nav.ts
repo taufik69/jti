@@ -1,19 +1,9 @@
-import { coursesColumns } from "./nav-courses";
 import type { NavItem } from "./types";
 
 export const mainNav: NavItem[] = [
   { label: "Home", href: "/" },
-  {
-    label: "Courses",
-    href: "/courses",
-    columns: coursesColumns,
-    feature: {
-      label: "Scholarships",
-      title: "Scholarships for international students",
-      href: "/study/scholarships",
-      image: "/images/choose.jpg", // TODO: replace with real JTI photo
-    },
-  },
+  /** A plain link: the course finder page replaces the old courses mega menu. */
+  { label: "Courses", href: "/courses" },
   {
     label: "Study with us",
     href: "/study/why-choose-job-training-institute",

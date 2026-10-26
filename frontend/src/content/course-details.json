@@ -1,0 +1,1908 @@
+{
+ "bsb60120-advanced-diploma-of-business": {
+  "overview": [
+   "This qualification reflects the role of individuals in a variety of Business Services job roles. These individuals may have general management accountabilities.",
+   "Individuals in these roles carry out complex tasks in a specialist field of expertise. They may undertake technical research and analysis, and will often contribute to setting the strategic direction for a work area.",
+   "The qualification is suited to individuals who are responsible for the supervision and leadership of a team or work area (including by managing staff performance and making staffing decisions). Licensing/Regulatory Information"
+  ],
+  "entry": [
+   "Entry to this qualification is limited to those who have completed a Diploma or Advanced Diploma from the BSB Training Package (current or superseded equivalent versions). or",
+   "Have two years equivalent full-time relevant workplace experience in an operational or leadership role in an enterprise.",
+   "To enrol in this course, applicants should submit:",
+   "Completed and signed 'Application for Enrolment Form';",
+   "Certified transcripts of academic records including the last two years of schooling;",
+   "Certified evidence of completing year 12;",
+   "Certified evidence of date of birth/Passport;",
+   "Certified evidence English language proficiency;",
+   "Letter(s) of recommendation from teacher(s) (if available);",
+   "Minimum Age Requirement: 18 years of age;",
+   "Unique Student Identifier (USI)- application for USI is done at the time of enrolment into the course."
+  ],
+  "units": [
+   {
+    "code": "BSBCRT611",
+    "name": "Apply critical thinking for complex problem solving",
+    "core": true
+   },
+   {
+    "code": "BSBFIN601",
+    "name": "Manage organisational finances",
+    "core": true
+   },
+   {
+    "code": "BSBOPS601",
+    "name": "Develop and implement business plans",
+    "core": true
+   },
+   {
+    "code": "BSBSUS601",
+    "name": "Lead corporate social responsibility",
+    "core": true
+   },
+   {
+    "code": "BSBTEC601",
+    "name": "Review organisational digital strategy",
+    "core": true
+   },
+   {
+    "code": "BSBWHS521",
+    "name": "Ensure a safe workplace for a work area",
+    "core": false
+   },
+   {
+    "code": "BSBSTR801",
+    "name": "Lead innovative thinking and practice",
+    "core": false
+   },
+   {
+    "code": "BSBOPS505",
+    "name": "Manage organisational customer service",
+    "core": false
+   },
+   {
+    "code": "BSBHRM614",
+    "name": "Contribute to strategic workforce planning",
+    "core": false
+   },
+   {
+    "code": "BSBLDR601",
+    "name": "Lead and manage organisational change",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Quarry Business Manager",
+   "Business Analyst",
+   "Senior Executive",
+   "Business Development Director",
+   "Administrator"
+  ],
+  "pathways": [
+   "Bachelor of Business (Marketing)"
+  ],
+  "assessment": [
+   "Written Assessments",
+   "Report",
+   "Project",
+   "Role Play",
+   "Implementation",
+   "Review & Evaluation",
+   "Observation",
+   "Presentation"
+  ]
+ },
+ "certificate-iii-in-early-childhood-education-and-care": {
+  "overview": [
+   "The CHC30125 Certificate III in Early Childhood Education and Care is a nationally recognized qualification designed for individuals who are passionate about nurturing and educating young children during their most formative years. This course equips learners with the essential knowledge, practical skills, and understanding to provide high-quality care and educational support in a variety of early childhood settings.",
+   "Prospective learners should ensure they are physically able to perform required duties such as lifting, bending, and engaging in floor-based play with children.",
+   "Graduates of this qualification will be prepared to work under supervision or autonomously, depending on the service environment, and in accordance with the Education and Care Services National Regulations and the National Quality Standard (NQS)."
+  ],
+  "entry": [
+   "Be 18 years of age or older at the time of enrolment",
+   "Be reasonably physically fit (due to the physical demands of the role)",
+   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+   "Complete Language, Literacy, and Numeracy assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+  ],
+  "units": [
+   {
+    "code": "CHCECE030",
+    "name": "Support inclusion and diversity",
+    "core": true
+   },
+   {
+    "code": "CHCECE031",
+    "name": "Support children’s health, safety and wellbeing",
+    "core": true
+   },
+   {
+    "code": "CHCECE032",
+    "name": "Nurture babies and toddlers",
+    "core": true
+   },
+   {
+    "code": "CHCECE033",
+    "name": "Develop positive and respectful relationships with children",
+    "core": true
+   },
+   {
+    "code": "CHCECE034",
+    "name": "Use an approved learning framework to guide practice",
+    "core": true
+   },
+   {
+    "code": "CHCECE035",
+    "name": "Support the holistic learning and development of children",
+    "core": true
+   },
+   {
+    "code": "CHCECE036",
+    "name": "Provide experiences to support children’s play and learning",
+    "core": true
+   },
+   {
+    "code": "CHCECE037",
+    "name": "Support children to connect with the natural environment",
+    "core": true
+   },
+   {
+    "code": "CHCECE038",
+    "name": "Observe children to inform practice",
+    "core": true
+   },
+   {
+    "code": "CHCECE054",
+    "name": "Encourage understanding of Aboriginal and/or Torres Strait Islander peoples’ cultures",
+    "core": true
+   },
+   {
+    "code": "CHCECE055",
+    "name": "Meet legal and ethical obligations in children’s education and care",
+    "core": true
+   },
+   {
+    "code": "CHCECE056",
+    "name": "Work effectively in children’s education and care",
+    "core": true
+   },
+   {
+    "code": "CHCPRT025",
+    "name": "Identify and report children and young people at risk",
+    "core": true
+   },
+   {
+    "code": "HLTAID012",
+    "name": "Provide First Aid in an education and care setting",
+    "core": true
+   },
+   {
+    "code": "HLTWHS001",
+    "name": "Participate in workplace health and safety",
+    "core": true
+   },
+   {
+    "code": "CHCDIV001",
+    "name": "Work with diverse people",
+    "core": false
+   },
+   {
+    "code": "CHCPRP003",
+    "name": "Reflect on and improve own professional practice",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Educator",
+   "Child Care Worker",
+   "Family Day Care Worker",
+   "Out of School Hours Care Worker",
+   "Nanny"
+  ],
+  "pathways": [
+   "CHC50125 Diploma of Early Childhood Education and Care",
+   "Bachelor of Early Childhood Education or Bachelor of Education(Early Childhood)"
+  ],
+  "assessment": [
+   "Written Assessments",
+   "Case Studies/Scenarios",
+   "Research Activity/Projects/Plans",
+   "Simulations/ role play",
+   "Reflective practice / Self-reflection",
+   "Third Party Observation",
+   "Work placement Assessment Task"
+  ]
+ },
+ "certificate-iii-in-individual-support-ageing-disability": {
+  "overview": [
+   "The CHC33021 Certificate III in Individual Support (Ageing and Disability) is a nationally recognised qualification designed for individuals seeking a rewarding career in the Aged Care and Disability sectors. This course equips students with the essential skills and knowledge to provide person-centred support to older individuals and people living with a disability across a range of settings, including residential aged care facilities, home care environments, and community care services.",
+   "Through a combination of theory, practical simulation, and real-world placement, students will gain competencies in delivering physical, emotional, and behavioural support, implementing individualised care plans, understanding dementia, and promoting independence and quality of life for clients."
+  ],
+  "entry": [
+   "Be 18 years of age or older at the time of enrolment",
+   "Be reasonably physically fit (due to the physical demands of the role)",
+   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+   "Complete Language, Literacy, and Numeracy (LLN) assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+  ],
+  "units": [
+   {
+    "code": "CHCCCS031",
+    "name": "Provide individualized support",
+    "core": true
+   },
+   {
+    "code": "CHCCCS038",
+    "name": "Facilitate the empowerment of people receiving support",
+    "core": true
+   },
+   {
+    "code": "CHCCCS040",
+    "name": "Support independence and wellbeing",
+    "core": true
+   },
+   {
+    "code": "CHCCCS041",
+    "name": "Recognize healthy body systems",
+    "core": true
+   },
+   {
+    "code": "CHCCOM005",
+    "name": "Communicate and work in health in community services",
+    "core": true
+   },
+   {
+    "code": "CHCDIV001",
+    "name": "Work with diverse people",
+    "core": true
+   },
+   {
+    "code": "CHCLEG001",
+    "name": "Work legally and ethically",
+    "core": true
+   },
+   {
+    "code": "HLTINF006",
+    "name": "Apply basic principles and practices of infection prevention and control",
+    "core": true
+   },
+   {
+    "code": "HLTWHS002",
+    "name": "Follow safe work practices for direct client care",
+    "core": true
+   },
+   {
+    "code": "CHCAGE011",
+    "name": "Provide support to people living with dementia",
+    "core": false
+   },
+   {
+    "code": "CHCAGE013",
+    "name": "Work effectively in aged care",
+    "core": false
+   },
+   {
+    "code": "CHCPAL003",
+    "name": "Deliver care services using a palliative approach",
+    "core": false
+   },
+   {
+    "code": "CHCDIS011",
+    "name": "Contribute to ongoing skills development using a strengths-based approach",
+    "core": false
+   },
+   {
+    "code": "CHCDIS012",
+    "name": "Support community participation and social inclusion",
+    "core": false
+   },
+   {
+    "code": "CHCDIS020",
+    "name": "Work effectively in disability support",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Senior Personal Care Assistant",
+   "Care assistant",
+   "Accommodation Support Worker",
+   "Residential Support Worker",
+   "Community Access Coordinator",
+   "Community care worker",
+   "Community House Worker",
+   "Residential Care Worker",
+   "Food Services Deliverer",
+   "Transport Support Worker"
+  ],
+  "pathways": [
+   "CHC43121 - Certificate IV in Disability Support",
+   "CHC43015 - Certificate IV in Ageing Support",
+   "CHC52025 - Diploma of Community Services",
+   "CHC53315 - Diploma of Mental Health"
+  ],
+  "assessment": []
+ },
+ "certificate-iv-in-disability": {
+  "overview": [
+   "The Certificate IV in Disability Support (CHC43121) is a nationally recognized qualification designed for individuals who are passionate about empowering people with disabilities to achieve greater levels of independence, self-reliance, and community participation.",
+   "This qualification reflects the role of workers in the disability support sector who operate autonomously and may take on leadership or supervisory responsibilities. It is ideal for individuals who already have experience in the sector or those looking to advance their careers in a meaningful and rewarding field."
+  ],
+  "entry": [
+   "Completion of: CHC33021 Certificate III in Individual Support (Disability), OR",
+   "Completion of: CHC33015 Certificate III in Individual Support (Disability), OR",
+   "Completion of: CHC30408 Certificate III in Disability PLUS the CHCSS00125 Entry to Certificate IV in Disability Support",
+   "Be 18 years of age or older at the time of enrolment",
+   "Be reasonably physically fit (due to the physical demands of the role)",
+   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+   "Complete Language, Literacy, and Numeracy (LLN) assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+  ],
+  "units": [
+   {
+    "code": "CHCCCS044",
+    "name": "Follow established person-centered behaviour supports",
+    "core": true
+   },
+   {
+    "code": "CHCDIS017",
+    "name": "Facilitate community participation and social inclusion",
+    "core": true
+   },
+   {
+    "code": "CHCDIS018",
+    "name": "Facilitate ongoing skills development using a person-centred approach",
+    "core": true
+   },
+   {
+    "code": "CHCDIS019",
+    "name": "Provide person-centred services to people with disability with complex needs",
+    "core": true
+   },
+   {
+    "code": "CHCLEG003",
+    "name": "Manage legal and ethical compliance",
+    "core": true
+   },
+   {
+    "code": "CHCMHS001",
+    "name": "Work with people with mental health issues",
+    "core": true
+   },
+   {
+    "code": "HLTWHS003",
+    "name": "Maintain work health and safety",
+    "core": true
+   },
+   {
+    "code": "CHCCCS007",
+    "name": "Develop and implement service programs",
+    "core": false
+   },
+   {
+    "code": "CHCCCS004",
+    "name": "Assess co-existing needs",
+    "core": false
+   },
+   {
+    "code": "CHCDIV003",
+    "name": "Manage and promote diversity",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Social Educator (Disability)",
+   "Day Support Disability Officer",
+   "Marketing Coordinator (Disability)",
+   "Local area coordinator",
+   "Social trainer",
+   "Disability Team Leader",
+   "Disabilities Supervisor",
+   "Project Officer",
+   "Disability Support Assistant (Schools)",
+   "Job coordinator"
+  ],
+  "pathways": [
+   "CHC52025 Diploma of Community Services",
+   "CHC53315 - Diploma of Mental Health",
+   "CHC62015 Advanced Diploma of Community Sector Management"
+  ],
+  "assessment": []
+ },
+ "certificate-iv-in-mental-health-peer-work-1": {
+  "overview": [
+   "CHC43515 Certificate IV in Mental Health Peer Work is a course you can choose to specialise in either consumer peer work or carer peer work. In both specialisations you will develop communication skills, learn how to work with a diverse range of people, and gain experience working within the recovery framework. Our highly-experienced team of industry professionals will give you the one-on-one guidance needed to succeed in the industry.",
+   "This qualification reflects the role of workers who have lived experience of mental illness as either a consumer or carer and who work in mental health services in roles that support consumer peer or carer peers. Workers are employed in the mental health sector in government, public, private or community managed services.",
+   "Upon completion of this course you will be qualified to work in a range of residential, outreach, and peer support programs as a mental health peer worker."
+  ],
+  "entry": [
+   "Be 18 years of age or older at the time of enrolment",
+   "Be reasonably physically fit (due to the physical demands of the role)",
+   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+   "Complete Language, Literacy, and Numeracy (LLN) assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+  ],
+  "units": [
+   {
+    "code": "CHCDIV001",
+    "name": "Work with diverse people",
+    "core": true
+   },
+   {
+    "code": "CHCMHS007",
+    "name": "Work effectively in trauma-informed care",
+    "core": true
+   },
+   {
+    "code": "CHCMHS008",
+    "name": "Promote and facilitate self-advocacy",
+    "core": true
+   },
+   {
+    "code": "CHCMHS011",
+    "name": "Assess and promote social, emotional, and physical wellbeing",
+    "core": true
+   },
+   {
+    "code": "CHCPWK001",
+    "name": "Apply peer work practices in the mental health sector",
+    "core": true
+   },
+   {
+    "code": "CHCPWK002",
+    "name": "Contribute to the continuous improvement of mental health services",
+    "core": true
+   },
+   {
+    "code": "CHCPWK003",
+    "name": "Apply lived experience in mental health peer work",
+    "core": true
+   },
+   {
+    "code": "HLTWHS001",
+    "name": "Participate in workplace health and safety",
+    "core": true
+   },
+   {
+    "code": "CHCPWK004",
+    "name": "Work effectively in consumer mental health peer work",
+    "core": false
+   },
+   {
+    "code": "CHCPWK005",
+    "name": "Work effectively with carers as a mental health peer worker",
+    "core": false
+   },
+   {
+    "code": "CHCADV005",
+    "name": "Provide systems advocacy services",
+    "core": false
+   },
+   {
+    "code": "CHCMHS002",
+    "name": "Establish self-directed recovery relationships",
+    "core": false
+   },
+   {
+    "code": "CHCMHS003",
+    "name": "Provide recovery oriented mental health services",
+    "core": false
+   },
+   {
+    "code": "CHCMHS004",
+    "name": "Work collaboratively with the care network and other services",
+    "core": false
+   },
+   {
+    "code": "CHCCCS001",
+    "name": "Address the needs of people with chronic disease",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Mental Health Support Worker",
+   "Consumer Peer Worker",
+   "Carer Peer Worker",
+   "Peer Support Worker (community, hospital, residential or outreach settings)",
+   "Lived Experience Support Worker",
+   "Mental Health Recovery Worker",
+   "Community Support Worker (Peer Specialist)",
+   "Family Peer Support Worker",
+   "Youth Peer Support Worker (youth services or early intervention programs)",
+   "AOD Peer Worker (Alcohol and Other Drugs services)"
+  ],
+  "pathways": [
+   "Diploma of Mental Health",
+   "Bachelor of Community Mental Health, Alcohol and Other Drugs",
+   "Specialised Skill sets for work within a variety of Community Services settings",
+   "CHC62015 Advanced Diploma of Community Sector Management",
+   "Bachelor of Applied Social Science (Community Services)",
+   "Bachelor of Psychological Science"
+  ],
+  "assessment": []
+ },
+ "diploma-of-business": {
+  "overview": [
+   "This course is designed to give you develop the skills and knowledge to start a new business or pursue a management role to support employees. Our BSB50120 Diploma of Business (Leadership) can provide valuable trainings needed to become a valued business professional, focusing on applying effective leadership practices when managing a team to meet company objectives.",
+   "This qualification reflects the role of individuals in a variety of Business Services job roles and may have frontline management accountabilities.",
+   "In this role, people carry out moderately complex tasks in a specialist field of expertise that requires business operations skills. They may possess substantial experience in a range of settings but seek to further develop their skills across a wide range of business functions. No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+  ],
+  "entry": [
+   "There are no prerequisites or mandatory entry requirements, allowing flexible entry points that reflect an entrant’s knowledge, skills and experience.",
+   "Entry requirements for this course are:",
+   "An online application or written enrolment form",
+   "Pre-Training Review which includes a successful completion of language, literacy and numeracy assessment",
+   "Unique Student Identifier (USI)-done during the enrolment process Identification Documents",
+   "Identification documents, one of which has a photograph of the student such as a passport and/or driver license.",
+   "Language, Literacy and Numeracy Assessment:",
+   "Prior to course commencement, students will be required to undertake a pre-training review which includes a Language, Literacy and Numeracy (LLN) Assessment. This assessment is used to determine the student’s level of language, literacy and numeracy as well as student’s suitability for the specific qualification as required to complete the course and whether the student requires additional support. Students who are assessed as not having the required level of language, literacy and numeracy skills will be referred to external support networks or to JTI English classes for further skills development in the required area/s. Students can re-apply for enrolment once they have developed skills in that area.",
+   "It would be preferred if you are under 25 that you have completed year 10.",
+   "If you are over 25, you should have relevant work/life experience.",
+   "If you are aged 18 years and below, we need further approvals from your guardian before enrolling you in the course."
+  ],
+  "units": [
+   {
+    "code": "BSBCRT511",
+    "name": "Develop critical thinking in others",
+    "core": true
+   },
+   {
+    "code": "BSBFIN501",
+    "name": "Manage budgets and financial plans",
+    "core": true
+   },
+   {
+    "code": "BSBOPS501",
+    "name": "Manage business resources",
+    "core": true
+   },
+   {
+    "code": "BSBSUS511",
+    "name": "Develop workplace policies and procedures for sustainability",
+    "core": true
+   },
+   {
+    "code": "BSBXCM501",
+    "name": "Lead communication in the workplace",
+    "core": true
+   },
+   {
+    "code": "BSBPMG430",
+    "name": "Undertake project work",
+    "core": false
+   },
+   {
+    "code": "BSBOPS504",
+    "name": "Manage business risk",
+    "core": false
+   },
+   {
+    "code": "BSBHRM521",
+    "name": "Facilitate performance development processes",
+    "core": false
+   },
+   {
+    "code": "BSBLDR522",
+    "name": "Manage people performance",
+    "core": false
+   },
+   {
+    "code": "BSBTWK502",
+    "name": "Manage team effectiveness",
+    "core": false
+   },
+   {
+    "code": "BSBLDR523",
+    "name": "Lead and manage effective workplace relationships",
+    "core": false
+   },
+   {
+    "code": "BSBSTR503",
+    "name": "Develop organisational policy",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Operations Manager",
+   "Business Manager",
+   "Regional Manager",
+   "Executive Manager",
+   "Business Owner",
+   "Team Leader"
+  ],
+  "pathways": [
+   "Diploma of Human Resources Management",
+   "Advanced Diploma of Business",
+   "Advanced Diploma of Leadership and Management"
+  ],
+  "assessment": []
+ },
+ "diploma-of-community-services-case-management": {
+  "overview": [
+   "The CHC52025 Diploma of Community Services (Case Management & Child, Youth and Family Welfare) is a course designed to give you the foundation knowledge needed for working in the Community Sector. This course provides you with the knowledge and skills required to perform as a professional community services worker, across a variety of settings within the social and community services industry. These may include areas such as mental health, homelessness, family and domestic violence, child protection, employment support and migrant services. The course provides the skills and knowledge essential to undertake case management in the community services sector. Students gain the expertise and knowledge necessary to facilitate case management, assess and analyze client needs, communicate effectively with clients and staff, and support client self-management."
+  ],
+  "entry": [
+   "Be 18 years of age or older at the time of enrolment",
+   "Be reasonably physically fit (due to the physical demands of the role)",
+   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+   "Complete Language, Literacy, and Numeracy assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+  ],
+  "units": [
+   {
+    "code": "CHCCCS004",
+    "name": "Assess co-existing needs",
+    "core": true
+   },
+   {
+    "code": "CHCCCS007",
+    "name": "Develop and implement service programs",
+    "core": true
+   },
+   {
+    "code": "CHCCCS019",
+    "name": "Recognise and respond to crisis situations",
+    "core": true
+   },
+   {
+    "code": "CHCCSM017",
+    "name": "Facilitate and review case management",
+    "core": true
+   },
+   {
+    "code": "CHCDEV005",
+    "name": "Analyse impacts of sociological factors on people in community work and services",
+    "core": true
+   },
+   {
+    "code": "CHCDFV001",
+    "name": "Recognise and respond appropriately to domestic and family violence",
+    "core": true
+   },
+   {
+    "code": "CHCDIV001",
+    "name": "Work with diverse people",
+    "core": true
+   },
+   {
+    "code": "CHCDIV002",
+    "name": "Promote Aboriginal and/or Torres Strait Islander cultural safety",
+    "core": true
+   },
+   {
+    "code": "CHCLEG003",
+    "name": "Manage legal and ethical compliance",
+    "core": true
+   },
+   {
+    "code": "CHCMGT005",
+    "name": "Facilitate workplace debriefing and support processes",
+    "core": true
+   },
+   {
+    "code": "CHCPRP003",
+    "name": "Reflect on and improve own professional practice",
+    "core": true
+   },
+   {
+    "code": "HLTWHS003",
+    "name": "Maintain work health and safety",
+    "core": true
+   },
+   {
+    "code": "CHCCSM009",
+    "name": "Facilitate goal-directed planning",
+    "core": false
+   },
+   {
+    "code": "CHCCSM014",
+    "name": "Provide case management supervision",
+    "core": false
+   },
+   {
+    "code": "CHCCSM016",
+    "name": "Undertake advanced assessments",
+    "core": false
+   },
+   {
+    "code": "CHCCSM015",
+    "name": "Undertake case management in a child protection framework",
+    "core": false
+   },
+   {
+    "code": "CHCMHS013",
+    "name": "Implement trauma informed care",
+    "core": false
+   },
+   {
+    "code": "CHCPRT025",
+    "name": "Identify and report children and young people at risk",
+    "core": false
+   },
+   {
+    "code": "CHCADV005",
+    "name": "Provide systems advocacy services",
+    "core": false
+   },
+   {
+    "code": "CHCMGT002",
+    "name": "Manage partnership agreements with service providers",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Senior Youth Worker",
+   "Aboriginal Housing Worker",
+   "Community Development Worker for Social Housing",
+   "Assistant Community Services Worker",
+   "Community Work Coordinator",
+   "Support Facilitator (Disability)",
+   "Support Facilitator (Community Services)",
+   "Community Housing Worker",
+   "Assistant Community Worker",
+   "Coordinator of Volunteer Work"
+  ],
+  "pathways": [
+   "CHC62015 - Advanced Diploma of Community Sector Management",
+   "Bachelor of Applied Social Science (Community Services)",
+   "Bachelor of Psychological Science",
+   "Bachelor of Psychological Science (Honours)",
+   "Bachelor of Social Work"
+  ],
+  "assessment": []
+ },
+ "diploma-of-early-childhood-education-and-care": {
+  "overview": [
+   "This qualification covers workers in early childhood educators who are responsible for designing and implementing curriculum in early childhood education and care services. In doing so, they work to implement an approved learning framework within the requirements of the Education and Care Services National Regulations and the National Quality Standard.",
+   "Graduates from Diploma of Early Childhood and Care have responsibility for supervision of other staff and volunteers. In most states it is the highest qualification required at director or service manager level for children’s service centre-based care.",
+   "It is noted that whilst Diploma of Early Childhood equips workers to work with children from 0-5 years of age, some workplaces and jurisdictions require workers to have skills and knowledge to work with children in both early and middle childhood (i.e. aged 0-12 years).",
+   "Where workers are required to work across the span of development from 0-12 years, candidates should receive training and/or assessment across this broader span of development and in addition to the qualification, be awarded a Statement of Attainment for achievement of the Middle childhood development skill set. VET Student loans is available for this course.",
+   "CHC50125 Diploma of Early Childhood Education and Care is delivered with Victoria and Common Wealth Government, funding for students who meet the eligibility criteria. Please Note:"
+  ],
+  "entry": [
+   "Entry to this qualification is open to individuals who hold:",
+   "CHC30125 Certificate III in Early Childhood Education and Care (or its equivalent successor) or",
+   "CHC30113 Certificate III in Early Childhood Education and Care.",
+   "Alternatively, individuals may hold:",
+   "An Australian diploma in Early Childhood Education and Care or",
+   "An Australian diploma or certificate III in Children’s Services.",
+   "AND",
+   "Demonstrate at least 12 months of cumulative employment (full-time equivalent) within the last 5 years in a regulated education and care service in Australia, supported by verifiable evidence. or",
+   "Hold the CHCSS00147 Entry into Diploma of Early Childhood Education and Care."
+  ],
+  "units": [
+   {
+    "code": "BSBTWK502",
+    "name": "Manage team effectiveness",
+    "core": true
+   },
+   {
+    "code": "CHCECE041",
+    "name": "Maintain a safe and healthy environment for children",
+    "core": true
+   },
+   {
+    "code": "CHCECE042",
+    "name": "Foster holistic early childhood learning, development and wellbeing",
+    "core": true
+   },
+   {
+    "code": "CHCECE043",
+    "name": "Nurture creativity in children",
+    "core": true
+   },
+   {
+    "code": "CHCECE044",
+    "name": "Facilitate compliance in a children’s education and care service",
+    "core": true
+   },
+   {
+    "code": "CHCECE045",
+    "name": "Foster positive and respectful interactions and behaviour in children",
+    "core": true
+   },
+   {
+    "code": "CHCECE046",
+    "name": "Implement strategies for the inclusion of all children",
+    "core": true
+   },
+   {
+    "code": "CHCECE047",
+    "name": "Analyse information to inform children’s learning",
+    "core": true
+   },
+   {
+    "code": "CHCECE048",
+    "name": "Plan and implement children's education and care curriculum",
+    "core": true
+   },
+   {
+    "code": "CHCECE049",
+    "name": "Embed environmental responsibility in service operations",
+    "core": true
+   },
+   {
+    "code": "CHCECE050",
+    "name": "Work in partnership with children’s families",
+    "core": true
+   },
+   {
+    "code": "CHCPRP003",
+    "name": "Reflect on and improve own professional practice",
+    "core": true
+   },
+   {
+    "code": "CHCMGT003",
+    "name": "Lead the work team",
+    "core": false
+   },
+   {
+    "code": "CHCPOL002",
+    "name": "Develop and implement policy",
+    "core": false
+   },
+   {
+    "code": "CHCECE053",
+    "name": "Respond to grievances and complaints about the service",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Authorised supervisor (children’s services)",
+   "Centre manager (children’s services)",
+   "Childhood educator",
+   "Children’s adviser",
+   "Children’s service director / manager",
+   "Children’s services coordinator",
+   "Director (children’s services)",
+   "Group/team coordinator/leader (children’s services)",
+   "Program leader (children’s services)",
+   "Child development worker"
+  ],
+  "pathways": [
+   "Bachelor of Education Primary/Secondary",
+   "Bachelor of Early Childhood Education or Bachelor of Education(Early Childhood)"
+  ],
+  "assessment": [
+   "Written Assessments",
+   "Case Studies/Scenarios",
+   "Research Activity/Projects/Plans",
+   "Simulations/ role play",
+   "reflective practice / Self- reflection",
+   "Performance Feedback",
+   "third party Observation",
+   "Work placement Assessment Task"
+  ]
+ },
+ "diploma-of-mental-health-1": {
+  "overview": [
+   "CHC53315 Diploma of Mental Health is a course designed to give you the foundation knowledge needed for working in the Community Sector. This course provides you with the knowledge and skills required to perform as a professional community services worker, across a variety of settings within the social and community services industry. These may include areas such as mental health, homelessness, family and domestic violence, child protection, employment support, and migrant services. This qualification reflects the role of workers who provide services to clients in relation to mental health issues. They can provide counseling, referral, advocacy, and education/health promotion services. These workers are required to have high-level specialist knowledge, skills, and competencies, especially in regard to laws affecting people with mental health issues, the range of services available to them and health issues related to mental health."
+  ],
+  "entry": [
+   "Be 18 years of age or older at the time of enrolment",
+   "Be reasonably physically fit (due to the physical demands of the role)",
+   "Complete a pre-enrolment interview with the Enrolment Manager and, if needed, with the Trainer",
+   "Complete Language, Literacy, and Numeracy assessment via LLN Robot and determine a student’s digital literacy skills before enrolment"
+  ],
+  "units": [
+   {
+    "code": "HLTWHS004",
+    "name": "Manage work health and safety",
+    "core": true
+   },
+   {
+    "code": "CHCADV005",
+    "name": "Provide systems advocacy services",
+    "core": true
+   },
+   {
+    "code": "CHCDIV001",
+    "name": "Work with diverse people",
+    "core": true
+   },
+   {
+    "code": "CHCDIV002",
+    "name": "Promote Aboriginal and/or Torres Strait Islander cultural safety",
+    "core": true
+   },
+   {
+    "code": "CHCMHS002",
+    "name": "Establish self-directed recovery relationships",
+    "core": true
+   },
+   {
+    "code": "CHCMHS003",
+    "name": "Provide recovery oriented mental health services",
+    "core": true
+   },
+   {
+    "code": "CHCMHS004",
+    "name": "Work collaboratively with the care network and other services",
+    "core": true
+   },
+   {
+    "code": "CHCMHS005",
+    "name": "Provide services to people with co-existing mental health and alcohol and other drugs issues",
+    "core": true
+   },
+   {
+    "code": "CHCMHS009",
+    "name": "Provide early intervention, health prevention and promotion programs",
+    "core": true
+   },
+   {
+    "code": "CHCMHS010",
+    "name": "Implement recovery-oriented approaches to complexity",
+    "core": true
+   },
+   {
+    "code": "CHCMHS011",
+    "name": "Assess and promote social, emotional and physical wellbeing",
+    "core": true
+   },
+   {
+    "code": "CHCMHS012",
+    "name": "Provide support to develop wellness plans and advanced directives",
+    "core": true
+   },
+   {
+    "code": "CHCMHS013",
+    "name": "Implement trauma informed care",
+    "core": true
+   },
+   {
+    "code": "CHCPOL003",
+    "name": "Research and apply evidence to practice",
+    "core": true
+   },
+   {
+    "code": "CHCPRP003",
+    "name": "Reflect on and improve own professional practice",
+    "core": true
+   },
+   {
+    "code": "CHCPRP001",
+    "name": "Develop and maintain networks and collaborative partnerships",
+    "core": false
+   },
+   {
+    "code": "CHCCSL001",
+    "name": "Establish and confirm the counselling relationship",
+    "core": false
+   },
+   {
+    "code": "CHCMGT002",
+    "name": "Manage partnership agreements with service providers",
+    "core": false
+   },
+   {
+    "code": "HLTAAP001",
+    "name": "Recognise healthy body systems",
+    "core": false
+   },
+   {
+    "code": "CHCMHS006",
+    "name": "Facilitate the recovery process with the person, family and carers",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Mental health support worker",
+   "Case Manager / Mental Health Case Manager",
+   "Community Mental Health Case Worker / Outreach Case Worker",
+   "Peer Worker / Peer Support Practitioner",
+   "Welfare Officer / Support Coordinator",
+   "Community Rehabilitation Worker",
+   "Youth Mental Health Worker"
+  ],
+  "pathways": [
+   "Bachelor of Community Mental Health, Alcohol and Other Drugs",
+   "Specialised Skill sets for work within a variety of Community Services settings",
+   "CHC62015 Advanced Diploma of Community Sector Management",
+   "Bachelor of Applied Social Science (Community Services)",
+   "Bachelor of Psychological Science",
+   "Bachelor of Psychological Science (Honours)"
+  ],
+  "assessment": []
+ },
+ "int-certificate-iii-in-early-childhood-education-and-care": {
+  "overview": [
+   "This qualification reflects the role of early childhood educators who support children’s wellbeing, learning and development in regulated education and care services in Australia. Educators apply well-developed skills and knowledge, working within approved learning frameworks and established policies and procedures. They may work independently or under limited supervision. Graduates may find employment in long day care, family day care, kindergartens or preschools.",
+   "To achieve this qualification, students must complete a minimum of 160 hours of work placement in a regulated early childhood education and care service in Australia.",
+   "There are currently no occupational licensing requirements for this qualification. For regulatory information and approved qualifications, please refer to ACECQA."
+  ],
+  "entry": [
+   "To enroll in this course, applicants should submit:",
+   "Completed and signed 'International Student Application Form'",
+   "Certified transcripts of all academic achievements, including secondary school education",
+   "Certified evidence of date of birth/Passport",
+   "Certified evidence of English language proficiency",
+   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+   "Minimum Age Requirement: 18 years of age",
+   "Provide evidence of Health and Insurance Requirements",
+   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+  ],
+  "units": [
+   {
+    "code": "CHCECE030",
+    "name": "Support inclusion and diversity",
+    "core": true
+   },
+   {
+    "code": "CHCECE031",
+    "name": "Support children’s health, safety and wellbeing",
+    "core": true
+   },
+   {
+    "code": "CHCECE032",
+    "name": "Nurture babies and toddlers",
+    "core": true
+   },
+   {
+    "code": "CHCECE033",
+    "name": "Developing positive and respectful relationships with children",
+    "core": true
+   },
+   {
+    "code": "CHCECE034",
+    "name": "Use an approved learning framework to guide practice",
+    "core": true
+   },
+   {
+    "code": "CHCECE035",
+    "name": "Support the holistic learning and development of children",
+    "core": true
+   },
+   {
+    "code": "CHCECE036",
+    "name": "Provide experiences to support children’s play and learning",
+    "core": true
+   },
+   {
+    "code": "CHCECE037",
+    "name": "Support children to connect with the natural environment",
+    "core": true
+   },
+   {
+    "code": "CHCECE038",
+    "name": "Observe children to inform practice",
+    "core": true
+   },
+   {
+    "code": "CHCECE054",
+    "name": "Encourage understanding of Aboriginal and/or Torres Strait Islander peoples’ cultures",
+    "core": true
+   },
+   {
+    "code": "CHCECE055",
+    "name": "Meet legal and ethical obligations in children’s education and care",
+    "core": true
+   },
+   {
+    "code": "CHCECE056",
+    "name": "Work effectively in children’s education and care",
+    "core": true
+   },
+   {
+    "code": "CHCPRT025",
+    "name": "Identify and respond to children and young people at risk",
+    "core": true
+   },
+   {
+    "code": "HLTAID012",
+    "name": "Provide First Aid in an education and care setting",
+    "core": true
+   },
+   {
+    "code": "HLTWHS001",
+    "name": "Participate in workplace health and safety",
+    "core": true
+   },
+   {
+    "code": "CHCDIV001",
+    "name": "Work with diverse people",
+    "core": false
+   },
+   {
+    "code": "CHCPRP003",
+    "name": "Reflect on and improve own professional practice",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Educator",
+   "Child Care Worker",
+   "Family Day Care Worker",
+   "Out of School Hours Care Worker",
+   "Nanny"
+  ],
+  "pathways": [
+   "CHC50121 Diploma of Early Childhood Education and Care",
+   "Bachelor of Early Childhood Education or Bachelor of Education (Early Childhood)"
+  ],
+  "assessment": []
+ },
+ "int-certificate-iii-in-individual-support-ageing-disability": {
+  "overview": [
+   "This qualification reflects the role of workers in the community and/or residential setting who follow an individualized plan to provide person-centred support to people who may require support due to ageing, disability or some other reason. Work involves using discretion and judgement in relation to individual support as well as taking responsibility for own outputs. Workers have a range of factual, technical and procedural knowledge, as well as some theoretical knowledge of the concepts and practices required to provide person-centred support.",
+   "To achieve this qualification, the candidate must have completed at least 120 hours of work as detailed in the Assessment Requirements of the units of competency."
+  ],
+  "entry": [
+   "To enrol in this course, applicants should submit:",
+   "Completed and signed ‘International Student Application Form’",
+   "Certified transcripts of all academic achievements, including secondary school education",
+   "Certified evidence of date of birth/Passport",
+   "Certified evidence of English language proficiency",
+   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+   "Minimum Age Requirement: 18 years of age",
+   "Provide evidence of Health and Insurance Requirements",
+   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+  ],
+  "units": [
+   {
+    "code": "CHCCCS031",
+    "name": "Provide individualised support",
+    "core": true
+   },
+   {
+    "code": "CHCCCS038",
+    "name": "Facilitate the empowerment of people receiving support",
+    "core": true
+   },
+   {
+    "code": "CHCCCS040",
+    "name": "Support independence and wellbeing",
+    "core": true
+   },
+   {
+    "code": "CHCCCS041",
+    "name": "Recognise healthy body systems",
+    "core": true
+   },
+   {
+    "code": "CHCLEG001",
+    "name": "Work legally and ethically",
+    "core": true
+   },
+   {
+    "code": "CHCCOM005",
+    "name": "Communicate and work in health or community services",
+    "core": true
+   },
+   {
+    "code": "CHCDIV001",
+    "name": "Work with diverse people",
+    "core": true
+   },
+   {
+    "code": "HLTINF006",
+    "name": "Apply basic principles and practices of infection prevention and control",
+    "core": true
+   },
+   {
+    "code": "HLTWHS002",
+    "name": "Follow safe work practices for direct client care",
+    "core": true
+   },
+   {
+    "code": "CHCAGE011",
+    "name": "Provide support to people living with dementia",
+    "core": false
+   },
+   {
+    "code": "CHCAGE013",
+    "name": "Work effectively in aged care",
+    "core": false
+   },
+   {
+    "code": "CHCDIS011",
+    "name": "Contribute to ongoing skills development using a strengths-based approach",
+    "core": false
+   },
+   {
+    "code": "CHCDIS012",
+    "name": "Support community participation and social inclusion",
+    "core": false
+   },
+   {
+    "code": "CHCDIS020",
+    "name": "Work effectively in disability support",
+    "core": false
+   },
+   {
+    "code": "CHCPAL003",
+    "name": "Deliver care services using a palliative approach",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Aged Care Worker",
+   "Personal Care Assistant",
+   "Nursing Assistant",
+   "Personal Care Worker",
+   "Community Worker"
+  ],
+  "pathways": [
+   "Certificate IV in Community Services",
+   "Certificate IV in Ageing Support",
+   "Certificate IV in Disability",
+   "Diploma of Community Services",
+   "Diploma of Mental Health"
+  ],
+  "assessment": []
+ },
+ "int-certificate-iv-in-disability0939790d": {
+  "overview": [
+   "This qualification reflects the role of workers in a range of community settings and clients’ homes, who provide training and support in a manner that empowers people with disabilities to achieve greater levels of independence, self-reliance, community participation and wellbeing. Workers promote a person-centered approach, work without direct supervision and may be required to supervise and/or coordinate a small team.",
+   "This qualification prepares workers to provide support in community settings and in clients’ homes to people with disability. The course focuses on a person-centred approach designed to increase independence, self-reliance, community participation and wellbeing. Graduates work with limited supervision and may also supervise or coordinate small teams of support workers."
+  ],
+  "entry": [
+   "To enrol in this course, applicants should submit:",
+   "Completed and signed 'International Student Application Form'",
+   "Certified transcripts of all academic achievements, including secondary school education",
+   "Certified evidence of date of birth/Passport",
+   "Certified evidence of English language proficiency",
+   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+   "Minimum Age Requirement: 18 years of age",
+   "Provide evidence of Health and Insurance Requirements",
+   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+  ],
+  "units": [
+   {
+    "code": "CHCCCS044",
+    "name": "Follow established person-centred behaviour supports",
+    "core": true
+   },
+   {
+    "code": "CHCDIS017",
+    "name": "Facilitate community participation and social inclusion",
+    "core": true
+   },
+   {
+    "code": "CHCDIS018",
+    "name": "Facilitate ongoing skills development using a person-centred approach",
+    "core": true
+   },
+   {
+    "code": "CHCDIS019",
+    "name": "Provide person-centred services to people with disability with complex needs",
+    "core": true
+   },
+   {
+    "code": "CHCLEG003",
+    "name": "Manage legal and ethical compliance",
+    "core": true
+   },
+   {
+    "code": "CHCMHS001",
+    "name": "Work with people with mental health issues",
+    "core": true
+   },
+   {
+    "code": "HLTWHS003",
+    "name": "Maintain work health and safety",
+    "core": true
+   },
+   {
+    "code": "CHCCCS004",
+    "name": "Assess co-existing needs",
+    "core": false
+   },
+   {
+    "code": "CHCCCS007",
+    "name": "Develop and implement service programs",
+    "core": false
+   },
+   {
+    "code": "CHCDIV003",
+    "name": "Manage and promote diversity",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Behavioral Support Officer",
+   "Disability Officer – Day Support",
+   "Disability Development Support Officer (DDSO)",
+   "Employment Coordinator (Disability)",
+   "Lifestyle Support Officer",
+   "Local Area Coordinator",
+   "Residential Care Officer",
+   "Senior PCA Assistant"
+  ],
+  "pathways": [
+   "Diploma of Community Services",
+   "Diploma of Mental Health"
+  ],
+  "assessment": []
+ },
+ "int-certificate-iv-in-mental-health-peer-work": {
+  "overview": [
+   "This qualification prepares students to work in peer support roles within the mental health sector. It is designed for people who have lived experience of mental health challenges—either as a consumer or a carer—and who want to use that experience to support others in their recovery.",
+   "Students learn how to provide person-centered support, facilitate self-advocacy, assist with recovery-oriented programs, and work collaboratively within multidisciplinary teams. They also develop strong communication skills while maintaining professional boundaries and self-care strategies.",
+   "Graduates may work in community mental health services, non-government organizations, residential facilities, peer-run programs, or other support settings where lived experience is valued."
+  ],
+  "entry": [
+   "To enroll in this course, applicants should submit:",
+   "Completed and signed 'International Student Application Form'",
+   "Certified transcripts of all academic achievements, including secondary school education",
+   "Certified evidence of date of birth/Passport",
+   "Certified evidence of English language proficiency",
+   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+   "Minimum Age Requirement: 18 years of age",
+   "Provide evidence of Health and Insurance Requirements",
+   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+  ],
+  "units": [
+   {
+    "code": "CHCDIV001",
+    "name": "Work with diverse people",
+    "core": true
+   },
+   {
+    "code": "CHCMHS007",
+    "name": "Work effectively in trauma informed care",
+    "core": true
+   },
+   {
+    "code": "CHCMHS008",
+    "name": "Promote and facilitate self-advocacy",
+    "core": true
+   },
+   {
+    "code": "CHCMHS011",
+    "name": "Assess and promote social, emotional and physical wellbeing",
+    "core": true
+   },
+   {
+    "code": "CHCPWK001",
+    "name": "Apply peer work practices in the mental health sector",
+    "core": true
+   },
+   {
+    "code": "CHCPWK002",
+    "name": "Contribute to the continuous improvement of mental health services",
+    "core": true
+   },
+   {
+    "code": "CHCPWK003",
+    "name": "Apply lived experience in mental health peer work",
+    "core": true
+   },
+   {
+    "code": "HLTWHS001",
+    "name": "Participate in workplace health and safety",
+    "core": true
+   },
+   {
+    "code": "CHCPWK004",
+    "name": "Work effectively in consumer mental health peer work",
+    "core": false
+   },
+   {
+    "code": "CHCPWK005",
+    "name": "Work effectively with carers as a mental health peer worker",
+    "core": false
+   },
+   {
+    "code": "CHCADV005",
+    "name": "Provide systems advocacy services",
+    "core": false
+   },
+   {
+    "code": "CHCMHS002",
+    "name": "Establish self-directed recovery relationships",
+    "core": false
+   },
+   {
+    "code": "CHCMHS003",
+    "name": "Provide recovery oriented mental health services",
+    "core": false
+   },
+   {
+    "code": "CHCMHS004",
+    "name": "Work collaboratively with the care network and other services",
+    "core": false
+   },
+   {
+    "code": "CHCCCS001",
+    "name": "Address the needs of people with chronic disease",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Mental Health Peer Worker",
+   "Community Rehabilitation Worker",
+   "Mental Health Outreach Officer",
+   "Support Facilitator",
+   "Peer Recovery Worker",
+   "Mental Health Support Worker"
+  ],
+  "pathways": [
+   "CHC53315 Diploma of Mental Health",
+   "CHC52025 Diploma of Community Services",
+   "Other qualifications in peer work, counselling, or community services"
+  ],
+  "assessment": []
+ },
+ "int-diploma-in-mental-health": {
+  "overview": [
+   "This qualification reflects the role of workers who provide services to clients in relation to mental health issues. They can provide counselling, referral, advocacy and education/health promotion services. These workers are required to have high level specialist knowledge, skills and competencies especially in regard to laws affecting people with mental health issues, the range of services available to them and health issues related to mental health.",
+   "This qualification reflects the role of professionals who support individuals experiencing mental health challenges. Graduates learn to provide counselling, referrals, advocacy, and health promotion services within a mental health context.",
+   "The course develops high-level specialist knowledge and skills, including an understanding of mental health laws, available community and health services, and the relationship between mental and physical wellbeing."
+  ],
+  "entry": [
+   "To enrol in this course, applicants should submit:",
+   "Completed and signed 'International Student Application Form'",
+   "Certified transcripts of all academic achievements, including secondary school education",
+   "Certified evidence of date of birth/Passport",
+   "Certified evidence English language proficiency",
+   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+   "Minimum Age Requirement: 18 years of age",
+   "Provide evidence of Health and Insurance Requirements",
+   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+  ],
+  "units": [
+   {
+    "code": "CHCADV005",
+    "name": "Provide systems advocacy services",
+    "core": true
+   },
+   {
+    "code": "CHCDIV001",
+    "name": "Work with diverse people",
+    "core": true
+   },
+   {
+    "code": "CHCDIV002",
+    "name": "Promote Aboriginal and/or Torres Strait Islander cultural safety",
+    "core": true
+   },
+   {
+    "code": "CHCMHS002",
+    "name": "Establish self-directed recovery relationships",
+    "core": true
+   },
+   {
+    "code": "CHCMHS003",
+    "name": "Provide recovery oriented mental health services",
+    "core": true
+   },
+   {
+    "code": "CHCMHS004",
+    "name": "Work collaboratively with the care network and other services",
+    "core": true
+   },
+   {
+    "code": "CHCMHS005",
+    "name": "Provide services to people with co-existing mental health and alcohol and other drugs issues",
+    "core": true
+   },
+   {
+    "code": "CHCMHS009",
+    "name": "Provide early intervention, health prevention and promotion programs",
+    "core": true
+   },
+   {
+    "code": "CHCMHS010",
+    "name": "Implement recovery-oriented approaches to complexity",
+    "core": true
+   },
+   {
+    "code": "CHCMHS011",
+    "name": "Assess and promote social, emotional and physical wellbeing",
+    "core": true
+   },
+   {
+    "code": "CHCMHS012",
+    "name": "Provide support to develop wellness plans and advanced directives",
+    "core": true
+   },
+   {
+    "code": "CHCMHS013",
+    "name": "Implement trauma informed care",
+    "core": true
+   },
+   {
+    "code": "CHCPOL003",
+    "name": "Research and apply evidence to practice",
+    "core": true
+   },
+   {
+    "code": "CHCPRP003",
+    "name": "Reflect on and improve own professional practice",
+    "core": true
+   },
+   {
+    "code": "HLTWHS004",
+    "name": "Manage work health and safety",
+    "core": true
+   },
+   {
+    "code": "CHCCSL001",
+    "name": "Establish and confirm the counselling relationship",
+    "core": false
+   },
+   {
+    "code": "CHCMGT002",
+    "name": "Manage Partnership Agreements with Service Providers",
+    "core": false
+   },
+   {
+    "code": "CHCMHS006",
+    "name": "Facilitate the recovery process with the person, family and careers",
+    "core": false
+   },
+   {
+    "code": "CHCPRP001",
+    "name": "Develop and maintain networks and collaborative partnerships",
+    "core": false
+   },
+   {
+    "code": "HLTAAP001",
+    "name": "Recognize healthy body systems",
+    "core": false
+   }
+  ],
+  "careers": [],
+  "pathways": [
+   "Bachelor of Community Mental Health, Alcohol and Other Drugs",
+   "Specialised Skill sets for work within a variety of Community Services settings",
+   "Advanced Diploma of Community Sector Management",
+   "Bachelor of Applied Social Science (Community Services)",
+   "Bachelor of Psychological Science",
+   "Bachelor of Psychological Science (Honours)"
+  ],
+  "assessment": []
+ },
+ "int-diploma-of-business-leadership": {
+  "overview": [
+   "This qualification reflects the role of individuals in a variety of Business Services job roles. These individuals may have frontline management accountabilities.",
+   "Individuals in these roles carry out moderately complex tasks in a specialist field of expertise that requires business operations skills. They may possess substantial experience in a range of settings, but seek to further develop their skills across a wide range of business functions..",
+   "No licensing, legislative or certification requirements apply to this qualification at the time of publication."
+  ],
+  "entry": [
+   "To enrol in this course, applicants should submit:",
+   "Completed and signed 'Application for Enrolment Form';",
+   "Certified transcripts of academic records including the last two years of schooling;",
+   "Certified evidence of completing year 12;",
+   "Certified evidence of date of birth/Passport;",
+   "Certified evidence English language proficiency;",
+   "Letter(s) of recommendation from teacher(s) (if available);",
+   "Minimum Age Requirement: 18 years of age;",
+   "Unique Student Identifier (USI)- application for USI is done at the time of enrolment into the course."
+  ],
+  "units": [
+   {
+    "code": "BSBCRT511",
+    "name": "Develop critical thinking in others",
+    "core": true
+   },
+   {
+    "code": "BSBFIN501",
+    "name": "Manage budgets and financial plans",
+    "core": true
+   },
+   {
+    "code": "BSBOPS501",
+    "name": "Manage business resources",
+    "core": true
+   },
+   {
+    "code": "BSBSUS511",
+    "name": "Develop workplace policies and procedures for sustainability",
+    "core": true
+   },
+   {
+    "code": "BSBXCM501",
+    "name": "Lead communication in the workplace",
+    "core": true
+   },
+   {
+    "code": "BSBPMG430",
+    "name": "Undertake project work",
+    "core": false
+   },
+   {
+    "code": "BSBHRM521",
+    "name": "Facilitate performance development processes",
+    "core": false
+   },
+   {
+    "code": "BSBLDR522",
+    "name": "Manage people performance",
+    "core": false
+   },
+   {
+    "code": "BSBTWK502",
+    "name": "Manage team effectiveness",
+    "core": false
+   },
+   {
+    "code": "BSBLDR523",
+    "name": "Lead and manage effective workplace relationships",
+    "core": false
+   },
+   {
+    "code": "BSBOPS502",
+    "name": "Manage business operational plans",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Executive Officer",
+   "Office Manager",
+   "Administrator",
+   "Corporate Services Manager",
+   "Administration Manager",
+   "Team Leader",
+   "Project Coordinator",
+   "Customer Service Manager"
+  ],
+  "pathways": [
+   "Advanced Diploma of Business"
+  ],
+  "assessment": [
+   "Written Questions",
+   "Case Studies",
+   "Report",
+   "Role Play",
+   "Analysis",
+   "Project",
+   "Presentation"
+  ]
+ },
+ "int-diploma-of-community-services-case-management": {
+  "overview": [
+   "This qualification reflects the roles of community services workers involved in managing, coordinating, and/or delivering person-centered services to individuals, groups, and communities. At this level, workers have specialized skills in community services and work autonomously under broad directions from senior management. Workers may provide direct support to clients, coordinate programs, manage cases, or supervise staff and volunteers.",
+   "This qualification prepares students for roles in the community services sector, supporting individuals, families, and groups to improve their wellbeing and quality of life. Graduates may pursue career pathways such as case management, youth work, or family support."
+  ],
+  "entry": [
+   "To enrol in this course, applicants should submit:",
+   "Completed and signed 'International Student Application Form'",
+   "Certified transcripts of all academic achievements, including secondary school education",
+   "Certified evidence of date of birth/Passport",
+   "Certified evidence of English language proficiency",
+   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+   "Minimum Age Requirement: 18 years of age",
+   "Provide evidence of Health and Insurance Requirements",
+   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+  ],
+  "units": [
+   {
+    "code": "CHCADV005",
+    "name": "Provide systems advocacy services",
+    "core": true
+   },
+   {
+    "code": "CHCCCS004",
+    "name": "Assess co-existing needs",
+    "core": true
+   },
+   {
+    "code": "CHCCCS007",
+    "name": "Develop and implement service programs",
+    "core": true
+   },
+   {
+    "code": "CHCCCS019",
+    "name": "Recognize and respond to crisis situations",
+    "core": true
+   },
+   {
+    "code": "CHCCSM017",
+    "name": "Facilitate and review case management",
+    "core": true
+   },
+   {
+    "code": "CHCDEV005",
+    "name": "Analyze impacts of sociological factors on people in community work and services",
+    "core": true
+   },
+   {
+    "code": "CHCDFV001",
+    "name": "Recognize and respond appropriately to domestic and family violence",
+    "core": true
+   },
+   {
+    "code": "CHCLEG003",
+    "name": "Manage legal and ethical compliance",
+    "core": true
+   },
+   {
+    "code": "CHCMGT005",
+    "name": "Facilitate workplace debriefing and support processes",
+    "core": true
+   },
+   {
+    "code": "HLTWHS003",
+    "name": "Maintain work health and safety",
+    "core": true
+   },
+   {
+    "code": "CHCDIV001",
+    "name": "Work with diverse people",
+    "core": true
+   },
+   {
+    "code": "CHCDIV002",
+    "name": "Promote Aboriginal and/or Torres Strait Islander cultural safety",
+    "core": true
+   },
+   {
+    "code": "CHCMHS013",
+    "name": "Implement trauma informed care",
+    "core": true
+   },
+   {
+    "code": "CHCPRP003",
+    "name": "Reflect on and improve own professional practice",
+    "core": true
+   },
+   {
+    "code": "CHCMGT002",
+    "name": "Manage Partnership Agreements with Service Providers",
+    "core": false
+   },
+   {
+    "code": "CHCCSM009",
+    "name": "Facilitate goal directing planning",
+    "core": false
+   },
+   {
+    "code": "CHCCSM014",
+    "name": "Provide case management supervision",
+    "core": false
+   },
+   {
+    "code": "CHCCSM015",
+    "name": "Undertake case management in a child protection framework",
+    "core": false
+   },
+   {
+    "code": "CHCCSM016",
+    "name": "Undertake advanced assessments",
+    "core": false
+   },
+   {
+    "code": "CHCPRT025",
+    "name": "Identify and report children and young people at risk",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Family Support Worker",
+   "Case Coordinator",
+   "Group Facilitator",
+   "Caseworker or Manager",
+   "Pastoral Care Counsellor / Manager",
+   "Client Service Assessor",
+   "Community Services Worker",
+   "Program Coordinator / Manager",
+   "Community Worker / Senior Youth Officer",
+   "Social Welfare Worker"
+  ],
+  "pathways": [
+   "Advanced Diploma of Community Sector Management",
+   "Bachelor of Applied Social Science (Community Services)",
+   "Bachelor of Psychological Science (Honours)",
+   "Bachelor of Social Work",
+   "Bachelor of Community Services"
+  ],
+  "assessment": []
+ },
+ "int-diploma-of-early-childhood-education-and-care": {
+  "overview": [
+   "This qualification reflects the role of educators in early childhood education and care who work in regulated children’s education and care services in Australia. Educators at this level are responsible for designing and implementing curriculum that meets the requirements of an approved learning framework and for maintaining compliance in other areas of service operations. They use specialised knowledge and analyse and apply theoretical concepts to diverse work situations. They may have responsibility for supervision of volunteers or other educators.",
+   "Early childhood educators work in long day care centres, family day care, pre-schools or kindergartens.",
+   "To achieve this qualification, the individual must have completed at least 280 hours of work in a regulated children’s education and care service in Australia as detailed in the Assessment Requirements of units of competency.",
+   "This qualification prepares students to work as professional educators in regulated early childhood education and care services in Australia. Students learn how to design and implement curriculum that supports children’s learning, wellbeing, and development in line with the approved learning frameworks. Diploma-qualified educators use specialized knowledge to make informed decisions in diverse workplace situations and may be responsible for supervising others."
+  ],
+  "entry": [
+   "Entry to this qualification is open to individuals who hold:",
+   "CHC30121 Certificate III in Early Childhood Education and Care (or its equivalent successor) or",
+   "CHC30113 Certificate III in Early Childhood Education and Care.",
+   "Alternatively, individuals may hold:",
+   "An Australian diploma in Early Childhood Education and Care or",
+   "An Australian diploma or certificate III in Children’s Services.",
+   "AND",
+   "Demonstrate at least 12 months of cumulative employment (full-time equivalent) within the last 5 years in a regulated education and care service in Australia, supported by verifiable evidence. or",
+   "Hold the CHCSS00147 Entry into Diploma of Early Childhood Education and Care.",
+   "To enroll in this course, applicants should submit:",
+   "Completed and signed 'International Student Application Form'",
+   "Certified transcripts of all academic achievements, including secondary school education",
+   "Certified evidence of date of birth/Passport",
+   "Certified evidence of English language proficiency",
+   "Submit evidence that meets the Genuine Temporary Entrant criteria (Only for Offshore Applications)",
+   "Minimum Age Requirement: 18 years of age",
+   "Provide evidence of Health and Insurance Requirements",
+   "Provide evidence of Recognition of Prior Learning (RPL) / Credit Transfer (CT)"
+  ],
+  "units": [
+   {
+    "code": "BSBTWK502",
+    "name": "Manage team effectiveness",
+    "core": true
+   },
+   {
+    "code": "CHCECE041",
+    "name": "Maintain a safe and healthy environment for children",
+    "core": true
+   },
+   {
+    "code": "CHCECE042",
+    "name": "Foster holistic early childhood learning, development and wellbeing",
+    "core": true
+   },
+   {
+    "code": "CHCECE043",
+    "name": "Nurture creativity in children",
+    "core": true
+   },
+   {
+    "code": "CHCECE044",
+    "name": "Facilitate compliance in a children’s education and care service",
+    "core": true
+   },
+   {
+    "code": "CHCECE045",
+    "name": "Foster positive and respectful interactions and behaviour in children",
+    "core": true
+   },
+   {
+    "code": "CHCECE046",
+    "name": "Implement strategies for the inclusion of all children",
+    "core": true
+   },
+   {
+    "code": "CHCECE047",
+    "name": "Analyse information to inform children’s learning",
+    "core": true
+   },
+   {
+    "code": "CHCECE048",
+    "name": "Plan and implement children’s education and care curriculum",
+    "core": true
+   },
+   {
+    "code": "CHCECE049",
+    "name": "Embed environmental responsibility in service operations",
+    "core": true
+   },
+   {
+    "code": "CHCECE050",
+    "name": "Work in partnership with children’s families",
+    "core": true
+   },
+   {
+    "code": "CHCPRP003",
+    "name": "Reflect on and improve own professional practice",
+    "core": true
+   },
+   {
+    "code": "CHCMGT003",
+    "name": "Lead the work team",
+    "core": false
+   },
+   {
+    "code": "CHCPOL002",
+    "name": "Develop and implement policy",
+    "core": false
+   },
+   {
+    "code": "CHCECE053",
+    "name": "Respond to grievances and complaints about the service",
+    "core": false
+   }
+  ],
+  "careers": [
+   "Authorised Supervisor (Children’s Services)",
+   "Centre Manager (Children’s Services)",
+   "Childhood Educator",
+   "Children’s Adviser",
+   "Children’s Service Director / Manager",
+   "Children’s Services Coordinator",
+   "Director (Children’s Services)",
+   "Group/Team Coordinator or Leader (Children’s Services)",
+   "Program Leader (Children’s Services)",
+   "Child Development Worker"
+  ],
+  "pathways": [
+   "Bachelor of Education (Primary/Secondary)",
+   "Bachelor of Early Childhood Education or Bachelor of Education (Early Childhood)"
+  ],
+  "assessment": []
+ }
+}

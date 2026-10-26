@@ -9,7 +9,7 @@ export function CardShowcase() {
         field="Individual support"
         code="CHC33021"
         title="Certificate III in Individual Support (Ageing & Disability)"
-        href="/courses/individual-support-disability-leisure-and-health"
+        href="/course/certificate-iii-in-individual-support-ageing-disability"
         duration="TODO: duration"
         modes={["Face-to-face", "Blended"]}
       />
@@ -18,7 +18,7 @@ export function CardShowcase() {
         field="Early childhood"
         code="CHC50125"
         title="Diploma of Early Childhood Education and Care"
-        href="/courses/early-childhood-education-care"
+        href="/course/diploma-of-early-childhood-education-and-care"
         duration="TODO: duration"
         modes={["Face-to-face"]}
       />
