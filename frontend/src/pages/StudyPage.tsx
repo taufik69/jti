@@ -6,7 +6,7 @@ import { StudyMobileNav } from "@/components/study/StudyMobileNav";
 import { StudyPager } from "@/components/study/StudyPager";
 import { StudySidebar } from "@/components/study/StudySidebar";
 import { Container } from "@/components/ui/Container";
-import { findStudyPage, studyGroups } from "@/content/study";
+import { findStudyPage, topicOf } from "@/content/study";
 import { NotFoundPage } from "./NotFoundPage";
 
 /** /study/:slug — one template for every "Study with us" page, fed by content/study. */
@@ -14,15 +14,15 @@ export function StudyPage() {
   const { slug = "" } = useParams();
   const page = findStudyPage(slug);
   if (!page) return <NotFoundPage />;
-  const group = studyGroups.find((g) => g.id === page.group)?.label ?? "Study with us";
+  const topic = topicOf(page.slug)?.label ?? "Study with us";
 
   return (
     <div className="[&_p]:text-left [&_p]:hyphens-manual">
       <title>{`${page.title} · Job Training Institute`}</title>
       <meta name="description" content={page.summary} />
       <PageHero
-        crumbs={[{ label: "Home", href: "/" }, { label: "Study with us" }, { label: page.title }]}
-        label={group}
+        crumbs={[{ label: "Home", href: "/" }, { label: "Study with us", href: "/study" }, { label: page.title }]}
+        label={topic}
         title={page.title}
         intro={<p>{page.summary}</p>}
         aside={<StudyHelp />}

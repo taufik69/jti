@@ -21,24 +21,8 @@ export const generalPolicies = [
 
 export const domesticPages: StudyPage[] = [
   {
-    slug: "vet-student-loan",
-    title: "VET Student Loans",
-    group: "domestic",
-    summary: "Information about paying for your course with a VET Student Loan.",
-    sections: [
-      {
-        id: "overview",
-        title: "About VET Student Loans",
-        blocks: [
-          { type: "note", text: "We are updating this page. For VET Student Loan eligibility and how it applies to your course, please call us on [1300 144 584](tel:1300144584) or [send an enquiry](/#enquire)." },
-          { type: "links", items: [{ label: "VET Student Loans on studyassist.gov.au", href: "https://www.studyassist.gov.au/vet-student-loans" }] },
-        ],
-      },
-    ],
-  },
-  {
     slug: "domestic-forms",
-    title: "Domestic forms and policies",
+    title: "All types of forms",
     group: "domestic",
     summary: "Forms, the student handbook, and the policies and procedures that apply to domestic students.",
     sections: [

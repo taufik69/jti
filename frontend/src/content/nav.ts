@@ -1,5 +1,5 @@
 import { aboutPages } from "./about/pages";
-import { studyGroups, studyHref, studyPages } from "./study";
+import { studyHref, studyTopics, topicPages } from "./study";
 import type { NavItem } from "./types";
 
 export const mainNav: NavItem[] = [
@@ -8,11 +8,12 @@ export const mainNav: NavItem[] = [
   { label: "Courses", href: "/courses" },
   {
     label: "Study with us",
-    href: "/study/why-choose-job-training-institute",
-    columns: studyGroups.map((group) => ({
-      title: group.label,
-      links: studyPages.filter((page) => page.group === group.id).map((page) => ({ label: page.title, href: studyHref(page) })),
+    href: "/study",
+    columns: studyTopics.map((topic) => ({
+      title: topic.label,
+      links: topicPages(topic.slugs).map((page) => ({ label: page.title, href: studyHref(page) })),
     })),
+    footer: { label: "All study guides", href: "/study" },
   },
   {
     label: "About us",

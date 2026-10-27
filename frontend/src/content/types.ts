@@ -52,4 +52,6 @@ export interface NavItem {
   href: string;
   columns?: NavColumn[];
   feature?: NavFeature;
+  /** "See everything" link under the panel. */
+  footer?: NavLink;
 }

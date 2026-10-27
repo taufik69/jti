@@ -6,13 +6,15 @@ import { cn } from "@/lib/cn";
 
 interface MegaColumnProps {
   column: NavColumn;
+  /** Rule on the right, separating a lead column from the rest. */
+  divided?: boolean;
 }
 
-export function MegaColumn({ column }: MegaColumnProps) {
+export function MegaColumn({ column, divided = false }: MegaColumnProps) {
   const { pathname } = useLocation();
 
   return (
-    <div>
+    <div className={cn(divided && "border-r border-line pr-6")}>
       <p className="text-label mb-4 text-muted">{column.title}</p>
       <ul className={cn("space-y-1", column.links.length > 8 && "columns-2 gap-x-6")}>
         {column.links.map((link) => (
