@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { PageHero } from "@/components/page/PageHero";
-import { AboutSwitcher } from "./AboutSwitcher";
+import { PageSwitcher } from "@/components/page/PageSwitcher";
+import { aboutPages } from "@/content/about/pages";
 
 interface AboutHeroProps {
   label: string;
@@ -16,7 +17,7 @@ export function AboutHero({ label, ...rest }: AboutHeroProps) {
     <PageHero
       crumbs={[{ label: "Home", href: "/" }, { label: "About us" }, { label }]}
       label={label}
-      footer={<AboutSwitcher />}
+      footer={<PageSwitcher label="About JTI" pages={aboutPages} />}
       {...rest}
     />
   );

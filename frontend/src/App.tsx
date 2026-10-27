@@ -4,6 +4,8 @@ import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { MotionProvider } from "@/components/motion/MotionProvider";
 import { organizationSchema } from "@/lib/organization-schema";
+import { AgentApplicationPage } from "@/pages/AgentApplicationPage";
+import { AgentsPage } from "@/pages/AgentsPage";
 import { CourseDetailPage } from "@/pages/CourseDetailPage";
 import { CoursesPage } from "@/pages/CoursesPage";
 import { DifferencePage } from "@/pages/DifferencePage";
@@ -33,6 +35,8 @@ export function App() {
           <Route path="/jti-video" element={<VideosPage />} />
           <Route path="/study" element={<StudyHubPage />} />
           <Route path="/study/:slug" element={<StudyPage />} />
+          <Route path="/list-agents" element={<AgentsPage />} />
+          <Route path="/agent-application" element={<AgentApplicationPage />} />
           <Route path="/styleguide" element={<StyleguidePage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

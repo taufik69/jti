@@ -32,8 +32,8 @@ export const mainNav: NavItem[] = [
       {
         title: "Education agents",
         links: [
-          { label: "Agent list", href: "/list-agents" },
-          { label: "Become an agent", href: "/agent-application" },
+          { label: "List of JTI agents", href: "/list-agents", meta: "Agencies that represent JTI" },
+          { label: "Agent application", href: "/agent-application", meta: "Apply to join our agent network" },
         ],
       },
     ],

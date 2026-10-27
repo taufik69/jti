@@ -1,16 +1,20 @@
 import { useLocation } from "react-router";
 import { Link } from "@/components/ui/Link";
-import { aboutPages } from "@/content/about/pages";
 import { cn } from "@/lib/cn";
 
-/** Sibling links across the four About pages, so readers can move between them without the menu. */
-export function AboutSwitcher() {
+interface PageSwitcherProps {
+  label: string;
+  pages: { href: string; label: string }[];
+}
+
+/** Underlined tab row linking sibling pages (About, Agents), so readers can move between them without the menu. */
+export function PageSwitcher({ label, pages }: PageSwitcherProps) {
   const { pathname } = useLocation();
 
   return (
-    <nav aria-label="About JTI" className="-mx-5 overflow-x-auto px-5 [scrollbar-width:none] md:mx-0 md:px-0">
+    <nav aria-label={label} className="-mx-5 overflow-x-auto px-5 [scrollbar-width:none] md:mx-0 md:px-0">
       <ul className="flex w-max gap-6 border-b border-line md:w-full md:gap-8">
-        {aboutPages.map((page) => {
+        {pages.map((page) => {
           const current = page.href === pathname;
           return (
             <li key={page.href}>
