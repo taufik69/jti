@@ -9,6 +9,7 @@ import { CoursesPage } from "@/pages/CoursesPage";
 import { DifferencePage } from "@/pages/DifferencePage";
 import { HomePage } from "@/pages/HomePage";
 import { NotFoundPage } from "@/pages/NotFoundPage";
+import { StudyPage } from "@/pages/StudyPage";
 import { StyleguidePage } from "@/pages/StyleguidePage";
 import { TestimonialsPage } from "@/pages/TestimonialsPage";
 import { VideosPage } from "@/pages/VideosPage";
@@ -29,6 +30,7 @@ export function App() {
           <Route path="/what-makes-jti-different" element={<DifferencePage />} />
           <Route path="/testimonials" element={<TestimonialsPage />} />
           <Route path="/jti-video" element={<VideosPage />} />
+          <Route path="/study/:slug" element={<StudyPage />} />
           <Route path="/styleguide" element={<StyleguidePage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

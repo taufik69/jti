@@ -2,8 +2,13 @@ import { ChevronRight } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";
 import { Link } from "@/components/ui/Link";
 
+export interface Crumb {
+  label: string;
+  href?: string;
+}
+
 interface BreadcrumbsProps {
-  trail: { label: string; href?: string }[];
+  trail: Crumb[];
 }
 
 /** Home › About › Page. The last crumb is the current page and is not a link. */

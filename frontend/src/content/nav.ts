@@ -1,4 +1,5 @@
 import { aboutPages } from "./about/pages";
+import { studyGroups, studyHref, studyPages } from "./study";
 import type { NavItem } from "./types";
 
 export const mainNav: NavItem[] = [
@@ -8,33 +9,10 @@ export const mainNav: NavItem[] = [
   {
     label: "Study with us",
     href: "/study/why-choose-job-training-institute",
-    columns: [
-      {
-        title: "Domestic",
-        links: [
-          { label: "VET Student Loans", href: "/study/vet-student-loan" },
-          { label: "Forms", href: "/study/domestic-forms" },
-        ],
-      },
-      {
-        title: "International",
-        links: [
-          { label: "Why JTI", href: "/study/why-choose-job-training-institute" },
-          { label: "Enrolment process", href: "/study/jti-enrolment-process-for-international-students" },
-          { label: "Visas", href: "/study/arranging-visas" },
-          { label: "Health cover (OSHC)", href: "/study/overseas-student-health-cover-oshc-" },
-          { label: "Before leaving home", href: "/study/before-leaving-home-checklist" },
-          { label: "Arrival checklist", href: "/study/checklist-on-arrival" },
-          { label: "Code of conduct", href: "/study/student-code-of-conduct" },
-          { label: "FAQs", href: "/study/faqs" },
-          { label: "ESOS framework", href: "/study/esos-framework" },
-          { label: "Scholarships", href: "/study/scholarships" },
-          { label: "Student handbook", href: "/study/pre-enrolment-guide-students-handbook" },
-          { label: "Policies", href: "/study/international-students-policies-and-procedures" },
-          { label: "Living in Melbourne", href: "/study/melbourne-victoria" },
-        ],
-      },
-    ],
+    columns: studyGroups.map((group) => ({
+      title: group.label,
+      links: studyPages.filter((page) => page.group === group.id).map((page) => ({ label: page.title, href: studyHref(page) })),
+    })),
   },
   {
     label: "About us",
