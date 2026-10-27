@@ -8,6 +8,7 @@ import { AgentApplicationPage } from "@/pages/AgentApplicationPage";
 import { AgentsPage } from "@/pages/AgentsPage";
 import { BlogPage } from "@/pages/BlogPage";
 import { BlogPostPage } from "@/pages/BlogPostPage";
+import { ContactPage } from "@/pages/ContactPage";
 import { CourseDetailPage } from "@/pages/CourseDetailPage";
 import { CoursesPage } from "@/pages/CoursesPage";
 import { DifferencePage } from "@/pages/DifferencePage";
@@ -41,6 +42,7 @@ export function App() {
           <Route path="/agent-application" element={<AgentApplicationPage />} />
           <Route path="/blogs" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/styleguide" element={<StyleguidePage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
