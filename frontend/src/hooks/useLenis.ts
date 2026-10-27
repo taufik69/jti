@@ -24,7 +24,15 @@ export function useLenis(): void {
     if (!prefersReducedMotion()) start();
     const unwatch = watchReducedMotion((reduce) => (reduce ? stop() : !lenis && start()));
 
+    // Pause while a Radix select or dialog holds the scroll lock, so the page behind can't drift.
+    const lock = new MutationObserver(() => {
+      if (document.body.hasAttribute("data-scroll-locked")) lenis?.stop();
+      else lenis?.start();
+    });
+    lock.observe(document.body, { attributes: true, attributeFilter: ["data-scroll-locked"] });
+
     return () => {
+      lock.disconnect();
       unwatch();
       stop();
     };

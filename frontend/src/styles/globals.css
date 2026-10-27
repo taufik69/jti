@@ -80,6 +80,8 @@
   html {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    /* Keep the scrollbar's space even while a dropdown or dialog locks scrolling, so nothing shifts. */
+    scrollbar-gutter: stable;
   }
 
   /* Reveal animations start up to 32px off to the side; clip (not hidden) so sticky still works. */
@@ -188,4 +190,15 @@
 @keyframes loading-bar {
   from { transform: translateX(-100%); }
   to { transform: translateX(300%); }
+}
+
+/*
+ * Radix (react-remove-scroll) locks scrolling for selects and dialogs by hiding <body>'s overflow and
+ * adding a scrollbar-width margin. Here the page scrolls on <html> (Lenis), so the scrollbar never
+ * disappears and that margin only pushed the whole site sideways when a dropdown opened. Cancel it;
+ * the extra element in the selector outranks the injected rule.
+ */
+html body[data-scroll-locked] {
+  margin-right: 0 !important;
+  --removed-body-scroll-bar-size: 0px;
 }
