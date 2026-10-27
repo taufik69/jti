@@ -1,18 +1,11 @@
 import { Mail, UserRound } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";
 import type { Agent } from "@/content/agents";
+import { initials } from "@/lib/initials";
 
 interface AgentCardProps {
   agent: Agent;
 }
-
-const monogram = (name: string) =>
-  name
-    .split(/\s+/)
-    .filter((word) => /^[A-Za-z]/.test(word))
-    .slice(0, 2)
-    .map((word) => word[0])
-    .join("");
 
 /** One authorised agent: monogram, name, registration facts and a direct email action. */
 export function AgentCard({ agent }: AgentCardProps) {
@@ -22,7 +15,7 @@ export function AgentCard({ agent }: AgentCardProps) {
     <article className="flex h-full flex-col rounded-card border border-line bg-paper p-7 transition-[border-color,box-shadow] duration-200 hover:border-plum-300 hover:shadow-float">
       <div className="flex items-start gap-4">
         <span aria-hidden className="grid size-12 shrink-0 place-items-center rounded-control bg-plum-950 text-[0.9375rem] font-medium tracking-wide text-gold-400">
-          {monogram(agent.name)}
+          {initials(agent.name)}
         </span>
         <div className="min-w-0">
           <h3 className="text-[1.1875rem] font-medium leading-snug text-ink [overflow-wrap:anywhere]">{agent.name}</h3>

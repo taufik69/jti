@@ -31,7 +31,7 @@ export function CoursesHero({ onPickField }: CoursesHeroProps) {
               key={field}
               type="button"
               onClick={() => onPickField(field)}
-              className="h-10 cursor-pointer rounded-full border border-white/20 bg-white/5 px-4 text-[0.9375rem] font-medium text-white transition-colors duration-150 hover:border-gold-400 hover:text-gold-400"
+              className="h-11 cursor-pointer rounded-full border border-white/20 bg-white/5 px-4 text-[0.9375rem] font-medium text-white transition-colors duration-150 hover:border-gold-400 hover:text-gold-400"
             >
               {fieldLabels[field]}
             </button>

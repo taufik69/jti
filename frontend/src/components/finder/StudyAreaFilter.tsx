@@ -29,7 +29,7 @@ export function StudyAreaFilter({ selected, counts, onChange }: StudyAreaFilterP
               <span
                 aria-hidden
                 className={cn(
-                  "flex size-5 shrink-0 items-center justify-center rounded-[5px] border transition-colors peer-focus-visible:ring-2 peer-focus-visible:ring-gold-500",
+                  "flex size-5 shrink-0 items-center justify-center rounded-control border transition-colors peer-focus-visible:ring-2 peer-focus-visible:ring-gold-500",
                   on ? "border-ink bg-ink text-white" : "border-ink/25 bg-paper",
                 )}
               >

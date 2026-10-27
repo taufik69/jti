@@ -14,8 +14,8 @@ export function HeroMedia({ src, position, caption, level }: HeroMediaProps) {
   return (
     <div className="relative">
       <div aria-hidden className="absolute -inset-6 rounded-[40px] bg-gradient-to-br from-gold-500/25 via-plum-500/20 to-transparent blur-2xl" />
-      <div className="relative rounded-[32px] border border-white/15 bg-white/[0.06] p-2.5 shadow-[0_24px_60px_-20px_rgb(0_0_0/0.6)] backdrop-blur-md">
-        <div className="relative aspect-[5/4] overflow-hidden rounded-[24px] bg-plum-800 ring-1 ring-white/10">
+      <div className="relative rounded-media border border-white/15 bg-white/[0.06] p-2.5 shadow-[0_24px_60px_-20px_rgb(0_0_0/0.6)] backdrop-blur-md">
+        <div className="relative aspect-[5/4] overflow-hidden rounded-card bg-plum-800 ring-1 ring-white/10">
           <Image src={src} alt="" fill priority style={{ objectPosition: position }} className="object-cover" />
           <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-plum-950/55 via-transparent to-transparent" />
         </div>

@@ -4,7 +4,7 @@ import { Container } from "@/components/ui/Container";
 /** Most nav links point at pages that are not built yet; they land here. */
 export function NotFoundPage() {
   return (
-    <Container className="py-24 md:py-32">
+    <Container className="py-24 md:py-32 [&_p]:text-left [&_p]:hyphens-manual">
       <title>Page not found · Job Training Institute</title>
       <p className="text-label text-plum-700">404</p>
       <h1 className="mt-4 text-h1 max-w-[18ch]">This page is not here yet</h1>

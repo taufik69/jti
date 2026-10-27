@@ -37,7 +37,7 @@ export function ResultsBar({ finder, total }: ResultsBarProps) {
           <Icon icon={Bookmark} size={16} />
           Saved <span className="tabular-nums">{saved.length}</span>
         </button>
-        <label className={cn(pill, "relative border-line bg-paper text-muted hover:border-ink/25")}>
+        <label className={cn(pill, "relative border-line bg-paper text-muted hover:border-ink/25 focus-within:border-plum-700 focus-within:ring-2 focus-within:ring-gold-500 focus-within:ring-offset-2")}>
           Sort by
           <select
             value={sort}

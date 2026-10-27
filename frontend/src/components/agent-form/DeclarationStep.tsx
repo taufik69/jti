@@ -29,7 +29,7 @@ export function DeclarationStep({ register, errors }: DeclarationStepProps) {
             aria-describedby={error ? "agent-agreed-error" : undefined}
             {...register("agreed")}
           />
-          <span aria-hidden className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-md border-2 border-plum-300 text-transparent transition-colors peer-checked:border-plum-700 peer-checked:bg-plum-700 peer-checked:text-white peer-focus-visible:ring-2 peer-focus-visible:ring-gold-500 peer-focus-visible:ring-offset-2">
+          <span aria-hidden className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-control border-2 border-plum-300 text-transparent transition-colors peer-checked:border-plum-700 peer-checked:bg-plum-700 peer-checked:text-white peer-focus-visible:ring-2 peer-focus-visible:ring-gold-500 peer-focus-visible:ring-offset-2">
             <Icon icon={Check} size={16} />
           </span>
           <span className="text-ink">

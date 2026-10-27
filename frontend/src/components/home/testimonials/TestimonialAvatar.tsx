@@ -1,16 +1,9 @@
 import { Image } from "@/components/ui/Image";
 import type { TestimonialEntry } from "@/content/testimonials";
+import { initials } from "@/lib/initials";
 
 interface TestimonialAvatarProps {
   entry: TestimonialEntry;
-}
-
-function initials(name: string): string {
-  return name
-    .split(" ")
-    .map((part) => part[0])
-    .slice(0, 2)
-    .join("");
 }
 
 export function TestimonialAvatar({ entry }: TestimonialAvatarProps) {

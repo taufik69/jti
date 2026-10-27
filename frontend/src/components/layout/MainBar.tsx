@@ -18,7 +18,7 @@ export function MainBar() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-40 border-b transition-[background-color,box-shadow,border-color] duration-200",
+        "sticky top-0 z-40 border-b transition-[background-color,box-shadow,border-color] duration-200 [&_p]:text-left [&_p]:hyphens-manual",
         scrolled
           ? "border-transparent bg-paper/90 shadow-float backdrop-blur-md"
           : "border-line bg-paper",

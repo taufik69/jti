@@ -13,7 +13,7 @@ export function YouTubeFacade({ videoId, title }: YouTubeFacadeProps) {
   const [playing, setPlaying] = useState(false);
 
   return (
-    <div className="relative aspect-video overflow-hidden rounded-[20px] bg-plum-900">
+    <div className="relative aspect-video overflow-hidden rounded-media bg-plum-900">
       {playing ? (
         <iframe
           src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0`}

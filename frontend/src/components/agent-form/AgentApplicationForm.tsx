@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { scrollBehavior } from "@/lib/motion-preference";
 import { agentSteps, stepTitles } from "@/content/agent-form";
 import { assessmentIntro } from "@/content/agent-code";
 import { AgentSuccess } from "./AgentSuccess";
@@ -11,7 +12,7 @@ import { useAgentForm } from "./useAgentForm";
 /** Five-step agent application; every step stays mounted so typed answers survive Back. */
 export function AgentApplicationForm() {
   const top = useRef<HTMLDivElement>(null);
-  const scrollToTop = () => top.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  const scrollToTop = () => top.current?.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
   const { form, step, last, status, next, back, onSubmit } = useAgentForm(scrollToTop);
   const { register, formState } = form;
 

@@ -8,7 +8,7 @@ interface DataTableProps {
 export function DataTable({ head, rows, caption }: DataTableProps) {
   return (
     <figure className="overflow-hidden rounded-card border border-line bg-paper">
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto" tabIndex={0} role="region" aria-label={caption ?? "Scrollable table"}>
         <table className="w-full min-w-[28rem] text-left text-[0.9375rem]">
           <thead className="bg-plum-50/60">
             <tr>

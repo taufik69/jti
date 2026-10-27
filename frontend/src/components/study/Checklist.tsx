@@ -32,7 +32,7 @@ export function Checklist({ id, items }: ChecklistProps) {
                 <span
                   aria-hidden
                   className={cn(
-                    "mt-0.5 grid size-6 shrink-0 place-items-center rounded-md border-2 transition-colors peer-focus-visible:ring-2 peer-focus-visible:ring-gold-500 peer-focus-visible:ring-offset-2",
+                    "mt-0.5 grid size-6 shrink-0 place-items-center rounded-control border-2 transition-colors peer-focus-visible:ring-2 peer-focus-visible:ring-gold-500 peer-focus-visible:ring-offset-2",
                     checked ? "border-plum-700 bg-plum-700 text-white" : "border-plum-300 bg-paper text-transparent",
                   )}
                 >

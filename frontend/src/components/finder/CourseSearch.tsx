@@ -19,7 +19,7 @@ export function CourseSearch({ value, onChange }: CourseSearchProps) {
         className="h-14 w-full rounded-full border border-line bg-paper pl-13 pr-12 text-ink shadow-float placeholder:text-muted transition-colors hover:border-ink/25 focus:border-ink [&::-webkit-search-cancel-button]:hidden"
       />
       {value && (
-        <button type="button" onClick={() => onChange("")} aria-label="Clear search" className="absolute right-4 top-1/2 flex size-8 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full text-muted hover:bg-ink/5 hover:text-ink">
+        <button type="button" onClick={() => onChange("")} aria-label="Clear search" className="absolute right-2.5 top-1/2 flex size-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full text-muted hover:bg-ink/5 hover:text-ink">
           <Icon icon={X} size={16} />
         </button>
       )}

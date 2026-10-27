@@ -1,7 +1,10 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router";
 
-/** Next.js did this for us: top of the page on a new route, or the #target when the link has one. */
+/** How long to wait for a #target that lives in a route chunk still loading. */
+const WAIT_MS = 3000;
+
+/** Top of the page on a new route, or the #target when the link has one (waiting for lazy pages to render it). */
 export function RouteScroll() {
   const { pathname, hash } = useLocation();
 
@@ -10,8 +13,16 @@ export function RouteScroll() {
       window.scrollTo(0, 0);
       return;
     }
-    const target = document.getElementById(decodeURIComponent(hash.slice(1)));
-    target?.scrollIntoView();
+    const id = decodeURIComponent(hash.slice(1));
+    const started = performance.now();
+    let frame = 0;
+    const seek = () => {
+      const target = document.getElementById(id);
+      if (target) target.scrollIntoView();
+      else if (performance.now() - started < WAIT_MS) frame = requestAnimationFrame(seek);
+    };
+    seek();
+    return () => cancelAnimationFrame(frame);
   }, [pathname, hash]);
 
   return null;

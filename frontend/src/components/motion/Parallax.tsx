@@ -1,5 +1,5 @@
 import { useRef, type ReactNode } from "react";
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
 import { cn } from "@/lib/cn";
 
 interface ParallaxProps {
@@ -13,7 +13,9 @@ interface ParallaxProps {
 export function Parallax({ children, className, amount = 6 }: ParallaxProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
-  const y = useTransform(scrollYProgress, [0, 1], [`-${amount}%`, `${amount}%`]);
+  // Scroll-linked values bypass MotionConfig's reducedMotion, so hold still explicitly.
+  const reduce = useReducedMotion() ?? false;
+  const y = useTransform(scrollYProgress, [0, 1], reduce ? ["0%", "0%"] : [`-${amount}%`, `${amount}%`]);
 
   return (
     <div ref={ref} className={cn("relative overflow-hidden", className)}>

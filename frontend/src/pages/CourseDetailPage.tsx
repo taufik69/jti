@@ -17,7 +17,7 @@ export function CourseDetailPage() {
   const { course, details } = found;
 
   return (
-    <>
+    <div className="[&_p]:text-left [&_p]:hyphens-manual">
       <title>{`${course.code} ${course.title} · Job Training Institute`}</title>
       <meta name="description" content={details.overview[0]?.slice(0, 160)} />
       <CourseDetailHero course={course} tagline={details.tagline} />
@@ -33,6 +33,6 @@ export function CourseDetailPage() {
         </aside>
       </Container>
       <RelatedCourses courses={relatedCourses(course)} />
-    </>
+    </div>
   );
 }

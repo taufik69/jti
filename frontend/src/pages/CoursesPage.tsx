@@ -10,6 +10,7 @@ import { ResultsBar } from "@/components/finder/ResultsBar";
 import { useCourseFinder } from "@/components/finder/useCourseFinder";
 import { Container } from "@/components/ui/Container";
 import { allCourses } from "@/content/all-courses";
+import { scrollBehavior } from "@/lib/motion-preference";
 
 /** /courses: every JTI qualification, searchable and filterable. */
 export function CoursesPage() {
@@ -17,7 +18,7 @@ export function CoursesPage() {
   const resultsRef = useRef<HTMLDivElement>(null);
 
   return (
-    <>
+    <div className="[&_p]:text-left [&_p]:hyphens-manual">
       <title>Courses · Job Training Institute</title>
       <meta
         name="description"
@@ -26,7 +27,7 @@ export function CoursesPage() {
       <CoursesHero
         onPickField={(field) => {
           finder.update({ fields: [field] });
-          resultsRef.current?.scrollIntoView({ behavior: "smooth" });
+          resultsRef.current?.scrollIntoView({ behavior: scrollBehavior() });
         }}
       />
       <Container className="relative -mt-7 pb-24">
@@ -45,6 +46,6 @@ export function CoursesPage() {
         </div>
         <CoursesHelp />
       </Container>
-    </>
+    </div>
   );
 }

@@ -4,7 +4,7 @@ export type ButtonSize = "md" | "lg";
 export const buttonBase =
   "group inline-flex items-center justify-center gap-2 rounded-control font-medium " +
   "whitespace-nowrap transition-colors duration-150 ease-out cursor-pointer " +
-  "disabled:cursor-not-allowed disabled:opacity-50";
+  "active:translate-y-px disabled:cursor-not-allowed disabled:opacity-50 disabled:active:translate-y-0";
 
 export const buttonVariants: Record<ButtonVariant, string> = {
   primary: "bg-gold-500 text-plum-950 hover:bg-gold-600",

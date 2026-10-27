@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import { Container } from "@/components/ui/Container";
 import { cn } from "@/lib/cn";
+import { scrollBehavior } from "@/lib/motion-preference";
 import { useActiveSection } from "./useActiveSection";
 import { useTabPill } from "./useTabPill";
 
@@ -20,13 +21,13 @@ export function SectionTabs({ sections }: SectionTabsProps) {
     const list = listRef.current;
     const tab = list?.querySelector<HTMLElement>('[aria-current="location"]')?.parentElement;
     if (!list || !tab) return;
-    list.scrollTo({ left: tab.offsetLeft - (list.clientWidth - tab.offsetWidth) / 2, behavior: "smooth" });
+    list.scrollTo({ left: tab.offsetLeft - (list.clientWidth - tab.offsetWidth) / 2, behavior: scrollBehavior() });
   }, [active]);
 
   return (
     <nav aria-label="Course sections" className="sticky top-18 z-30 border-b border-line/70 bg-canvas/80 py-3 backdrop-blur-xl lg:top-20">
       <Container>
-        <div className="rounded-2xl border border-line bg-paper p-1.5 shadow-[0_1px_2px_rgb(46_11_64/0.04),0_8px_24px_-12px_rgb(46_11_64/0.12)]">
+        <div className="rounded-card border border-line bg-paper p-1.5 shadow-float">
           <ul
             ref={listRef}
             className="relative flex gap-1 overflow-x-auto scroll-smooth [mask-image:linear-gradient(to_right,transparent,#000_16px,#000_calc(100%-16px),transparent)] [scrollbar-width:none] lg:[mask-image:none]"

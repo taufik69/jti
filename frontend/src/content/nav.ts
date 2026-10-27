@@ -1,5 +1,5 @@
 import { aboutPages } from "./about/pages";
-import { studyHref, studyTopics, topicPages } from "./study";
+import { studyMenu, studyMenuHref, studyTopics } from "./study/menu";
 import type { NavItem } from "./types";
 
 export const mainNav: NavItem[] = [
@@ -11,7 +11,7 @@ export const mainNav: NavItem[] = [
     href: "/study",
     columns: studyTopics.map((topic) => ({
       title: topic.label,
-      links: topicPages(topic.slugs).map((page) => ({ label: page.title, href: studyHref(page) })),
+      links: topic.slugs.map((slug) => ({ label: studyMenu.find((item) => item.slug === slug)?.title ?? slug, href: studyMenuHref(slug) })),
     })),
     footer: { label: "All study guides", href: "/study" },
   },

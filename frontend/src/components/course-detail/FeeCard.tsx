@@ -28,7 +28,7 @@ export function FeeCard({ course }: FeeCardProps) {
         aria-pressed={isSaved}
         onClick={() => toggle(course.id)}
         className={cn(
-          "mt-4 flex w-full cursor-pointer items-center justify-center gap-2 rounded-control py-2 text-[0.9375rem] font-medium transition-colors",
+          "mt-4 flex min-h-11 w-full cursor-pointer items-center justify-center gap-2 rounded-control py-2 text-[0.9375rem] font-medium transition-colors",
           isSaved ? "text-plum-700" : "text-muted hover:text-plum-700",
         )}
       >

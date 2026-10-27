@@ -20,7 +20,7 @@ export function AudienceToggle({ value, onChange }: AudienceToggleProps) {
             aria-pressed={active}
             onClick={() => onChange(audience.id)}
             className={cn(
-              "relative h-10 flex-1 cursor-pointer whitespace-nowrap px-5 text-[0.9375rem] font-medium transition-colors duration-150 sm:flex-none",
+              "relative h-11 flex-1 cursor-pointer whitespace-nowrap rounded-control px-5 text-[0.9375rem] font-medium transition-colors duration-150 sm:flex-none",
               active ? "text-white" : "text-body hover:text-plum-700",
             )}
           >

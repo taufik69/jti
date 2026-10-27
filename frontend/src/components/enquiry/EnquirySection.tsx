@@ -1,8 +1,13 @@
+import { lazy, Suspense } from "react";
 import { Reveal } from "@/components/motion/Reveal";
 import { Section } from "@/components/ui/Section";
 import { SectionLabel } from "@/components/ui/SectionLabel";
+import { WhenVisible } from "@/components/ui/WhenVisible";
 import { EnquiryContacts } from "./EnquiryContacts";
-import { EnquiryForm } from "./EnquiryForm";
+
+/** zod, react-hook-form and Radix Select only load when the form is about to be seen. */
+const EnquiryForm = lazy(() => import("./EnquiryForm").then((m) => ({ default: m.EnquiryForm })));
+const formHeight = "34rem";
 
 export function EnquirySection() {
   return (
@@ -24,7 +29,11 @@ export function EnquirySection() {
             <h3 className="text-h3">Send an enquiry</h3>
             <p className="mt-2 text-[0.9375rem] text-muted">Fields marked * are required.</p>
             <div className="mt-8">
-              <EnquiryForm />
+              <WhenVisible minHeight={formHeight}>
+                <Suspense fallback={<div aria-hidden style={{ minHeight: formHeight }} />}>
+                  <EnquiryForm />
+                </Suspense>
+              </WhenVisible>
             </div>
           </div>
         </Reveal>

@@ -12,7 +12,7 @@ const tint = "bg-[radial-gradient(60rem_30rem_at_0%_0%,rgb(93_20_125/0.35),trans
 
 export function SiteFooter() {
   return (
-    <footer className={`bg-plum-950 text-white/80 ${tint}`}>
+    <footer className={`bg-plum-950 text-white/80 [&_p]:text-left [&_p]:hyphens-manual ${tint}`}>
       <FooterCta />
       <Container className="pb-8 pt-14 md:pt-20">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-10">

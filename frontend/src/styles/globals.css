@@ -141,7 +141,10 @@
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
+    /* Without this, infinite loops (ping, pulse) flash at 0.01ms per cycle. */
+    animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
@@ -180,4 +183,9 @@
 @keyframes fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+@keyframes loading-bar {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(300%); }
 }
