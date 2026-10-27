@@ -176,3 +176,8 @@
   width: 24px;
   background: var(--color-plum-700);
 }
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

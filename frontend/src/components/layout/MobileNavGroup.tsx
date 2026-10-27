@@ -1,6 +1,7 @@
 import { Link } from "@/components/ui/Link";
 import * as Accordion from "@radix-ui/react-accordion";
 import * as Dialog from "@radix-ui/react-dialog";
+import { useLocation } from "react-router";
 import { ChevronDown } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";
 import type { NavItem } from "@/content/types";
@@ -10,6 +11,8 @@ interface MobileNavGroupProps {
 }
 
 export function MobileNavGroup({ item }: MobileNavGroupProps) {
+  const { pathname } = useLocation();
+
   return (
     <Accordion.Item value={item.label}>
       <Accordion.Header>
@@ -29,7 +32,11 @@ export function MobileNavGroup({ item }: MobileNavGroupProps) {
               {column.links.map((link) => (
                 <li key={link.href}>
                   <Dialog.Close asChild>
-                    <Link href={link.href} className="block py-2.5 text-body text-body">
+                    <Link
+                      href={link.href}
+                      aria-current={link.href === pathname ? "page" : undefined}
+                      className="block py-2.5 text-body aria-[current=page]:font-medium aria-[current=page]:text-plum-700"
+                    >
                       {link.label}
                       {link.meta && (
                         <span className="block text-[0.8125rem] text-muted">{link.meta}</span>

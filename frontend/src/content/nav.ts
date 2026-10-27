@@ -1,3 +1,4 @@
+import { aboutPages } from "./about/pages";
 import type { NavItem } from "./types";
 
 export const mainNav: NavItem[] = [
@@ -36,17 +37,12 @@ export const mainNav: NavItem[] = [
     ],
   },
   {
-    label: "About",
+    label: "About us",
     href: "/who-we-are",
     columns: [
       {
         title: "About JTI",
-        links: [
-          { label: "Who we are", href: "/who-we-are" },
-          { label: "What makes JTI different", href: "/what-makes-jti-different" },
-          { label: "Testimonials", href: "/testimonials" },
-          { label: "Videos", href: "/jti-video" },
-        ],
+        links: aboutPages.map((page) => ({ label: page.label, href: page.href, meta: page.blurb })),
       },
     ],
   },

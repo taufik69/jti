@@ -50,8 +50,8 @@ export function CourseBody({ course, details }: CourseBodyProps) {
 
   return (
     <div className="space-y-14">
-      {courseSections(details).map(({ id }) => (
-        <DetailSection key={id} id={id} title={titles[id]}>
+      {courseSections(details).map(({ id }, i) => (
+        <DetailSection key={id} id={id} title={titles[id]} from={i % 2 === 0 ? "left" : "right"}>
           {content[id]}
         </DetailSection>
       ))}

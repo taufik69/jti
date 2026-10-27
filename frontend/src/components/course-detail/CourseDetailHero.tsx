@@ -2,11 +2,12 @@ import { ChevronRight } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { GridBackground } from "@/components/ui/GridBackground";
 import { Icon } from "@/components/ui/Icon";
-import { Image } from "@/components/ui/Image";
 import { Link } from "@/components/ui/Link";
 import { fieldImages, fieldLabels, type Course } from "@/content/courses";
 import { otherAudienceVersion } from "@/lib/find-course";
+import { Reveal } from "@/components/motion/Reveal";
 import { CourseFacts } from "./CourseFacts";
+import { HeroMedia } from "./HeroMedia";
 
 interface CourseDetailHeroProps {
   course: Course;
@@ -29,7 +30,7 @@ export function CourseDetailHero({ course, tagline }: CourseDetailHeroProps) {
           <span className="text-white">{fieldLabels[course.field]}</span>
         </nav>
         <div className="mt-8 grid items-center gap-10 lg:grid-cols-12">
-          <div className="lg:col-span-7">
+          <Reveal from="left" className="lg:col-span-7">
             <div className="flex flex-wrap gap-2">
               <span className={`${badge} bg-paper tabular-nums text-ink`}>{course.code}</span>
               <span className={`${badge} bg-gold-500 capitalize text-plum-950`}>{course.audience}</span>
@@ -46,13 +47,10 @@ export function CourseDetailHero({ course, tagline }: CourseDetailHeroProps) {
                 </Link>
               </p>
             )}
-          </div>
-          <div className="relative hidden lg:col-span-5 lg:block">
-            <div aria-hidden className="absolute -inset-2 translate-x-4 translate-y-4 rounded-media border border-gold-500/40" />
-            <div className="relative aspect-[5/4] overflow-hidden rounded-media bg-plum-800">
-              <Image src={image.src} alt="" fill priority style={{ objectPosition: image.position }} className="object-cover" />
-            </div>
-          </div>
+          </Reveal>
+          <Reveal from="right" delay={0.1} className="hidden lg:col-span-5 lg:block">
+            <HeroMedia src={image.src} position={image.position} caption={fieldLabels[course.field]} level={course.level} />
+          </Reveal>
         </div>
         <div className="mt-10"><CourseFacts course={course} /></div>
       </Container>
